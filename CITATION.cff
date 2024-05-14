@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'ImplicaTR: An NLI Dataset with Scalar Implicatures'
+message: 'If you use this dataset, please cite it as below.'
+type: dataset
+authors:
+  - given-names: Mustafa Kürşat
+    family-names: Halat
+    affiliation: Boğaziçi University
+    orcid: 'https://orcid.org/0009-0001-8383-3168'
+    email: kursathalat@gmail.com
+abstract: >-
+  ImplicaTR is an NLI dataset that improves the conventional
+  entailment-neutral-contradiction classification of NLI
+  tasks with the scalar implicatures. Thus, ImplicaTR offers
+  further investigation of the pragmatic capabilities of
+  LLMs.
+license: CC-BY-4.0
