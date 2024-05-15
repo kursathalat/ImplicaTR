@@ -1,0 +1,991 @@
+﻿ling_category,set_n,sentence_n,scale,premise,hypothesis,category,label
+6,1,1,iki-üç-par-n,Perdelerin ikisi kirlenmiş.,Perdelerin üçü kirlenmemiş.,neutral,1
+6,1,2,iki-üç-par-n,Perdelerin ikisinden fazlası kirlenmemiş.,Perdelerin ikisi kirlenmiş.,neutral,1
+6,1,3,iki-üç-par-n,Perdelerin ikisi kirlenmemiş.,Perdelerin üçü kirlenmemiş.,neutral,1
+6,1,4,iki-üç-par-n,Perdelerin üçü kirlenmiş.,Perdelerin ikisi kirlenmiş.,entailment,0
+6,1,5,iki-üç-par-n,Perdelerin üçü kirlenmemiş.,Perdelerin ikisi kirlenmemiş.,neutral,1
+6,1,6,iki-üç-par-n,Perdelerin ikisi kirlenmiş.,Perdelerin üçü kirlenmiş.,neutral,1
+6,1,7,iki-üç-par-n,Perdelerin üçü kirlenmiş.,Perdelerin ikisi kirlenmemiş.,neutral,1
+6,1,8,iki-üç-par-n,Perdelerin ikisi kirlenmemiş.,Perdelerin üçü kirlenmiş.,neutral,1
+6,1,9,iki-üç-par-c,Perdelerin ikisi kirlenmemiş.,Perdelerin ikisinden azı kirlenmiş.,neutral,1
+6,1,10,iki-üç-par-c,Perdelerin ikisi kirlenmemiş.,Perdelerin en fazla ikisi kirlenmiş.,neutral,1
+6,1,11,iki-üç-par-c,Perdelerin ikisi kirlenmemiş.,Perdelerin en az biri kirlenmiş.,implicature,3
+6,2,1,iki-üç-par-n,Oyunun iki bölümünü bitirdim.,Oyunun üç bölümünü bitirmedim.,neutral,1
+6,2,2,iki-üç-par-n,Oyunun ikiden fazla bölümünü bitirmedim.,Oyunun iki bölümünü bitirdim.,neutral,1
+6,2,3,iki-üç-par-n,Oyunun iki bölümünü bitirmedim.,Oyunun üç bölümünü bitirmedim.,neutral,1
+6,2,4,iki-üç-par-n,Oyunun üç bölümünü bitirdim.,Oyunun iki bölümünü bitirdim.,entailment,0
+6,2,5,iki-üç-par-n,Oyunun üç bölümünü bitirmedim.,Oyunun iki bölümünü bitirmedim.,neutral,1
+6,2,6,iki-üç-par-n,Oyunun iki bölümünü bitirdim.,Oyunun üç bölümünü bitirdim.,neutral,1
+6,2,7,iki-üç-par-n,Oyunun üç bölümünü bitirdim.,Oyunun iki bölümünü bitirmedim.,neutral,1
+6,2,8,iki-üç-par-n,Oyunun iki bölümünü bitirmedim.,Oyunun üç bölümünü bitirdim.,neutral,1
+6,2,9,iki-üç-par-c,Oyunun iki bölümünü bitirmedim.,Oyunun ikiden az bölümünü bitirdim.,neutral,1
+6,2,10,iki-üç-par-c,Oyunun iki bölümünü bitirmedim.,Oyunun en fazla bir bölümünü bitirdim.,neutral,1
+6,2,11,iki-üç-par-c,Oyunun iki bölümünü bitirmedim.,Oyunun en az bir tane bölümünü bitirdim.,implicature,3
+6,3,1,iki-üç-par-n,Projenin iki aşaması tamam.,Projenin üç aşaması tamam değil.,neutral,1
+6,3,2,iki-üç-par-n,Projenin ikiden fazla aşaması tamam değil.,Projenin iki aşaması tamam.,neutral,1
+6,3,3,iki-üç-par-n,Projenin iki aşaması tamam değil.,Projenin üç aşaması tamam değil.,neutral,1
+6,3,4,iki-üç-par-n,Projenin üç aşaması tamam.,Projenin iki aşaması tamam.,entailment,0
+6,3,5,iki-üç-par-n,Projenin üç aşaması tamam değil.,Projenin iki aşaması tamam değil.,neutral,1
+6,3,6,iki-üç-par-n,Projenin iki aşaması tamam.,Projenin üç aşaması tamam.,neutral,1
+6,3,7,iki-üç-par-n,Projenin üç aşaması tamam.,Projenin iki aşaması tamam değil.,neutral,1
+6,3,8,iki-üç-par-n,Projenin iki aşaması tamam değil.,Projenin üç aşaması tamam.,neutral,1
+6,3,9,iki-üç-par-c,Projenin iki aşaması tamam değil.,Projenin ikiden az aşaması tamam.,neutral,1
+6,3,10,iki-üç-par-c,Projenin iki aşaması tamam değil.,Projenin en fazla bir aşaması tamam.,neutral,1
+6,3,11,iki-üç-par-c,Projenin iki aşaması tamam değil.,Projenin en az bir tane aşaması tamam.,implicature,3
+6,4,1,iki-üç-par-n,Evlerin ikisi depreme dayanıklı.,Evlerin üçü depreme dayanıklı değil.,neutral,1
+6,4,2,iki-üç-par-n,Evlerin ikisinden fazlası depreme dayanıklı değil.,Evlerin ikisi depreme dayanıklı.,neutral,1
+6,4,3,iki-üç-par-n,Evlerin ikisi depreme dayanıklı değil.,Evlerin üçü depreme dayanıklı değil.,neutral,1
+6,4,4,iki-üç-par-n,Evlerin üçü depreme dayanıklı.,Evlerin ikisi depreme dayanıklı.,entailment,0
+6,4,5,iki-üç-par-n,Evlerin üçü depreme dayanıklı değil.,Evlerin ikisi depreme dayanıklı değil.,neutral,1
+6,4,6,iki-üç-par-n,Evlerin ikisi depreme dayanıklı.,Evlerin üçü depreme dayanıklı.,neutral,1
+6,4,7,iki-üç-par-n,Evlerin üçü depreme dayanıklı.,Evlerin ikisi depreme dayanıklı değil.,neutral,1
+6,4,8,iki-üç-par-n,Evlerin ikisi depreme dayanıklı değil.,Evlerin üçü depreme dayanıklı.,neutral,1
+6,4,9,iki-üç-par-c,Evlerin ikisi depreme dayanıklı değil.,Evlerin ikisinden azı depreme dayanıklı.,neutral,1
+6,4,10,iki-üç-par-c,Evlerin ikisi depreme dayanıklı değil.,Evlerin en fazla ikisi depreme dayanıklı.,neutral,1
+6,4,11,iki-üç-par-c,Evlerin ikisi depreme dayanıklı değil.,Evlerin en az biri depreme dayanıklı.,implicature,3
+6,5,1,iki-üç-par-n,Şirketlerden iki tanesi batmış.,Şirketlerden üçü batmamış.,neutral,1
+6,5,2,iki-üç-par-n,Şirketlerden ikisinden fazlası batmamış.,Şirketlerden iki tanesi batmış.,neutral,1
+6,5,3,iki-üç-par-n,Şirketlerden ikisi batmamış.,Şirketlerden üçü batmamış.,neutral,1
+6,5,4,iki-üç-par-n,Şirketlerden üç tanesi batmış.,Şirketlerden iki tanesi batmış.,entailment,0
+6,5,5,iki-üç-par-n,Şirketlerden üçü batmamış.,Şirketlerden ikisi batmamış.,neutral,1
+6,5,6,iki-üç-par-n,Şirketlerden iki tanesi batmış.,Şirketlerden üç tanesi batmış.,neutral,1
+6,5,7,iki-üç-par-n,Şirketlerden üç tanesi batmış.,Şirketlerden ikisi batmamış.,neutral,1
+6,5,8,iki-üç-par-n,Şirketlerden ikisi batmamış.,Şirketlerden üç tanesi batmış.,neutral,1
+6,5,9,iki-üç-par-c,Şirketlerden ikisi batmamış.,Şirketlerden ikisinden azı batmış.,neutral,1
+6,5,10,iki-üç-par-c,Şirketlerden ikisi batmamış.,Şirketlerden en fazla ikisi batmış.,neutral,1
+6,5,11,iki-üç-par-c,Şirketlerden ikisi batmamış.,Şirketlerden en az biri batmış.,implicature,3
+6,6,1,iki-üç-par-n,Ödüllerin ikisi bize verilecek.,Ödüllerin üçü bize verilmeyecek.,neutral,1
+6,6,2,iki-üç-par-n,Ödüllerin ikisinden fazlası bize verilmeyecek.,Ödüllerin ikisi bize verilecek.,neutral,1
+6,6,3,iki-üç-par-n,Ödüllerin ikisi bize verilmeyecek.,Ödüllerin üçü bize verilmeyecek.,neutral,1
+6,6,4,iki-üç-par-n,Ödüllerin üçü bize verilecek.,Ödüllerin ikisi bize verilecek.,entailment,0
+6,6,5,iki-üç-par-n,Ödüllerin üçü bize verilmeyecek.,Ödüllerin ikisi bize verilmeyecek.,neutral,1
+6,6,6,iki-üç-par-n,Ödüllerin ikisi bize verilecek.,Ödüllerin üçü bize verilecek.,neutral,1
+6,6,7,iki-üç-par-n,Ödüllerin üçü bize verilecek.,Ödüllerin ikisi bize verilmeyecek.,neutral,1
+6,6,8,iki-üç-par-n,Ödüllerin ikisi bize verilmeyecek.,Ödüllerin üçü bize verilecek.,neutral,1
+6,6,9,iki-üç-par-c,Ödüllerin ikisi bize verilmeyecek.,Ödüllerin ikisinden azı bize verilecek.,neutral,1
+6,6,10,iki-üç-par-c,Ödüllerin ikisi bize verilmeyecek.,Ödüllerin en fazla ikisi bize verilecek.,neutral,1
+6,6,11,iki-üç-par-c,Ödüllerin ikisi bize verilmeyecek.,Ödüllerin en az biri bize verilecek.,implicature,3
+6,7,1,iki-üç-par-n,Adayların ikisi bura doğumlu.,Adayların üçü bura doğumlu değil.,neutral,1
+6,7,2,iki-üç-par-n,Adayların ikisinden fazlası bura doğumlu değil.,Adayların ikisi bura doğumlu.,neutral,1
+6,7,3,iki-üç-par-n,Adayların ikisi bura doğumlu değil.,Adayların üçü bura doğumlu değil.,neutral,1
+6,7,4,iki-üç-par-n,Adayların üçü bura doğumlu.,Adayların ikisi bura doğumlu.,entailment,0
+6,7,5,iki-üç-par-n,Adayların üçü bura doğumlu değil.,Adayların ikisi bura doğumlu değil.,neutral,1
+6,7,6,iki-üç-par-n,Adayların ikisi bura doğumlu.,Adayların üçü bura doğumlu.,neutral,1
+6,7,7,iki-üç-par-n,Adayların üçü bura doğumlu.,Adayların ikisi bura doğumlu değil.,neutral,1
+6,7,8,iki-üç-par-n,Adayların ikisi bura doğumlu değil.,Adayların üçü bura doğumlu.,neutral,1
+6,7,9,iki-üç-par-c,Adayların ikisi bura doğumlu değil.,Adayların ikisinden azı bura doğumlu.,neutral,1
+6,7,10,iki-üç-par-c,Adayların ikisi bura doğumlu değil.,Adayların en fazla ikisi bura doğumlu.,neutral,1
+6,7,11,iki-üç-par-c,Adayların ikisi bura doğumlu değil.,Adayların en az biri bura doğumlu.,implicature,3
+6,8,1,iki-üç-par-n,Bu projelerden iki tanesi başarılı olacak.,Bu projelerden üçü başarılı olmayacak.,neutral,1
+6,8,2,iki-üç-par-n,Bu projelerden ikisinden fazlası başarılı olmayacak.,Bu projelerden iki tanesi başarılı olacak.,neutral,1
+6,8,3,iki-üç-par-n,Bu projelerden ikisi başarılı olmayacak.,Bu projelerden üçü başarılı olmayacak.,neutral,1
+6,8,4,iki-üç-par-n,Bu projelerden üç tanesi başarılı olacak.,Bu projelerden iki tanesi başarılı olacak.,entailment,0
+6,8,5,iki-üç-par-n,Bu projelerden üçü başarılı olmayacak.,Bu projelerden ikisi başarılı olmayacak.,neutral,1
+6,8,6,iki-üç-par-n,Bu projelerden iki tanesi başarılı olacak.,Bu projelerden üç tanesi başarılı olacak.,neutral,1
+6,8,7,iki-üç-par-n,Bu projelerden üç tanesi başarılı olacak.,Bu projelerden ikisi başarılı olmayacak.,neutral,1
+6,8,8,iki-üç-par-n,Bu projelerden ikisi başarılı olmayacak.,Bu projelerden üç tanesi başarılı olacak.,neutral,1
+6,8,9,iki-üç-par-c,Bu projelerden ikisi başarılı olmayacak.,Bu projelerden ikisinden azı başarılı olacak.,neutral,1
+6,8,10,iki-üç-par-c,Bu projelerden ikisi başarılı olmayacak.,Bu projelerden en fazla ikisi başarılı olacak.,neutral,1
+6,8,11,iki-üç-par-c,Bu projelerden ikisi başarılı olmayacak.,Bu projelerden en az biri başarılı olacak.,implicature,3
+6,9,1,iki-üç-par-n,Albümdeki şarkılardan iki tanesi hit olmuş.,Albümdeki şarkılardan üçü hit olmamış.,neutral,1
+6,9,2,iki-üç-par-n,Albümdeki şarkılardan ikisinden fazlası hit olmamış.,Albümdeki şarkılardan iki tanesi hit olmuş.,neutral,1
+6,9,3,iki-üç-par-n,Albümdeki şarkılardan ikisi hit olmamış.,Albümdeki şarkılardan üçü hit olmamış.,neutral,1
+6,9,4,iki-üç-par-n,Albümdeki şarkılardan üç tanesi hit olmuş.,Albümdeki şarkılardan iki tanesi hit olmuş.,entailment,0
+6,9,5,iki-üç-par-n,Albümdeki şarkılardan üçü hit olmamış.,Albümdeki şarkılardan ikisi hit olmamış.,neutral,1
+6,9,6,iki-üç-par-n,Albümdeki şarkılardan iki tanesi hit olmuş.,Albümdeki şarkılardan üç tanesi hit olmuş.,neutral,1
+6,9,7,iki-üç-par-n,Albümdeki şarkılardan üç tanesi hit olmuş.,Albümdeki şarkılardan ikisi hit olmamış.,neutral,1
+6,9,8,iki-üç-par-n,Albümdeki şarkılardan ikisi hit olmamış.,Albümdeki şarkılardan üç tanesi hit olmuş.,neutral,1
+6,9,9,iki-üç-par-c,Albümdeki şarkılardan ikisi hit olmamış.,Albümdeki şarkılardan ikisinden azı hit olmuş.,neutral,1
+6,9,10,iki-üç-par-c,Albümdeki şarkılardan ikisi hit olmamış.,Albümdeki şarkılardan en fazla ikisi hit olmuş.,neutral,1
+6,9,11,iki-üç-par-c,Albümdeki şarkılardan ikisi hit olmamış.,Albümdeki şarkılardan en az biri hit olmuş.,implicature,3
+6,10,1,iki-üç-par-n,Gözlüklerimin iki tanesi kayıp.,Gözlüklerimin üçü kayıp değil.,neutral,1
+6,10,2,iki-üç-par-n,Gözlüklerimin ikisinden fazlası kayıp değil.,Gözlüklerimin iki tanesi kayıp.,neutral,1
+6,10,3,iki-üç-par-n,Gözlüklerimin ikisi kayıp değil.,Gözlüklerimin üçü kayıp değil.,neutral,1
+6,10,4,iki-üç-par-n,Gözlüklerimin üç tanesi kayıp.,Gözlüklerimin iki tanesi kayıp.,entailment,0
+6,10,5,iki-üç-par-n,Gözlüklerimin üçü kayıp değil.,Gözlüklerimin ikisi kayıp değil.,neutral,1
+6,10,6,iki-üç-par-n,Gözlüklerimin iki tanesi kayıp.,Gözlüklerimin üç tanesi kayıp.,neutral,1
+6,10,7,iki-üç-par-n,Gözlüklerimin üç tanesi kayıp.,Gözlüklerimin ikisi kayıp değil.,neutral,1
+6,10,8,iki-üç-par-n,Gözlüklerimin ikisi kayıp değil.,Gözlüklerimin üç tanesi kayıp.,neutral,1
+6,10,9,iki-üç-par-c,Gözlüklerimin ikisi kayıp değil.,Gözlüklerimin ikisinden azı kayıp.,neutral,1
+6,10,10,iki-üç-par-c,Gözlüklerimin ikisi kayıp değil.,Gözlüklerimin en fazla ikisi kayıp.,neutral,1
+6,10,11,iki-üç-par-c,Gözlüklerimin ikisi kayıp değil.,Gözlüklerimin en az biri kayıp.,implicature,3
+6,11,1,beş-yedi-par-n,Fikirlerinden beş tanesi mantıklı.,Fikirlerinden yedisi mantıklı değil.,neutral,1
+6,11,2,beş-yedi-par-n,Fikirlerinden beşten fazlası mantıklı değil.,Fikirlerinden beş tanesi mantıklı.,neutral,1
+6,11,3,beş-yedi-par-n,Fikirlerinden beşi mantıklı değil.,Fikirlerinden yedisi mantıklı değil.,neutral,1
+6,11,4,beş-yedi-par-n,Fikirlerinden yedi tanesi mantıklı.,Fikirlerinden beş tanesi mantıklı.,entailment,0
+6,11,5,beş-yedi-par-n,Fikirlerinden yedisi mantıklı değil.,Fikirlerinden beşi mantıklı değil.,neutral,1
+6,11,6,beş-yedi-par-n,Fikirlerinden beş tanesi mantıklı.,Fikirlerinden yedi tanesi mantıklı.,neutral,1
+6,11,7,beş-yedi-par-n,Fikirlerinden yedi tanesi mantıklı.,Fikirlerinden beşi mantıklı değil.,neutral,1
+6,11,8,beş-yedi-par-n,Fikirlerinden beşi mantıklı değil.,Fikirlerinden yedi tanesi mantıklı.,neutral,1
+6,11,9,beş-yedi-par-c,Fikirlerinden beşi mantıklı değil.,Fikirlerinden beşten azı mantıklı.,neutral,1
+6,11,10,beş-yedi-par-c,Fikirlerinden beşi mantıklı değil.,Fikirlerinden en fazla dördü mantıklı.,neutral,1
+6,11,11,beş-yedi-par-c,Fikirlerinden beşi mantıklı değil.,Fikirlerinden en az biri mantıklı.,implicature,3
+6,12,1,beş-yedi-par-n,Televizyonlarınızdan beş tanesi bozuk çıktı.,Televizyonlarınızdan yedisi bozuk çıkmadı.,neutral,1
+6,12,2,beş-yedi-par-n,Televizyonlarınızdan beşten fazlası bozuk çıkmadı.,Televizyonlarınızdan beş tanesi bozuk çıktı.,neutral,1
+6,12,3,beş-yedi-par-n,Televizyonlarınızdan beşi bozuk çıkmadı.,Televizyonlarınızdan yedisi bozuk çıkmadı.,neutral,1
+6,12,4,beş-yedi-par-n,Televizyonlarınızdan yedi tanesi bozuk çıktı.,Televizyonlarınızdan beş tanesi bozuk çıktı.,entailment,0
+6,12,5,beş-yedi-par-n,Televizyonlarınızdan yedisi bozuk çıkmadı.,Televizyonlarınızdan beşi bozuk çıkmadı.,neutral,1
+6,12,6,beş-yedi-par-n,Televizyonlarınızdan beş tanesi bozuk çıktı.,Televizyonlarınızdan yedi tanesi bozuk çıktı.,neutral,1
+6,12,7,beş-yedi-par-n,Televizyonlarınızdan yedi tanesi bozuk çıktı.,Televizyonlarınızdan beşi bozuk çıkmadı.,neutral,1
+6,12,8,beş-yedi-par-n,Televizyonlarınızdan beşi bozuk çıkmadı.,Televizyonlarınızdan yedi tanesi bozuk çıktı.,neutral,1
+6,12,9,beş-yedi-par-c,Televizyonlarınızdan beşi bozuk çıkmadı.,Televizyonlarınızdan beşten azı bozuk çıktı.,neutral,1
+6,12,10,beş-yedi-par-c,Televizyonlarınızdan beşi bozuk çıkmadı.,Televizyonlarınızdan en fazla dördü bozuk çıktı.,neutral,1
+6,12,11,beş-yedi-par-c,Televizyonlarınızdan beşi bozuk çıkmadı.,Televizyonlarınızdan en az biri bozuk çıktı.,implicature,3
+6,13,1,beş-yedi-par-n,Kumandanın beş tuşu çalışıyor.,Kumandanın yedi tuşu çalışmıyor.,neutral,1
+6,13,2,beş-yedi-par-n,Kumandanın beş tuşundan fazlası çalışmıyor.,Kumandanın beş tuşu çalışıyor.,neutral,1
+6,13,3,beş-yedi-par-n,Kumandanın beş tuşu çalışmıyor.,Kumandanın yedi tuşu çalışmıyor.,neutral,1
+6,13,4,beş-yedi-par-n,Kumandanın yedi tuşu çalışıyor.,Kumandanın beş tuşu çalışıyor.,entailment,0
+6,13,5,beş-yedi-par-n,Kumandanın yedi tuşu çalışmıyor.,Kumandanın beş tuşu çalışmıyor.,neutral,1
+6,13,6,beş-yedi-par-n,Kumandanın beş tuşu çalışıyor.,Kumandanın yedi tuşu çalışıyor.,neutral,1
+6,13,7,beş-yedi-par-n,Kumandanın yedi tuşu çalışıyor.,Kumandanın beş tuşu çalışmıyor.,neutral,1
+6,13,8,beş-yedi-par-n,Kumandanın beş tuşu çalışmıyor.,Kumandanın yedi tuşu çalışıyor.,neutral,1
+6,13,9,beş-yedi-par-c,Kumandanın beş tuşu çalışmıyor.,Kumandanın beş tuşundan azı çalışıyor.,neutral,1
+6,13,10,beş-yedi-par-c,Kumandanın beş tuşu çalışmıyor.,Kumandanın en fazla dört tuşu çalışıyor.,neutral,1
+6,13,11,beş-yedi-par-c,Kumandanın beş tuşu çalışmıyor.,Kumandanın en az bir tuşu çalışıyor.,implicature,3
+6,14,1,beş-yedi-par-n,Ağaçların beşini ben diktim.,Ağaçların yedisini ben dikmedim.,neutral,1
+6,14,2,beş-yedi-par-n,Ağaçların beşinden fazlasını ben dikmedim.,Ağaçların beşini ben diktim.,neutral,1
+6,14,3,beş-yedi-par-n,Ağaçların beşini ben dikmedim.,Ağaçların yedisini ben dikmedim.,neutral,1
+6,14,4,beş-yedi-par-n,Ağaçların yedisini ben diktim.,Ağaçların beşini ben diktim.,entailment,0
+6,14,5,beş-yedi-par-n,Ağaçların yedisini ben dikmedim.,Ağaçların beşini ben dikmedim.,neutral,1
+6,14,6,beş-yedi-par-n,Ağaçların beşini ben diktim.,Ağaçların yedisini ben diktim.,neutral,1
+6,14,7,beş-yedi-par-n,Ağaçların yedisini ben diktim.,Ağaçların beşini ben dikmedim.,neutral,1
+6,14,8,beş-yedi-par-n,Ağaçların beşini ben dikmedim.,Ağaçların yedisini ben diktim.,neutral,1
+6,14,9,beş-yedi-par-c,Ağaçların beşini ben dikmedim.,Ağaçların beşinden azını ben diktim.,neutral,1
+6,14,10,beş-yedi-par-c,Ağaçların beşini ben dikmedim.,Ağaçların en fazla dördünü ben diktim.,neutral,1
+6,14,11,beş-yedi-par-c,Ağaçların beşini ben dikmedim.,Ağaçların en az birini ben diktim.,implicature,3
+6,15,1,beş-yedi-par-n,Spor salonundan beş kişi gelmiş.,Spor salonundan yedi kişi gelmemiş.,neutral,1
+6,15,2,beş-yedi-par-n,Spor salonundan beşten fazla kişi gelmemiş.,Spor salonundan beş kişi gelmiş.,neutral,1
+6,15,3,beş-yedi-par-n,Spor salonundan beş kişi gelmemiş.,Spor salonundan yedi kişi gelmemiş.,neutral,1
+6,15,4,beş-yedi-par-n,Spor salonundan yedi kişi gelmiş.,Spor salonundan beş kişi gelmiş.,entailment,0
+6,15,5,beş-yedi-par-n,Spor salonundan yedi kişi gelmemiş.,Spor salonundan beş kişi gelmemiş.,neutral,1
+6,15,6,beş-yedi-par-n,Spor salonundan beş kişi gelmiş.,Spor salonundan yedi kişi gelmiş.,neutral,1
+6,15,7,beş-yedi-par-n,Spor salonundan yedi kişi gelmiş.,Spor salonundan beş kişi gelmemiş.,neutral,1
+6,15,8,beş-yedi-par-n,Spor salonundan beş kişi gelmemiş.,Spor salonundan yedi kişi gelmiş.,neutral,1
+6,15,9,beş-yedi-par-c,Spor salonundan beş kişi gelmemiş.,Spor salonundan beşten az kişi gelmiş.,neutral,1
+6,15,10,beş-yedi-par-c,Spor salonundan beş kişi gelmemiş.,Spor salonundan en fazla dört kişi gelmiş.,neutral,1
+6,15,11,beş-yedi-par-c,Spor salonundan beş kişi gelmemiş.,Spor salonundan en az bir tane kişi gelmiş.,implicature,3
+6,16,1,beş-yedi-par-n,Eski kurulun beş üyesini öldürmüşler.,Eski kurulun yedi üyesini öldürmemişler.,neutral,1
+6,16,2,beş-yedi-par-n,Eski kurulun beşten fazla üyesini öldürmemişler.,Eski kurulun beş üyesini öldürmüşler.,neutral,1
+6,16,3,beş-yedi-par-n,Eski kurulun beş üyesini öldürmemişler.,Eski kurulun yedi üyesini öldürmemişler.,neutral,1
+6,16,4,beş-yedi-par-n,Eski kurulun yedi üyesini öldürmüşler.,Eski kurulun beş üyesini öldürmüşler.,entailment,0
+6,16,5,beş-yedi-par-n,Eski kurulun yedi üyesini öldürmemişler.,Eski kurulun beş üyesini öldürmemişler.,neutral,1
+6,16,6,beş-yedi-par-n,Eski kurulun beş üyesini öldürmüşler.,Eski kurulun yedi üyesini öldürmüşler.,neutral,1
+6,16,7,beş-yedi-par-n,Eski kurulun yedi üyesini öldürmüşler.,Eski kurulun beş üyesini öldürmemişler.,neutral,1
+6,16,8,beş-yedi-par-n,Eski kurulun beş üyesini öldürmemişler.,Eski kurulun yedi üyesini öldürmüşler.,neutral,1
+6,16,9,beş-yedi-par-c,Eski kurulun beş üyesini öldürmemişler.,Eski kurulun beşten az üyesini öldürmüşler.,neutral,1
+6,16,10,beş-yedi-par-c,Eski kurulun beş üyesini öldürmemişler.,Eski kurulun en fazla dört üyesini öldürmüşler.,neutral,1
+6,16,11,beş-yedi-par-c,Eski kurulun beş üyesini öldürmemişler.,Eski kurulun en az bir tane üyesini öldürmüşler.,implicature,3
+6,17,1,beş-yedi-par-n,Otobüsteki yolculardan beşi uyuyordu.,Otobüsteki yolculardan yedisi uyumuyordu.,neutral,1
+6,17,2,beş-yedi-par-n,Otobüsteki yolculardan beşten fazlası uyumuyordu.,Otobüsteki yolculardan beşi uyuyordu.,neutral,1
+6,17,3,beş-yedi-par-n,Otobüsteki yolculardan beşi uyumuyordu.,Otobüsteki yolculardan yedisi uyumuyordu.,neutral,1
+6,17,4,beş-yedi-par-n,Otobüsteki yolculardan yedisi uyuyordu.,Otobüsteki yolculardan beşi uyuyordu.,entailment,0
+6,17,5,beş-yedi-par-n,Otobüsteki yolculardan yedisi uyumuyordu.,Otobüsteki yolculardan beşi uyumuyordu.,neutral,1
+6,17,6,beş-yedi-par-n,Otobüsteki yolculardan beşi uyuyordu.,Otobüsteki yolculardan yedisi uyuyordu.,neutral,1
+6,17,7,beş-yedi-par-n,Otobüsteki yolculardan yedisi uyuyordu.,Otobüsteki yolculardan beşi uyumuyordu.,neutral,1
+6,17,8,beş-yedi-par-n,Otobüsteki yolculardan beşi uyumuyordu.,Otobüsteki yolculardan yedisi uyuyordu.,neutral,1
+6,17,9,beş-yedi-par-c,Otobüsteki yolculardan beşi uyumuyordu.,Otobüsteki yolculardan beşten azı uyuyordu.,neutral,1
+6,17,10,beş-yedi-par-c,Otobüsteki yolculardan beşi uyumuyordu.,Otobüsteki yolculardan en fazla dördü uyuyordu.,neutral,1
+6,17,11,beş-yedi-par-c,Otobüsteki yolculardan beşi uyumuyordu.,Otobüsteki yolculardan en az biri uyuyordu.,implicature,3
+6,18,1,beş-yedi-par-n,Tarladaki ağaçların beşi kül olmuş.,Tarladaki ağaçların yedisi kül olmamış.,neutral,1
+6,18,2,beş-yedi-par-n,Tarladaki ağaçların beşten fazlası kül olmamış.,Tarladaki ağaçların beşi kül olmuş.,neutral,1
+6,18,3,beş-yedi-par-n,Tarladaki ağaçların beşi kül olmamış.,Tarladaki ağaçların yedisi kül olmamış.,neutral,1
+6,18,4,beş-yedi-par-n,Tarladaki ağaçların yedisi kül olmuş.,Tarladaki ağaçların beşi kül olmuş.,entailment,0
+6,18,5,beş-yedi-par-n,Tarladaki ağaçların yedisi kül olmamış.,Tarladaki ağaçların beşi kül olmamış.,neutral,1
+6,18,6,beş-yedi-par-n,Tarladaki ağaçların beşi kül olmuş.,Tarladaki ağaçların yedisi kül olmuş.,neutral,1
+6,18,7,beş-yedi-par-n,Tarladaki ağaçların yedisi kül olmuş.,Tarladaki ağaçların beşi kül olmamış.,neutral,1
+6,18,8,beş-yedi-par-n,Tarladaki ağaçların beşi kül olmamış.,Tarladaki ağaçların yedisi kül olmuş.,neutral,1
+6,18,9,beş-yedi-par-c,Tarladaki ağaçların beşi kül olmamış.,Tarladaki ağaçların beşten azı kül olmuş.,neutral,1
+6,18,10,beş-yedi-par-c,Tarladaki ağaçların beşi kül olmamış.,Tarladaki ağaçların en fazla dördü kül olmuş.,neutral,1
+6,18,11,beş-yedi-par-c,Tarladaki ağaçların beşi kül olmamış.,Tarladaki ağaçların en az biri kül olmuş.,implicature,3
+6,19,1,beş-yedi-par-n,Hedeflerimizin beşine ulaştık.,Hedeflerimizin yedisine ulaşmadık.,neutral,1
+6,19,2,beş-yedi-par-n,Hedeflerimizin beşten fazlasına ulaşmadık.,Hedeflerimizin beşine ulaştık.,neutral,1
+6,19,3,beş-yedi-par-n,Hedeflerimizin beşine ulaşmadık.,Hedeflerimizin yedisine ulaşmadık.,neutral,1
+6,19,4,beş-yedi-par-n,Hedeflerimizin yedisine ulaştık.,Hedeflerimizin beşine ulaştık.,entailment,0
+6,19,5,beş-yedi-par-n,Hedeflerimizin yedisine ulaşmadık.,Hedeflerimizin beşine ulaşmadık.,neutral,1
+6,19,6,beş-yedi-par-n,Hedeflerimizin beşine ulaştık.,Hedeflerimizin yedisine ulaştık.,neutral,1
+6,19,7,beş-yedi-par-n,Hedeflerimizin yedisine ulaştık.,Hedeflerimizin beşine ulaşmadık.,neutral,1
+6,19,8,beş-yedi-par-n,Hedeflerimizin beşine ulaşmadık.,Hedeflerimizin yedisine ulaştık.,neutral,1
+6,19,9,beş-yedi-par-c,Hedeflerimizin beşine ulaşmadık.,Hedeflerimizin beşten azına ulaştık.,neutral,1
+6,19,10,beş-yedi-par-c,Hedeflerimizin beşine ulaşmadık.,Hedeflerimizin en fazla dördüne ulaştık.,neutral,1
+6,19,11,beş-yedi-par-c,Hedeflerimizin beşine ulaşmadık.,Hedeflerimizin en az birine ulaştık.,implicature,3
+6,20,1,beş-yedi-par-n,Otobüsün beş koltuğu kırık.,Otobüsün yedi koltuğu kırık değil.,neutral,1
+6,20,2,beş-yedi-par-n,Otobüsün beşten fazla koltuğu kırık değil.,Otobüsün beş koltuğu kırık.,neutral,1
+6,20,3,beş-yedi-par-n,Otobüsün beş koltuğu kırık değil.,Otobüsün yedi koltuğu kırık değil.,neutral,1
+6,20,4,beş-yedi-par-n,Otobüsün yedi koltuğu kırık.,Otobüsün beş koltuğu kırık.,entailment,0
+6,20,5,beş-yedi-par-n,Otobüsün yedi koltuğu kırık değil.,Otobüsün beş koltuğu kırık değil.,neutral,1
+6,20,6,beş-yedi-par-n,Otobüsün beş koltuğu kırık.,Otobüsün yedi koltuğu kırık.,neutral,1
+6,20,7,beş-yedi-par-n,Otobüsün yedi koltuğu kırık.,Otobüsün beş koltuğu kırık değil.,neutral,1
+6,20,8,beş-yedi-par-n,Otobüsün beş koltuğu kırık değil.,Otobüsün yedi koltuğu kırık.,neutral,1
+6,20,9,beş-yedi-par-c,Otobüsün beş koltuğu kırık değil.,Otobüsün beşten az koltuğu kırık.,neutral,1
+6,20,10,beş-yedi-par-c,Otobüsün beş koltuğu kırık değil.,Otobüsün en fazla dört koltuğu kırık.,neutral,1
+6,20,11,beş-yedi-par-c,Otobüsün beş koltuğu kırık değil.,Otobüsün en az bir tane koltuğu kırık.,implicature,3
+6,21,1,on-on iki-par-n,Bardakların onunu o kırmış.,Bardakların on ikisini o kırmamış.,neutral,1
+6,21,2,on-on iki-par-n,Bardakların onundan fazlasını o kırmamış.,Bardakların onunu o kırmış.,neutral,1
+6,21,3,on-on iki-par-n,Bardakların onunu o kırmamış.,Bardakların on ikisini o kırmamış.,neutral,1
+6,21,4,on-on iki-par-n,Bardakların on ikisini o kırmış.,Bardakların onunu o kırmış.,entailment,0
+6,21,5,on-on iki-par-n,Bardakların on ikisini o kırmamış.,Bardakların onunu o kırmamış.,neutral,1
+6,21,6,on-on iki-par-n,Bardakların onunu o kırmış.,Bardakların on ikisini o kırmış.,neutral,1
+6,21,7,on-on iki-par-n,Bardakların on ikisini o kırmış.,Bardakların onunu o kırmamış.,neutral,1
+6,21,8,on-on iki-par-n,Bardakların onunu o kırmamış.,Bardakların on ikisini o kırmış.,neutral,1
+6,21,9,on-on iki-par-c,Bardakların onunu o kırmamış.,Bardakların onundan azını o kırmış.,neutral,1
+6,21,10,on-on iki-par-c,Bardakların onunu o kırmamış.,Bardakların en fazla dokuzunu o kırmış.,neutral,1
+6,21,11,on-on iki-par-c,Bardakların onunu o kırmamış.,Bardakların en az birini o kırmış.,implicature,3
+6,22,1,on-on iki-par-n,Bölüm öğrencilerinden on tanesi sınıfta kaldı.,Bölüm öğrencilerinden on iki tanesi sınıfta kalmadı.,neutral,1
+6,22,2,on-on iki-par-n,Bölüm öğrencilerinden onundan fazlası sınıfta kalmadı.,Bölüm öğrencilerinden on tanesi sınıfta kaldı.,neutral,1
+6,22,3,on-on iki-par-n,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,Bölüm öğrencilerinden on iki tanesi sınıfta kalmadı.,neutral,1
+6,22,4,on-on iki-par-n,Bölüm öğrencilerinden on iki tanesi sınıfta kaldı.,Bölüm öğrencilerinden on tanesi sınıfta kaldı.,entailment,0
+6,22,5,on-on iki-par-n,Bölüm öğrencilerinden on iki tanesi sınıfta kalmadı.,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,neutral,1
+6,22,6,on-on iki-par-n,Bölüm öğrencilerinden on tanesi sınıfta kaldı.,Bölüm öğrencilerinden on iki tanesi sınıfta kaldı.,neutral,1
+6,22,7,on-on iki-par-n,Bölüm öğrencilerinden on iki tanesi sınıfta kaldı.,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,neutral,1
+6,22,8,on-on iki-par-n,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,Bölüm öğrencilerinden on iki tanesi sınıfta kaldı.,neutral,1
+6,22,9,on-on iki-par-c,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,Bölüm öğrencilerinden onundan azı sınıfta kaldı.,neutral,1
+6,22,10,on-on iki-par-c,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,Bölüm öğrencilerinden en fazla dokuzu sınıfta kaldı.,neutral,1
+6,22,11,on-on iki-par-c,Bölüm öğrencilerinden on tanesi sınıfta kalmadı.,Bölüm öğrencilerinden en az biri sınıfta kaldı.,implicature,3
+6,23,1,on-on iki-par-n,Mekanların on tanesi kapanmış.,Mekanların on iki tanesi kapanmamış.,neutral,1
+6,23,2,on-on iki-par-n,Mekanların onundan fazlası kapanmamış.,Mekanların on tanesi kapanmış.,neutral,1
+6,23,3,on-on iki-par-n,Mekanların on tanesi kapanmamış.,Mekanların on iki tanesi kapanmamış.,neutral,1
+6,23,4,on-on iki-par-n,Mekanların on iki tanesi kapanmış.,Mekanların on tanesi kapanmış.,entailment,0
+6,23,5,on-on iki-par-n,Mekanların on iki tanesi kapanmamış.,Mekanların on tanesi kapanmamış.,neutral,1
+6,23,6,on-on iki-par-n,Mekanların on tanesi kapanmış.,Mekanların on iki tanesi kapanmış.,neutral,1
+6,23,7,on-on iki-par-n,Mekanların on iki tanesi kapanmış.,Mekanların on tanesi kapanmamış.,neutral,1
+6,23,8,on-on iki-par-n,Mekanların on tanesi kapanmamış.,Mekanların on iki tanesi kapanmış.,neutral,1
+6,23,9,on-on iki-par-c,Mekanların on tanesi kapanmamış.,Mekanların onundan azı kapanmış.,neutral,1
+6,23,10,on-on iki-par-c,Mekanların on tanesi kapanmamış.,Mekanların en fazla dokuzu kapanmış.,neutral,1
+6,23,11,on-on iki-par-c,Mekanların on tanesi kapanmamış.,Mekanların en az biri kapanmış.,implicature,3
+6,24,1,on-on iki-par-n,Adaylardan onu işletme mezunu.,Adaylardan on ikisi işletme mezunu değil.,neutral,1
+6,24,2,on-on iki-par-n,Adaylardan onundan fazlası işletme mezunu değil.,Adaylardan onu işletme mezunu.,neutral,1
+6,24,3,on-on iki-par-n,Adaylardan onu işletme mezunu değil.,Adaylardan on ikisi işletme mezunu değil.,neutral,1
+6,24,4,on-on iki-par-n,Adaylardan on ikisi işletme mezunu.,Adaylardan onu işletme mezunu.,entailment,0
+6,24,5,on-on iki-par-n,Adaylardan on ikisi işletme mezunu değil.,Adaylardan onu işletme mezunu değil.,neutral,1
+6,24,6,on-on iki-par-n,Adaylardan onu işletme mezunu.,Adaylardan on ikisi işletme mezunu.,neutral,1
+6,24,7,on-on iki-par-n,Adaylardan on ikisi işletme mezunu.,Adaylardan onu işletme mezunu değil.,neutral,1
+6,24,8,on-on iki-par-n,Adaylardan onu işletme mezunu değil.,Adaylardan on ikisi işletme mezunu.,neutral,1
+6,24,9,on-on iki-par-c,Adaylardan onu işletme mezunu değil.,Adaylardan onundan azı işletme mezunu.,neutral,1
+6,24,10,on-on iki-par-c,Adaylardan onu işletme mezunu değil.,Adaylardan en fazla dokuzu işletme mezunu.,neutral,1
+6,24,11,on-on iki-par-c,Adaylardan onu işletme mezunu değil.,Adaylardan en az biri işletme mezunu.,implicature,3
+6,25,1,on-on iki-par-n,Şiirin on satırını ezberlemiş.,Şiirin on iki satırını ezberlememiş.,neutral,1
+6,25,2,on-on iki-par-n,Şiirin ondan fazla satırını ezberlememiş.,Şiirin on satırını ezberlemiş.,neutral,1
+6,25,3,on-on iki-par-n,Şiirin on satırını ezberlememiş.,Şiirin on iki satırını ezberlememiş.,neutral,1
+6,25,4,on-on iki-par-n,Şiirin on iki satırını ezberlemiş.,Şiirin on satırını ezberlemiş.,entailment,0
+6,25,5,on-on iki-par-n,Şiirin on iki satırını ezberlememiş.,Şiirin on satırını ezberlememiş.,neutral,1
+6,25,6,on-on iki-par-n,Şiirin on satırını ezberlemiş.,Şiirin on iki satırını ezberlemiş.,neutral,1
+6,25,7,on-on iki-par-n,Şiirin on iki satırını ezberlemiş.,Şiirin on satırını ezberlememiş.,neutral,1
+6,25,8,on-on iki-par-n,Şiirin on satırını ezberlememiş.,Şiirin on iki satırını ezberlemiş.,neutral,1
+6,25,9,on-on iki-par-c,Şiirin on satırını ezberlememiş.,Şiirin onundan daha az satırını ezberlemiş.,neutral,1
+6,25,10,on-on iki-par-c,Şiirin on satırını ezberlememiş.,Şiirin en fazla dokuz satırını ezberlemiş.,neutral,1
+6,25,11,on-on iki-par-c,Şiirin on satırını ezberlememiş.,Şiirin en az bir satırını ezberlemiş.,implicature,3
+6,26,1,on-on iki-par-n,Konuştuklarından onu ona katılmış.,Konuştuklarından on ikisi ona katılmamış.,neutral,1
+6,26,2,on-on iki-par-n,Konuştuklarından ondan fazlası ona katılmamış.,Konuştuklarından onu ona katılmış.,neutral,1
+6,26,3,on-on iki-par-n,Konuştuklarından onu ona katılmamış.,Konuştuklarından on ikisi ona katılmamış.,neutral,1
+6,26,4,on-on iki-par-n,Konuştuklarından on ikisi ona katılmış.,Konuştuklarından onu ona katılmış.,entailment,0
+6,26,5,on-on iki-par-n,Konuştuklarından on ikisi ona katılmamış.,Konuştuklarından onu ona katılmamış.,neutral,1
+6,26,6,on-on iki-par-n,Konuştuklarından onu ona katılmış.,Konuştuklarından on ikisi ona katılmış.,neutral,1
+6,26,7,on-on iki-par-n,Konuştuklarından on ikisi ona katılmış.,Konuştuklarından onu ona katılmamış.,neutral,1
+6,26,8,on-on iki-par-n,Konuştuklarından onu ona katılmamış.,Konuştuklarından on ikisi ona katılmış.,neutral,1
+6,26,9,on-on iki-par-c,Konuştuklarından onu ona katılmamış.,Konuştuklarından onundan azı ona katılmış.,neutral,1
+6,26,10,on-on iki-par-c,Konuştuklarından onu ona katılmamış.,Konuştuklarından en fazla dokuzu ona katılmış.,neutral,1
+6,26,11,on-on iki-par-c,Konuştuklarından onu ona katılmamış.,Konuştuklarından en az biri ona katılmış.,implicature,3
+6,27,1,on-on iki-par-n,Listendeki on şarkıyı dinlemiştim.,Listendeki on iki şarkıyı dinlememiştim.,neutral,1
+6,27,2,on-on iki-par-n,Listendeki ondan fazla şarkıyı dinlememiştim.,Listendeki on şarkıyı dinlemiştim.,neutral,1
+6,27,3,on-on iki-par-n,Listendeki on şarkıyı dinlememiştim.,Listendeki on iki şarkıyı dinlememiştim.,neutral,1
+6,27,4,on-on iki-par-n,Listendeki on iki şarkıyı dinlemiştim.,Listendeki on şarkıyı dinlemiştim.,entailment,0
+6,27,5,on-on iki-par-n,Listendeki on iki şarkıyı dinlememiştim.,Listendeki on şarkıyı dinlememiştim.,neutral,1
+6,27,6,on-on iki-par-n,Listendeki on şarkıyı dinlemiştim.,Listendeki on iki şarkıyı dinlemiştim.,neutral,1
+6,27,7,on-on iki-par-n,Listendeki on iki şarkıyı dinlemiştim.,Listendeki on şarkıyı dinlememiştim.,neutral,1
+6,27,8,on-on iki-par-n,Listendeki on şarkıyı dinlememiştim.,Listendeki on iki şarkıyı dinlemiştim.,neutral,1
+6,27,9,on-on iki-par-c,Listendeki on şarkıyı dinlememiştim.,Listendeki ondan az şarkıyı dinlemiştim.,neutral,1
+6,27,10,on-on iki-par-c,Listendeki on şarkıyı dinlememiştim.,Listendeki en fazla dokuz şarkıyı dinlemiştim.,neutral,1
+6,27,11,on-on iki-par-c,Listendeki on şarkıyı dinlememiştim.,Listendeki en az bir şarkıyı dinlemiştim.,implicature,3
+6,28,1,on-on iki-par-n,Elbiselerin on tanesini o dikmiş.,Elbiselerin on iki tanesini o dikmemiş.,neutral,1
+6,28,2,on-on iki-par-n,Elbiselerin ondan fazlasını o dikmemiş.,Elbiselerin on tanesini o dikmiş.,neutral,1
+6,28,3,on-on iki-par-n,Elbiselerin on tanesini o dikmemiş.,Elbiselerin on iki tanesini o dikmemiş.,neutral,1
+6,28,4,on-on iki-par-n,Elbiselerin on iki tanesini o dikmiş.,Elbiselerin on tanesini o dikmiş.,entailment,0
+6,28,5,on-on iki-par-n,Elbiselerin on iki tanesini o dikmemiş.,Elbiselerin on tanesini o dikmemiş.,neutral,1
+6,28,6,on-on iki-par-n,Elbiselerin on tanesini o dikmiş.,Elbiselerin on iki tanesini o dikmiş.,neutral,1
+6,28,7,on-on iki-par-n,Elbiselerin on iki tanesini o dikmiş.,Elbiselerin on tanesini o dikmemiş.,neutral,1
+6,28,8,on-on iki-par-n,Elbiselerin on tanesini o dikmemiş.,Elbiselerin on iki tanesini o dikmiş.,neutral,1
+6,28,9,on-on iki-par-c,Elbiselerin on tanesini o dikmemiş.,Elbiselerin ondan azını o dikmiş.,neutral,1
+6,28,10,on-on iki-par-c,Elbiselerin on tanesini o dikmemiş.,Elbiselerin en fazla dokuzunu o dikmiş.,neutral,1
+6,28,11,on-on iki-par-c,Elbiselerin on tanesini o dikmemiş.,Elbiselerin en az birini o dikmiş.,implicature,3
+6,29,1,on-on iki-par-n,Klavyenin on tuşu eksik.,Klavyenin on iki tuşu eksik değil.,neutral,1
+6,29,2,on-on iki-par-n,Klavyenin ondan fazla tuşu eksik değil.,Klavyenin on tuşu eksik.,neutral,1
+6,29,3,on-on iki-par-n,Klavyenin on tuşu eksik değil.,Klavyenin on iki tuşu eksik değil.,neutral,1
+6,29,4,on-on iki-par-n,Klavyenin on iki tuşu eksik.,Klavyenin on tuşu eksik.,entailment,0
+6,29,5,on-on iki-par-n,Klavyenin on iki tuşu eksik değil.,Klavyenin on tuşu eksik değil.,neutral,1
+6,29,6,on-on iki-par-n,Klavyenin on tuşu eksik.,Klavyenin on iki tuşu eksik.,neutral,1
+6,29,7,on-on iki-par-n,Klavyenin on iki tuşu eksik.,Klavyenin on tuşu eksik değil.,neutral,1
+6,29,8,on-on iki-par-n,Klavyenin on tuşu eksik değil.,Klavyenin on iki tuşu eksik.,neutral,1
+6,29,9,on-on iki-par-c,Klavyenin on tuşu eksik değil.,Klavyenin ondan daha az tuşu eksik.,neutral,1
+6,29,10,on-on iki-par-c,Klavyenin on tuşu eksik değil.,Klavyenin en fazla dokuz tuşu eksik.,neutral,1
+6,29,11,on-on iki-par-c,Klavyenin on tuşu eksik değil.,Klavyenin en az bir tane tuşu eksik.,implicature,3
+6,30,1,on-on iki-par-n,Trendeki on vagon dolu.,Trendeki on iki vagon dolu değil.,neutral,1
+6,30,2,on-on iki-par-n,Trendeki ondan fazla vagon dolu değil.,Trendeki on vagon dolu.,neutral,1
+6,30,3,on-on iki-par-n,Trendeki on vagon dolu değil.,Trendeki on iki vagon dolu değil.,neutral,1
+6,30,4,on-on iki-par-n,Trendeki on iki vagon dolu.,Trendeki on vagon dolu.,entailment,0
+6,30,5,on-on iki-par-n,Trendeki on iki vagon dolu değil.,Trendeki on vagon dolu değil.,neutral,1
+6,30,6,on-on iki-par-n,Trendeki on vagon dolu.,Trendeki on iki vagon dolu.,neutral,1
+6,30,7,on-on iki-par-n,Trendeki on iki vagon dolu.,Trendeki on vagon dolu değil.,neutral,1
+6,30,8,on-on iki-par-n,Trendeki on vagon dolu değil.,Trendeki on iki vagon dolu.,neutral,1
+6,30,9,on-on iki-par-c,Trendeki on vagon dolu değil.,Trendeki ondan az vagon dolu.,neutral,1
+6,30,10,on-on iki-par-c,Trendeki on vagon dolu değil.,Trendeki en fazla dokuz vagon dolu.,neutral,1
+6,30,11,on-on iki-par-c,Trendeki on vagon dolu değil.,Trendeki en az bir tane vagon dolu.,implicature,3
+6,31,1,on beş-yirmi-par-n,Bilgisayarların on beşini o almış.,Bilgisayarların yirmisini o almamış.,neutral,1
+6,31,2,on beş-yirmi-par-n,Bilgisayarların on beşinden fazlasını o almamış.,Bilgisayarların on beşini o almış.,neutral,1
+6,31,3,on beş-yirmi-par-n,Bilgisayarların on beşini o almamış.,Bilgisayarların yirmisini o almamış.,neutral,1
+6,31,4,on beş-yirmi-par-n,Bilgisayarların yirmisini o almış.,Bilgisayarların on beşini o almış.,entailment,0
+6,31,5,on beş-yirmi-par-n,Bilgisayarların yirmisini o almamış.,Bilgisayarların on beşini o almamış.,neutral,1
+6,31,6,on beş-yirmi-par-n,Bilgisayarların on beşini o almış.,Bilgisayarların yirmisini o almış.,neutral,1
+6,31,7,on beş-yirmi-par-n,Bilgisayarların yirmisini o almış.,Bilgisayarların on beşini o almamış.,neutral,1
+6,31,8,on beş-yirmi-par-n,Bilgisayarların on beşini o almamış.,Bilgisayarların yirmisini o almış.,neutral,1
+6,31,9,on beş-yirmi-par-c,Bilgisayarların on beşini o almamış.,Bilgisayarların on beşinden azını o almış.,neutral,1
+6,31,10,on beş-yirmi-par-c,Bilgisayarların on beşini o almamış.,Bilgisayarların en fazla on dördünü o almış.,neutral,1
+6,31,11,on beş-yirmi-par-c,Bilgisayarların on beşini o almamış.,Bilgisayarların en az birini o almış.,implicature,3
+6,32,1,on beş-yirmi-par-n,Fayansların on beşi kırık geldi.,Fayansların yirmisi kırık gelmedi.,neutral,1
+6,32,2,on beş-yirmi-par-n,Fayansların on beşinden fazlası kırık gelmedi.,Fayansların on beşi kırık geldi.,neutral,1
+6,32,3,on beş-yirmi-par-n,Fayansların on beşi kırık gelmedi.,Fayansların yirmisi kırık gelmedi.,neutral,1
+6,32,4,on beş-yirmi-par-n,Fayansların yirmisi kırık geldi.,Fayansların on beşi kırık geldi.,entailment,0
+6,32,5,on beş-yirmi-par-n,Fayansların yirmisi kırık gelmedi.,Fayansların on beşi kırık gelmedi.,neutral,1
+6,32,6,on beş-yirmi-par-n,Fayansların on beşi kırık geldi.,Fayansların yirmisi kırık geldi.,neutral,1
+6,32,7,on beş-yirmi-par-n,Fayansların yirmisi kırık geldi.,Fayansların on beşi kırık gelmedi.,neutral,1
+6,32,8,on beş-yirmi-par-n,Fayansların on beşi kırık gelmedi.,Fayansların yirmisi kırık geldi.,neutral,1
+6,32,9,on beş-yirmi-par-c,Fayansların on beşi kırık gelmedi.,Fayansların on beşinden azı kırık geldi.,neutral,1
+6,32,10,on beş-yirmi-par-c,Fayansların on beşi kırık gelmedi.,Fayansların en fazla on dördü kırık geldi.,neutral,1
+6,32,11,on beş-yirmi-par-c,Fayansların on beşi kırık gelmedi.,Fayansların en az biri kırık geldi.,implicature,3
+6,33,1,on beş-yirmi-par-n,Sunulan planlardan on beş tanesi kabul edildi.,Sunulan planlardan yirmi tanesi kabul edilmedi.,neutral,1
+6,33,2,on beş-yirmi-par-n,Sunulan planlardan on beşinden fazlası kabul edilmedi.,Sunulan planlardan on beş tanesi kabul edildi.,neutral,1
+6,33,3,on beş-yirmi-par-n,Sunulan planlardan on beş tanesi kabul edilmedi.,Sunulan planlardan yirmi tanesi kabul edilmedi.,neutral,1
+6,33,4,on beş-yirmi-par-n,Sunulan planlardan yirmi tanesi kabul edildi.,Sunulan planlardan on beş tanesi kabul edildi.,entailment,0
+6,33,5,on beş-yirmi-par-n,Sunulan planlardan yirmi tanesi kabul edilmedi.,Sunulan planlardan on beş tanesi kabul edilmedi.,neutral,1
+6,33,6,on beş-yirmi-par-n,Sunulan planlardan on beş tanesi kabul edildi.,Sunulan planlardan yirmi tanesi kabul edildi.,neutral,1
+6,33,7,on beş-yirmi-par-n,Sunulan planlardan yirmi tanesi kabul edildi.,Sunulan planlardan on beş tanesi kabul edilmedi.,neutral,1
+6,33,8,on beş-yirmi-par-n,Sunulan planlardan on beş tanesi kabul edilmedi.,Sunulan planlardan yirmi tanesi kabul edildi.,neutral,1
+6,33,9,on beş-yirmi-par-c,Sunulan planlardan on beş tanesi kabul edilmedi.,Sunulan planlardan on beşinden azı kabul edildi.,neutral,1
+6,33,10,on beş-yirmi-par-c,Sunulan planlardan on beş tanesi kabul edilmedi.,Sunulan planlardan en fazla on dördü kabul edildi.,neutral,1
+6,33,11,on beş-yirmi-par-c,Sunulan planlardan on beş tanesi kabul edilmedi.,Sunulan planlardan en az biri kabul edildi.,implicature,3
+6,34,1,on beş-yirmi-par-n,Camların on beşi kirli.,Camların yirmisi kirli değil.,neutral,1
+6,34,2,on beş-yirmi-par-n,Camların on beşinden fazlası kirli değil.,Camların on beşi kirli.,neutral,1
+6,34,3,on beş-yirmi-par-n,Camların on beşi kirli değil.,Camların yirmisi kirli değil.,neutral,1
+6,34,4,on beş-yirmi-par-n,Camların yirmisi kirli.,Camların on beşi kirli.,entailment,0
+6,34,5,on beş-yirmi-par-n,Camların yirmisi kirli değil.,Camların on beşi kirli değil.,neutral,1
+6,34,6,on beş-yirmi-par-n,Camların on beşi kirli.,Camların yirmisi kirli.,neutral,1
+6,34,7,on beş-yirmi-par-n,Camların yirmisi kirli.,Camların on beşi kirli değil.,neutral,1
+6,34,8,on beş-yirmi-par-n,Camların on beşi kirli değil.,Camların yirmisi kirli.,neutral,1
+6,34,9,on beş-yirmi-par-c,Camların on beşi kirli değil.,Camların on beşinden azı kirli.,neutral,1
+6,34,10,on beş-yirmi-par-c,Camların on beşi kirli değil.,Camların en fazla on dördü kirli.,neutral,1
+6,34,11,on beş-yirmi-par-c,Camların on beşi kirli değil.,Camların en az biri kirli.,implicature,3
+6,35,1,on beş-yirmi-par-n,Yastıklardan on beşini götürdü.,Yastıklardan yirmi tanesini götürmedi.,neutral,1
+6,35,2,on beş-yirmi-par-n,Yastıklardan on beşten fazlasını götürmedi.,Yastıklardan on beşini götürdü.,neutral,1
+6,35,3,on beş-yirmi-par-n,Yastıklardan on beşini götürmedi.,Yastıklardan yirmi tanesini götürmedi.,neutral,1
+6,35,4,on beş-yirmi-par-n,Yastıklardan yirmi tanesini götürdü.,Yastıklardan on beşini götürdü.,entailment,0
+6,35,5,on beş-yirmi-par-n,Yastıklardan yirmi tanesini götürmedi.,Yastıklardan on beşini götürmedi.,neutral,1
+6,35,6,on beş-yirmi-par-n,Yastıklardan on beşini götürdü.,Yastıklardan yirmi tanesini götürdü.,neutral,1
+6,35,7,on beş-yirmi-par-n,Yastıklardan yirmi tanesini götürdü.,Yastıklardan on beşini götürmedi.,neutral,1
+6,35,8,on beş-yirmi-par-n,Yastıklardan on beşini götürmedi.,Yastıklardan yirmi tanesini götürdü.,neutral,1
+6,35,9,on beş-yirmi-par-c,Yastıklardan on beşini götürmedi.,Yastıklardan on beşinden azını götürdü.,neutral,1
+6,35,10,on beş-yirmi-par-c,Yastıklardan on beşini götürmedi.,Yastıklardan en fazla on dördünü götürdü.,neutral,1
+6,35,11,on beş-yirmi-par-c,Yastıklardan on beşini götürmedi.,Yastıklardan en az bir tanesini götürdü.,implicature,3
+6,36,1,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden on beşini bozmuş.,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmamış.,neutral,1
+6,36,2,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden on beşten fazlasını bozmamış.,Ali stadyumdaki hoparlörlerden on beşini bozmuş.,neutral,1
+6,36,3,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmamış.,neutral,1
+6,36,4,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmuş.,Ali stadyumdaki hoparlörlerden on beşini bozmuş.,entailment,0
+6,36,5,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmamış.,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,neutral,1
+6,36,6,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden on beşini bozmuş.,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmuş.,neutral,1
+6,36,7,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmuş.,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,neutral,1
+6,36,8,on beş-yirmi-par-n,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,Ali stadyumdaki hoparlörlerden yirmi tanesini bozmuş.,neutral,1
+6,36,9,on beş-yirmi-par-c,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,Ali stadyumdaki hoparlörlerden on beşinden azını bozmuş.,neutral,1
+6,36,10,on beş-yirmi-par-c,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,Ali stadyumdaki hoparlörlerden en fazla on dördünü bozmuş.,neutral,1
+6,36,11,on beş-yirmi-par-c,Ali stadyumdaki hoparlörlerden on beşini bozmamış.,Ali stadyumdaki hoparlörlerden en az bir tanesini bozmuş.,implicature,3
+6,37,1,on beş-yirmi-par-n,Adadaki ağaç türlerinden on beşi yerli.,Adadaki ağaç türlerinden yirmisi yerli değil.,neutral,1
+6,37,2,on beş-yirmi-par-n,Adadaki ağaç türlerinden on beşten fazlası yerli değil.,Adadaki ağaç türlerinden on beşi yerli.,neutral,1
+6,37,3,on beş-yirmi-par-n,Adadaki ağaç türlerinden on beşi yerli değil.,Adadaki ağaç türlerinden yirmisi yerli değil.,neutral,1
+6,37,4,on beş-yirmi-par-n,Adadaki ağaç türlerinden yirmisi yerli.,Adadaki ağaç türlerinden on beşi yerli.,entailment,0
+6,37,5,on beş-yirmi-par-n,Adadaki ağaç türlerinden yirmisi yerli değil.,Adadaki ağaç türlerinden on beşi yerli değil.,neutral,1
+6,37,6,on beş-yirmi-par-n,Adadaki ağaç türlerinden on beşi yerli.,Adadaki ağaç türlerinden yirmisi yerli.,neutral,1
+6,37,7,on beş-yirmi-par-n,Adadaki ağaç türlerinden yirmisi yerli.,Adadaki ağaç türlerinden on beşi yerli değil.,neutral,1
+6,37,8,on beş-yirmi-par-n,Adadaki ağaç türlerinden on beşi yerli değil.,Adadaki ağaç türlerinden yirmisi yerli.,neutral,1
+6,37,9,on beş-yirmi-par-c,Adadaki ağaç türlerinden on beşi yerli değil.,Adadaki ağaç türlerinden on beşinden azı yerli.,neutral,1
+6,37,10,on beş-yirmi-par-c,Adadaki ağaç türlerinden on beşi yerli değil.,Adadaki ağaç türlerinden en fazla on dördü yerli.,neutral,1
+6,37,11,on beş-yirmi-par-c,Adadaki ağaç türlerinden on beşi yerli değil.,Adadaki ağaç türlerinden en az biri yerli.,implicature,3
+6,38,1,on beş-yirmi-par-n,Fabrikadaki çalışanlardan on beşi kadın.,Fabrikadaki çalışanlardan yirmisi kadın değil.,neutral,1
+6,38,2,on beş-yirmi-par-n,Fabrikadaki çalışanlardan on beşten fazlası kadın değil.,Fabrikadaki çalışanlardan on beşi kadın.,neutral,1
+6,38,3,on beş-yirmi-par-n,Fabrikadaki çalışanlardan on beşi kadın değil.,Fabrikadaki çalışanlardan yirmisi kadın değil.,neutral,1
+6,38,4,on beş-yirmi-par-n,Fabrikadaki çalışanlardan yirmisi kadın.,Fabrikadaki çalışanlardan on beşi kadın.,entailment,0
+6,38,5,on beş-yirmi-par-n,Fabrikadaki çalışanlardan yirmisi kadın değil.,Fabrikadaki çalışanlardan on beşi kadın değil.,neutral,1
+6,38,6,on beş-yirmi-par-n,Fabrikadaki çalışanlardan on beşi kadın.,Fabrikadaki çalışanlardan yirmisi kadın.,neutral,1
+6,38,7,on beş-yirmi-par-n,Fabrikadaki çalışanlardan yirmisi kadın.,Fabrikadaki çalışanlardan on beşi kadın değil.,neutral,1
+6,38,8,on beş-yirmi-par-n,Fabrikadaki çalışanlardan on beşi kadın değil.,Fabrikadaki çalışanlardan yirmisi kadın.,neutral,1
+6,38,9,on beş-yirmi-par-c,Fabrikadaki çalışanlardan on beşi kadın değil.,Fabrikadaki çalışanlardan on beşinden azı kadın.,neutral,1
+6,38,10,on beş-yirmi-par-c,Fabrikadaki çalışanlardan on beşi kadın değil.,Fabrikadaki çalışanlardan en fazla on dördü kadın.,neutral,1
+6,38,11,on beş-yirmi-par-c,Fabrikadaki çalışanlardan on beşi kadın değil.,Fabrikadaki çalışanlardan en az biri kadın.,implicature,3
+6,39,1,on beş-yirmi-par-n,Aile üyelerinin on beşi yurtdışında.,Aile üyelerinin yirmisi yurtdışında değil.,neutral,1
+6,39,2,on beş-yirmi-par-n,Aile üyelerinin on beşten fazlası yurtdışında değil.,Aile üyelerinin on beşi yurtdışında.,neutral,1
+6,39,3,on beş-yirmi-par-n,Aile üyelerinin on beşi yurtdışında değil.,Aile üyelerinin yirmisi yurtdışında değil.,neutral,1
+6,39,4,on beş-yirmi-par-n,Aile üyelerinin yirmisi yurtdışında.,Aile üyelerinin on beşi yurtdışında.,entailment,0
+6,39,5,on beş-yirmi-par-n,Aile üyelerinin yirmisi yurtdışında değil.,Aile üyelerinin on beşi yurtdışında değil.,neutral,1
+6,39,6,on beş-yirmi-par-n,Aile üyelerinin on beşi yurtdışında.,Aile üyelerinin yirmisi yurtdışında.,neutral,1
+6,39,7,on beş-yirmi-par-n,Aile üyelerinin yirmisi yurtdışında.,Aile üyelerinin on beşi yurtdışında değil.,neutral,1
+6,39,8,on beş-yirmi-par-n,Aile üyelerinin on beşi yurtdışında değil.,Aile üyelerinin yirmisi yurtdışında.,neutral,1
+6,39,9,on beş-yirmi-par-c,Aile üyelerinin on beşi yurtdışında değil.,Aile üyelerinin on beşinden azı yurtdışında.,neutral,1
+6,39,10,on beş-yirmi-par-c,Aile üyelerinin on beşi yurtdışında değil.,Aile üyelerinin en fazla on dördü yurtdışında.,neutral,1
+6,39,11,on beş-yirmi-par-c,Aile üyelerinin on beşi yurtdışında değil.,Aile üyelerinin en az biri yurtdışında.,implicature,3
+6,40,1,on beş-yirmi-par-n,Yastıklardan on beşini götürdü.,Yastıklardan yirmi tanesini götürmedi.,neutral,1
+6,40,2,on beş-yirmi-par-n,Yastıklardan on beşten fazlasını götürmedi.,Yastıklardan on beşini götürdü.,neutral,1
+6,40,3,on beş-yirmi-par-n,Yastıklardan on beşini götürmedi.,Yastıklardan yirmi tanesini götürmedi.,neutral,1
+6,40,4,on beş-yirmi-par-n,Yastıklardan yirmi tanesini götürdü.,Yastıklardan on beşini götürdü.,entailment,0
+6,40,5,on beş-yirmi-par-n,Yastıklardan yirmi tanesini götürmedi.,Yastıklardan on beşini götürmedi.,neutral,1
+6,40,6,on beş-yirmi-par-n,Yastıklardan on beşini götürdü.,Yastıklardan yirmi tanesini götürdü.,neutral,1
+6,40,7,on beş-yirmi-par-n,Yastıklardan yirmi tanesini götürdü.,Yastıklardan on beşini götürmedi.,neutral,1
+6,40,8,on beş-yirmi-par-n,Yastıklardan on beşini götürmedi.,Yastıklardan yirmi tanesini götürdü.,neutral,1
+6,40,9,on beş-yirmi-par-c,Yastıklardan on beşini götürmedi.,Yastıklardan on beşinden azını götürdü.,neutral,1
+6,40,10,on beş-yirmi-par-c,Yastıklardan on beşini götürmedi.,Yastıklardan en fazla on dördünü götürdü.,neutral,1
+6,40,11,on beş-yirmi-par-c,Yastıklardan on beşini götürmedi.,Yastıklardan en az bir tanesini götürdü.,implicature,3
+6,41,1,on yedi-yirmi dokuz-par-n,Sandalyelerin on yedisi kırık.,Sandalyelerin yirmi dokuzu kırık değil.,neutral,1
+6,41,2,on yedi-yirmi dokuz-par-n,Sandalyelerin on yedisinden fazlası kırık değil.,Sandalyelerin on yedisi kırık.,neutral,1
+6,41,3,on yedi-yirmi dokuz-par-n,Sandalyelerin on yedisi kırık değil.,Sandalyelerin yirmi dokuzu kırık değil.,neutral,1
+6,41,4,on yedi-yirmi dokuz-par-n,Sandalyelerin yirmi dokuzu kırık.,Sandalyelerin on yedisi kırık.,entailment,0
+6,41,5,on yedi-yirmi dokuz-par-n,Sandalyelerin yirmi dokuzu kırık değil.,Sandalyelerin on yedisi kırık değil.,neutral,1
+6,41,6,on yedi-yirmi dokuz-par-n,Sandalyelerin on yedisi kırık.,Sandalyelerin yirmi dokuzu kırık.,neutral,1
+6,41,7,on yedi-yirmi dokuz-par-n,Sandalyelerin yirmi dokuzu kırık.,Sandalyelerin on yedisi kırık değil.,neutral,1
+6,41,8,on yedi-yirmi dokuz-par-n,Sandalyelerin on yedisi kırık değil.,Sandalyelerin yirmi dokuzu kırık.,neutral,1
+6,41,9,on yedi-yirmi dokuz-par-c,Sandalyelerin on yedisi kırık değil.,Sandalyelerin on yedisinden azı kırık.,neutral,1
+6,41,10,on yedi-yirmi dokuz-par-c,Sandalyelerin on yedisi kırık değil.,Sandalyelerin en fazla on altısı kırık.,neutral,1
+6,41,11,on yedi-yirmi dokuz-par-c,Sandalyelerin on yedisi kırık değil.,Sandalyelerin en az biri kırık.,implicature,3
+6,42,1,on yedi-yirmi dokuz-par-n,Kutuların on yedisi boş.,Kutuların yirmi dokuzu boş değil.,neutral,1
+6,42,2,on yedi-yirmi dokuz-par-n,Kutuların on yedisinden fazlası boş değil.,Kutuların on yedisi boş.,neutral,1
+6,42,3,on yedi-yirmi dokuz-par-n,Kutuların on yedisi boş değil.,Kutuların yirmi dokuzu boş değil.,neutral,1
+6,42,4,on yedi-yirmi dokuz-par-n,Kutuların yirmi dokuzu boş.,Kutuların on yedisi boş.,entailment,0
+6,42,5,on yedi-yirmi dokuz-par-n,Kutuların yirmi dokuzu boş değil.,Kutuların on yedisi boş değil.,neutral,1
+6,42,6,on yedi-yirmi dokuz-par-n,Kutuların on yedisi boş.,Kutuların yirmi dokuzu boş.,neutral,1
+6,42,7,on yedi-yirmi dokuz-par-n,Kutuların yirmi dokuzu boş.,Kutuların on yedisi boş değil.,neutral,1
+6,42,8,on yedi-yirmi dokuz-par-n,Kutuların on yedisi boş değil.,Kutuların yirmi dokuzu boş.,neutral,1
+6,42,9,on yedi-yirmi dokuz-par-c,Kutuların on yedisi boş değil.,Kutuların on yedisinden azı boş.,neutral,1
+6,42,10,on yedi-yirmi dokuz-par-c,Kutuların on yedisi boş değil.,Kutuların en fazla on altısı boş.,neutral,1
+6,42,11,on yedi-yirmi dokuz-par-c,Kutuların on yedisi boş değil.,Kutuların en az biri boş.,implicature,3
+6,43,1,on yedi-yirmi dokuz-par-n,Köpeklerin on yedisi sokakta.,Köpeklerin yirmi dokuzu sokakta değil.,neutral,1
+6,43,2,on yedi-yirmi dokuz-par-n,Köpeklerin on yedisinden fazlası sokakta değil.,Köpeklerin on yedisi sokakta.,neutral,1
+6,43,3,on yedi-yirmi dokuz-par-n,Köpeklerin on yedisi sokakta değil.,Köpeklerin yirmi dokuzu sokakta değil.,neutral,1
+6,43,4,on yedi-yirmi dokuz-par-n,Köpeklerin yirmi dokuzu sokakta.,Köpeklerin on yedisi sokakta.,entailment,0
+6,43,5,on yedi-yirmi dokuz-par-n,Köpeklerin yirmi dokuzu sokakta değil.,Köpeklerin on yedisi sokakta değil.,neutral,1
+6,43,6,on yedi-yirmi dokuz-par-n,Köpeklerin on yedisi sokakta.,Köpeklerin yirmi dokuzu sokakta.,neutral,1
+6,43,7,on yedi-yirmi dokuz-par-n,Köpeklerin yirmi dokuzu sokakta.,Köpeklerin on yedisi sokakta değil.,neutral,1
+6,43,8,on yedi-yirmi dokuz-par-n,Köpeklerin on yedisi sokakta değil.,Köpeklerin yirmi dokuzu sokakta.,neutral,1
+6,43,9,on yedi-yirmi dokuz-par-c,Köpeklerin on yedisi sokakta değil.,Köpeklerin on yedisinden azı sokakta.,neutral,1
+6,43,10,on yedi-yirmi dokuz-par-c,Köpeklerin on yedisi sokakta değil.,Köpeklerin en fazla on altısı sokakta.,neutral,1
+6,43,11,on yedi-yirmi dokuz-par-c,Köpeklerin on yedisi sokakta değil.,Köpeklerin en az biri sokakta.,implicature,3
+6,44,1,on yedi-yirmi dokuz-par-n,Kadınlardan on yedisi çalışıyor.,Kadınlardan yirmi dokuzu çalışmıyor.,neutral,1
+6,44,2,on yedi-yirmi dokuz-par-n,Kadınlardan on yedisinden fazlası çalışmıyor.,Kadınlardan on yedisi çalışıyor.,neutral,1
+6,44,3,on yedi-yirmi dokuz-par-n,Kadınlardan on yedisi çalışmıyor.,Kadınlardan yirmi dokuzu çalışmıyor.,neutral,1
+6,44,4,on yedi-yirmi dokuz-par-n,Kadınlardan yirmi dokuzu çalışıyor.,Kadınlardan on yedisi çalışıyor.,entailment,0
+6,44,5,on yedi-yirmi dokuz-par-n,Kadınlardan yirmi dokuzu çalışmıyor.,Kadınlardan on yedisi çalışmıyor.,neutral,1
+6,44,6,on yedi-yirmi dokuz-par-n,Kadınlardan on yedisi çalışıyor.,Kadınlardan yirmi dokuzu çalışıyor.,neutral,1
+6,44,7,on yedi-yirmi dokuz-par-n,Kadınlardan yirmi dokuzu çalışıyor.,Kadınlardan on yedisi çalışmıyor.,neutral,1
+6,44,8,on yedi-yirmi dokuz-par-n,Kadınlardan on yedisi çalışmıyor.,Kadınlardan yirmi dokuzu çalışıyor.,neutral,1
+6,44,9,on yedi-yirmi dokuz-par-c,Kadınlardan on yedisi çalışmıyor.,Kadınlardan on yedisinden azı çalışıyor.,neutral,1
+6,44,10,on yedi-yirmi dokuz-par-c,Kadınlardan on yedisi çalışmıyor.,Kadınlardan en fazla on altısı çalışıyor.,neutral,1
+6,44,11,on yedi-yirmi dokuz-par-c,Kadınlardan on yedisi çalışmıyor.,Kadınlardan en az biri çalışıyor.,implicature,3
+6,45,1,on yedi-yirmi dokuz-par-n,Kurulun on yedi üyesi burada.,Kurulun yirmi dokuz üyesi burada değil.,neutral,1
+6,45,2,on yedi-yirmi dokuz-par-n,Kurulun on yediden fazla üyesi burada değil.,Kurulun on yedi üyesi burada.,neutral,1
+6,45,3,on yedi-yirmi dokuz-par-n,Kurulun on yedi üyesi burada değil.,Kurulun yirmi dokuz üyesi burada değil.,neutral,1
+6,45,4,on yedi-yirmi dokuz-par-n,Kurulun yirmi dokuz üyesi burada.,Kurulun on yedi üyesi burada.,entailment,0
+6,45,5,on yedi-yirmi dokuz-par-n,Kurulun yirmi dokuz üyesi burada değil.,Kurulun on yedi üyesi burada değil.,neutral,1
+6,45,6,on yedi-yirmi dokuz-par-n,Kurulun on yedi üyesi burada.,Kurulun yirmi dokuz üyesi burada.,neutral,1
+6,45,7,on yedi-yirmi dokuz-par-n,Kurulun yirmi dokuz üyesi burada.,Kurulun on yedi üyesi burada değil.,neutral,1
+6,45,8,on yedi-yirmi dokuz-par-n,Kurulun on yedi üyesi burada değil.,Kurulun yirmi dokuz üyesi burada.,neutral,1
+6,45,9,on yedi-yirmi dokuz-par-c,Kurulun on yedi üyesi burada değil.,Kurulun on yediden azı burada.,neutral,1
+6,45,10,on yedi-yirmi dokuz-par-c,Kurulun on yedi üyesi burada değil.,Kurulun en fazla on altısı burada.,neutral,1
+6,45,11,on yedi-yirmi dokuz-par-c,Kurulun on yedi üyesi burada değil.,Kurulun en az biri burada.,implicature,3
+6,46,1,on yedi-yirmi dokuz-par-n,Bisikletlerin on yedisi kırık.,Bisikletlerin yirmi dokuzu kırık değil.,neutral,1
+6,46,2,on yedi-yirmi dokuz-par-n,Bisikletlerin on yediden fazlası kırık değil.,Bisikletlerin on yedisi kırık.,neutral,1
+6,46,3,on yedi-yirmi dokuz-par-n,Bisikletlerin on yedisi kırık değil.,Bisikletlerin yirmi dokuzu kırık değil.,neutral,1
+6,46,4,on yedi-yirmi dokuz-par-n,Bisikletlerin yirmi dokuzu kırık.,Bisikletlerin on yedisi kırık.,entailment,0
+6,46,5,on yedi-yirmi dokuz-par-n,Bisikletlerin yirmi dokuzu kırık değil.,Bisikletlerin on yedisi kırık değil.,neutral,1
+6,46,6,on yedi-yirmi dokuz-par-n,Bisikletlerin on yedisi kırık.,Bisikletlerin yirmi dokuzu kırık.,neutral,1
+6,46,7,on yedi-yirmi dokuz-par-n,Bisikletlerin yirmi dokuzu kırık.,Bisikletlerin on yedisi kırık değil.,neutral,1
+6,46,8,on yedi-yirmi dokuz-par-n,Bisikletlerin on yedisi kırık değil.,Bisikletlerin yirmi dokuzu kırık.,neutral,1
+6,46,9,on yedi-yirmi dokuz-par-c,Bisikletlerin on yedisi kırık değil.,Bisikletlerin on yediden azı kırık.,neutral,1
+6,46,10,on yedi-yirmi dokuz-par-c,Bisikletlerin on yedisi kırık değil.,Bisikletlerin en fazla on altısı kırık.,neutral,1
+6,46,11,on yedi-yirmi dokuz-par-c,Bisikletlerin on yedisi kırık değil.,Bisikletlerin en az biri kırık.,implicature,3
+6,47,1,on yedi-yirmi dokuz-par-n,Binanın on yedi katını kiraya vermiş.,Binanın yirmi dokuz katını kiraya vermemiş.,neutral,1
+6,47,2,on yedi-yirmi dokuz-par-n,Binanın on yediden fazla katını kiraya vermemiş.,Binanın on yedi katını kiraya vermiş.,neutral,1
+6,47,3,on yedi-yirmi dokuz-par-n,Binanın on yedi katını kiraya vermemiş.,Binanın yirmi dokuz katını kiraya vermemiş.,neutral,1
+6,47,4,on yedi-yirmi dokuz-par-n,Binanın yirmi dokuz katını kiraya vermiş.,Binanın on yedi katını kiraya vermiş.,entailment,0
+6,47,5,on yedi-yirmi dokuz-par-n,Binanın yirmi dokuz katını kiraya vermemiş.,Binanın on yedi katını kiraya vermemiş.,neutral,1
+6,47,6,on yedi-yirmi dokuz-par-n,Binanın on yedi katını kiraya vermiş.,Binanın yirmi dokuz katını kiraya vermiş.,neutral,1
+6,47,7,on yedi-yirmi dokuz-par-n,Binanın yirmi dokuz katını kiraya vermiş.,Binanın on yedi katını kiraya vermemiş.,neutral,1
+6,47,8,on yedi-yirmi dokuz-par-n,Binanın on yedi katını kiraya vermemiş.,Binanın yirmi dokuz katını kiraya vermiş.,neutral,1
+6,47,9,on yedi-yirmi dokuz-par-c,Binanın on yedi katını kiraya vermemiş.,Binanın on yedi kattan azını kiraya vermiş.,neutral,1
+6,47,10,on yedi-yirmi dokuz-par-c,Binanın on yedi katını kiraya vermemiş.,Binanın en fazla on altı katını kiraya vermiş.,neutral,1
+6,47,11,on yedi-yirmi dokuz-par-c,Binanın on yedi katını kiraya vermemiş.,Binanın en az bir katını kiraya vermiş.,implicature,3
+6,48,1,on yedi-yirmi dokuz-par-n,Geminin on yedi katını gördüm.,Geminin yirmi dokuz katını görmedim.,neutral,1
+6,48,2,on yedi-yirmi dokuz-par-n,Geminin on yediden fazla katını görmedim.,Geminin on yedi katını gördüm.,neutral,1
+6,48,3,on yedi-yirmi dokuz-par-n,Geminin on yedi katını görmedim.,Geminin yirmi dokuz katını görmedim.,neutral,1
+6,48,4,on yedi-yirmi dokuz-par-n,Geminin yirmi dokuz katını gördüm.,Geminin on yedi katını gördüm.,entailment,0
+6,48,5,on yedi-yirmi dokuz-par-n,Geminin yirmi dokuz katını görmedim.,Geminin on yedi katını görmedim.,neutral,1
+6,48,6,on yedi-yirmi dokuz-par-n,Geminin on yedi katını gördüm.,Geminin yirmi dokuz katını gördüm.,neutral,1
+6,48,7,on yedi-yirmi dokuz-par-n,Geminin yirmi dokuz katını gördüm.,Geminin on yedi katını görmedim.,neutral,1
+6,48,8,on yedi-yirmi dokuz-par-n,Geminin on yedi katını görmedim.,Geminin yirmi dokuz katını gördüm.,neutral,1
+6,48,9,on yedi-yirmi dokuz-par-c,Geminin on yedi katını görmedim.,Geminin on yediden azını gördüm.,neutral,1
+6,48,10,on yedi-yirmi dokuz-par-c,Geminin on yedi katını görmedim.,Geminin en fazla on altısını gördüm.,neutral,1
+6,48,11,on yedi-yirmi dokuz-par-c,Geminin on yedi katını görmedim.,Geminin en az birini gördüm.,implicature,3
+6,49,1,on yedi-yirmi dokuz-par-n,Tellerin on yedisi eski.,Tellerin yirmi dokuzu eski değil.,neutral,1
+6,49,2,on yedi-yirmi dokuz-par-n,Tellerin on yediden fazlası eski değil.,Tellerin on yedisi eski.,neutral,1
+6,49,3,on yedi-yirmi dokuz-par-n,Tellerin on yedisi eski değil.,Tellerin yirmi dokuzu eski değil.,neutral,1
+6,49,4,on yedi-yirmi dokuz-par-n,Tellerin yirmi dokuzu eski.,Tellerin on yedisi eski.,entailment,0
+6,49,5,on yedi-yirmi dokuz-par-n,Tellerin yirmi dokuzu eski değil.,Tellerin on yedisi eski değil.,neutral,1
+6,49,6,on yedi-yirmi dokuz-par-n,Tellerin on yedisi eski.,Tellerin yirmi dokuzu eski.,neutral,1
+6,49,7,on yedi-yirmi dokuz-par-n,Tellerin yirmi dokuzu eski.,Tellerin on yedisi eski değil.,neutral,1
+6,49,8,on yedi-yirmi dokuz-par-n,Tellerin on yedisi eski değil.,Tellerin yirmi dokuzu eski.,neutral,1
+6,49,9,on yedi-yirmi dokuz-par-c,Tellerin on yedisi eski değil.,Tellerin on yediden azı eski.,neutral,1
+6,49,10,on yedi-yirmi dokuz-par-c,Tellerin on yedisi eski değil.,Tellerin en fazla on altısı eski.,neutral,1
+6,49,11,on yedi-yirmi dokuz-par-c,Tellerin on yedisi eski değil.,Tellerin en az biri eski.,implicature,3
+6,50,1,on yedi-yirmi dokuz-par-n,Köpeklerimizden on yedi tanesi hasta.,Köpeklerimizden yirmi dokuz tanesi hasta değil.,neutral,1
+6,50,2,on yedi-yirmi dokuz-par-n,Köpeklerimizden on yediden fazlası hasta değil.,Köpeklerimizden on yedi tanesi hasta.,neutral,1
+6,50,3,on yedi-yirmi dokuz-par-n,Köpeklerimizden on yedi tanesi hasta değil.,Köpeklerimizden yirmi dokuz tanesi hasta değil.,neutral,1
+6,50,4,on yedi-yirmi dokuz-par-n,Köpeklerimizden yirmi dokuz tanesi hasta.,Köpeklerimizden on yedi tanesi hasta.,entailment,0
+6,50,5,on yedi-yirmi dokuz-par-n,Köpeklerimizden yirmi dokuz tanesi hasta değil.,Köpeklerimizden on yedi tanesi hasta değil.,neutral,1
+6,50,6,on yedi-yirmi dokuz-par-n,Köpeklerimizden on yedi tanesi hasta.,Köpeklerimizden yirmi dokuz tanesi hasta.,neutral,1
+6,50,7,on yedi-yirmi dokuz-par-n,Köpeklerimizden yirmi dokuz tanesi hasta.,Köpeklerimizden on yedi tanesi hasta değil.,neutral,1
+6,50,8,on yedi-yirmi dokuz-par-n,Köpeklerimizden on yedi tanesi hasta değil.,Köpeklerimizden yirmi dokuz tanesi hasta.,neutral,1
+6,50,9,on yedi-yirmi dokuz-par-c,Köpeklerimizden on yedi tanesi hasta değil.,Köpeklerimizden on yediden azı hasta.,neutral,1
+6,50,10,on yedi-yirmi dokuz-par-c,Köpeklerimizden on yedi tanesi hasta değil.,Köpeklerimizden en fazla on altısı hasta.,neutral,1
+6,50,11,on yedi-yirmi dokuz-par-c,Köpeklerimizden on yedi tanesi hasta değil.,Köpeklerimizden en az biri hasta.,implicature,3
+6,51,1,yirmi dört-otuz altı-par-n,Rotalarınızın yirmi dördü bize uygun görünüyor.,Rotalarınızın otuz altısı bize uygun görünmüyor.,neutral,1
+6,51,2,yirmi dört-otuz altı-par-n,Rotalarınızın yirmi dördünden fazlası bize uygun görünmüyor.,Rotalarınızın yirmi dördü bize uygun görünüyor.,neutral,1
+6,51,3,yirmi dört-otuz altı-par-n,Rotalarınızın yirmi dördü bize uygun görünmüyor.,Rotalarınızın otuz altısı bize uygun görünmüyor.,neutral,1
+6,51,4,yirmi dört-otuz altı-par-n,Rotalarınızın otuz altısı bize uygun görünüyor.,Rotalarınızın yirmi dördü bize uygun görünüyor.,entailment,0
+6,51,5,yirmi dört-otuz altı-par-n,Rotalarınızın otuz altısı bize uygun görünmüyor.,Rotalarınızın yirmi dördü bize uygun görünmüyor.,neutral,1
+6,51,6,yirmi dört-otuz altı-par-n,Rotalarınızın yirmi dördü bize uygun görünüyor.,Rotalarınızın otuz altısı bize uygun görünüyor.,neutral,1
+6,51,7,yirmi dört-otuz altı-par-n,Rotalarınızın otuz altısı bize uygun görünüyor.,Rotalarınızın yirmi dördü bize uygun görünmüyor.,neutral,1
+6,51,8,yirmi dört-otuz altı-par-n,Rotalarınızın yirmi dördü bize uygun görünmüyor.,Rotalarınızın otuz altısı bize uygun görünüyor.,neutral,1
+6,51,9,yirmi dört-otuz altı-par-c,Rotalarınızın yirmi dördü bize uygun görünmüyor.,Rotalarınızın yirmi dördünden azı bize uygun görünüyor.,neutral,1
+6,51,10,yirmi dört-otuz altı-par-c,Rotalarınızın yirmi dördü bize uygun görünmüyor.,Rotalarınızın en fazla yirmi üçü bize uygun görünüyor.,neutral,1
+6,51,11,yirmi dört-otuz altı-par-c,Rotalarınızın yirmi dördü bize uygun görünmüyor.,Rotalarınızın en az biri bize uygun görünüyor.,implicature,3
+6,52,1,yirmi dört-otuz altı-par-n,Masaların yirmi dördünün üstünde leke var.,Masaların otuz altısının üstünde leke yok.,neutral,1
+6,52,2,yirmi dört-otuz altı-par-n,Masaların yirmi dördünden fazlasının üstünde leke yok.,Masaların yirmi dördünün üstünde leke var.,neutral,1
+6,52,3,yirmi dört-otuz altı-par-n,Masaların yirmi dördünün üstünde leke yok.,Masaların otuz altısının üstünde leke yok.,neutral,1
+6,52,4,yirmi dört-otuz altı-par-n,Masaların otuz altısının üstünde leke var.,Masaların yirmi dördünün üstünde leke var.,entailment,0
+6,52,5,yirmi dört-otuz altı-par-n,Masaların otuz altısının üstünde leke yok.,Masaların yirmi dördünün üstünde leke yok.,neutral,1
+6,52,6,yirmi dört-otuz altı-par-n,Masaların yirmi dördünün üstünde leke var.,Masaların otuz altısının üstünde leke var.,neutral,1
+6,52,7,yirmi dört-otuz altı-par-n,Masaların otuz altısının üstünde leke var.,Masaların yirmi dördünün üstünde leke yok.,neutral,1
+6,52,8,yirmi dört-otuz altı-par-n,Masaların yirmi dördünün üstünde leke yok.,Masaların otuz altısının üstünde leke var.,neutral,1
+6,52,9,yirmi dört-otuz altı-par-c,Masaların yirmi dördünün üstünde leke yok.,Masaların yirmi dördünden azının üstünde leke var.,neutral,1
+6,52,10,yirmi dört-otuz altı-par-c,Masaların yirmi dördünün üstünde leke yok.,Masaların en fazla yirmi üçünün üstünde leke var.,neutral,1
+6,52,11,yirmi dört-otuz altı-par-c,Masaların yirmi dördünün üstünde leke yok.,Masaların en az birinin üstünde leke var.,implicature,3
+6,53,1,yirmi dört-otuz altı-par-n,Koltukların yirmi dördü yaylı.,Koltukların otuz altısı yaylı değil.,neutral,1
+6,53,2,yirmi dört-otuz altı-par-n,Koltukların yirmi dördünden fazlası yaylı değil.,Koltukların yirmi dördü yaylı.,neutral,1
+6,53,3,yirmi dört-otuz altı-par-n,Koltukların yirmi dördü yaylı değil.,Koltukların otuz altısı yaylı değil.,neutral,1
+6,53,4,yirmi dört-otuz altı-par-n,Koltukların otuz altısı yaylı.,Koltukların yirmi dördü yaylı.,entailment,0
+6,53,5,yirmi dört-otuz altı-par-n,Koltukların otuz altısı yaylı değil.,Koltukların yirmi dördü yaylı değil.,neutral,1
+6,53,6,yirmi dört-otuz altı-par-n,Koltukların yirmi dördü yaylı.,Koltukların otuz altısı yaylı.,neutral,1
+6,53,7,yirmi dört-otuz altı-par-n,Koltukların otuz altısı yaylı.,Koltukların yirmi dördü yaylı değil.,neutral,1
+6,53,8,yirmi dört-otuz altı-par-n,Koltukların yirmi dördü yaylı değil.,Koltukların otuz altısı yaylı.,neutral,1
+6,53,9,yirmi dört-otuz altı-par-c,Koltukların yirmi dördü yaylı değil.,Koltukların yirmi dördünden azı yaylı.,neutral,1
+6,53,10,yirmi dört-otuz altı-par-c,Koltukların yirmi dördü yaylı değil.,Koltukların en fazla yirmi üçü yaylı.,neutral,1
+6,53,11,yirmi dört-otuz altı-par-c,Koltukların yirmi dördü yaylı değil.,Koltukların en az biri yaylı.,implicature,3
+6,54,1,yirmi dört-otuz altı-par-n,Tabloların yirmi dördü eski.,Tabloların otuz altısı eski değil.,neutral,1
+6,54,2,yirmi dört-otuz altı-par-n,Tabloların yirmi dörtten fazlası eski değil.,Tabloların yirmi dördü eski.,neutral,1
+6,54,3,yirmi dört-otuz altı-par-n,Tabloların yirmi dördü eski değil.,Tabloların otuz altısı eski değil.,neutral,1
+6,54,4,yirmi dört-otuz altı-par-n,Tabloların otuz altısı eski.,Tabloların yirmi dördü eski.,entailment,0
+6,54,5,yirmi dört-otuz altı-par-n,Tabloların otuz altısı eski değil.,Tabloların yirmi dördü eski değil.,neutral,1
+6,54,6,yirmi dört-otuz altı-par-n,Tabloların yirmi dördü eski.,Tabloların otuz altısı eski.,neutral,1
+6,54,7,yirmi dört-otuz altı-par-n,Tabloların otuz altısı eski.,Tabloların yirmi dördü eski değil.,neutral,1
+6,54,8,yirmi dört-otuz altı-par-n,Tabloların yirmi dördü eski değil.,Tabloların otuz altısı eski.,neutral,1
+6,54,9,yirmi dört-otuz altı-par-c,Tabloların yirmi dördü eski değil.,Tabloların yirmi dördünden azı eski.,neutral,1
+6,54,10,yirmi dört-otuz altı-par-c,Tabloların yirmi dördü eski değil.,Tabloların en fazla yirmi üçü eski.,neutral,1
+6,54,11,yirmi dört-otuz altı-par-c,Tabloların yirmi dördü eski değil.,Tabloların en az biri eski.,implicature,3
+6,55,1,yirmi dört-otuz altı-par-n,Geçerli olan yirmi dört kart yanımda.,Geçerli olan otuz altı kart yanımda değil.,neutral,1
+6,55,2,yirmi dört-otuz altı-par-n,Geçerli olan yirmi dörtten fazla kart yanımda değil.,Geçerli olan yirmi dört kart yanımda.,neutral,1
+6,55,3,yirmi dört-otuz altı-par-n,Geçerli olan yirmi dört kart yanımda değil.,Geçerli olan otuz altı kart yanımda değil.,neutral,1
+6,55,4,yirmi dört-otuz altı-par-n,Geçerli olan otuz altı kart yanımda.,Geçerli olan yirmi dört kart yanımda.,entailment,0
+6,55,5,yirmi dört-otuz altı-par-n,Geçerli olan otuz altı kart yanımda değil.,Geçerli olan yirmi dört kart yanımda değil.,neutral,1
+6,55,6,yirmi dört-otuz altı-par-n,Geçerli olan yirmi dört kart yanımda.,Geçerli olan otuz altı kart yanımda.,neutral,1
+6,55,7,yirmi dört-otuz altı-par-n,Geçerli olan otuz altı kart yanımda.,Geçerli olan yirmi dört kart yanımda değil.,neutral,1
+6,55,8,yirmi dört-otuz altı-par-n,Geçerli olan yirmi dört kart yanımda değil.,Geçerli olan otuz altı kart yanımda.,neutral,1
+6,55,9,yirmi dört-otuz altı-par-c,Geçerli olan yirmi dört kart yanımda değil.,Geçerli olan yirmi dörtten az kart yanımda.,neutral,1
+6,55,10,yirmi dört-otuz altı-par-c,Geçerli olan yirmi dört kart yanımda değil.,Geçerli olan en fazla yirmi üç kart yanımda.,neutral,1
+6,55,11,yirmi dört-otuz altı-par-c,Geçerli olan yirmi dört kart yanımda değil.,Geçerli olan en az bir kart yanımda.,implicature,3
+6,56,1,yirmi dört-otuz altı-par-n,Ebeveynlerin yirmi dört sorumluluğunu saydım.,Ebeveynlerin otuz altı sorumluluğunu saymadım.,neutral,1
+6,56,2,yirmi dört-otuz altı-par-n,Ebeveynlerin yirmi dörtten fazla sorumluluğunu saymadım.,Ebeveynlerin yirmi dört sorumluluğunu saydım.,neutral,1
+6,56,3,yirmi dört-otuz altı-par-n,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,Ebeveynlerin otuz altı sorumluluğunu saymadım.,neutral,1
+6,56,4,yirmi dört-otuz altı-par-n,Ebeveynlerin otuz altı sorumluluğunu saydım.,Ebeveynlerin yirmi dört sorumluluğunu saydım.,entailment,0
+6,56,5,yirmi dört-otuz altı-par-n,Ebeveynlerin otuz altı sorumluluğunu saymadım.,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,neutral,1
+6,56,6,yirmi dört-otuz altı-par-n,Ebeveynlerin yirmi dört sorumluluğunu saydım.,Ebeveynlerin otuz altı sorumluluğunu saydım.,neutral,1
+6,56,7,yirmi dört-otuz altı-par-n,Ebeveynlerin otuz altı sorumluluğunu saydım.,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,neutral,1
+6,56,8,yirmi dört-otuz altı-par-n,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,Ebeveynlerin otuz altı sorumluluğunu saydım.,neutral,1
+6,56,9,yirmi dört-otuz altı-par-c,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,Ebeveynlerin yirmi dörtten az sorumluluğunu saydım.,neutral,1
+6,56,10,yirmi dört-otuz altı-par-c,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,Ebeveynlerin en fazla yirmi üç sorumluluğunu saydım.,neutral,1
+6,56,11,yirmi dört-otuz altı-par-c,Ebeveynlerin yirmi dört sorumluluğunu saymadım.,Ebeveynlerin en az bir sorumluluğunu saydım.,implicature,3
+6,57,1,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan yirmi dört tane aldım.,Satılan ayakkabılardan otuz altı tane almadım.,neutral,1
+6,57,2,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan yirmi dörtten fazla tane almadım.,Satılan ayakkabılardan yirmi dört tane aldım.,neutral,1
+6,57,3,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan yirmi dört tane almadım.,Satılan ayakkabılardan otuz altı tane almadım.,neutral,1
+6,57,4,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan otuz altı tane aldım.,Satılan ayakkabılardan yirmi dört tane aldım.,entailment,0
+6,57,5,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan otuz altı tane almadım.,Satılan ayakkabılardan yirmi dört tane almadım.,neutral,1
+6,57,6,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan yirmi dört tane aldım.,Satılan ayakkabılardan otuz altı tane aldım.,neutral,1
+6,57,7,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan otuz altı tane aldım.,Satılan ayakkabılardan yirmi dört tane almadım.,neutral,1
+6,57,8,yirmi dört-otuz altı-par-n,Satılan ayakkabılardan yirmi dört tane almadım.,Satılan ayakkabılardan otuz altı tane aldım.,neutral,1
+6,57,9,yirmi dört-otuz altı-par-c,Satılan ayakkabılardan yirmi dört tane almadım.,Satılan ayakkabılardan yirmi dörtten az tane aldım.,neutral,1
+6,57,10,yirmi dört-otuz altı-par-c,Satılan ayakkabılardan yirmi dört tane almadım.,Satılan ayakkabılardan en fazla yirmi üç tane aldım.,neutral,1
+6,57,11,yirmi dört-otuz altı-par-c,Satılan ayakkabılardan yirmi dört tane almadım.,Satılan ayakkabılardan en az bir tane aldım.,implicature,3
+6,58,1,yirmi dört-otuz altı-par-n,Menfaatlerinin yirmi dört tanesi benle ortak.,Menfaatlerinin otuz altısı benle ortak değil.,neutral,1
+6,58,2,yirmi dört-otuz altı-par-n,Menfaatlerinin yirmi dörtten fazlası benle ortak değil.,Menfaatlerinin yirmi dört tanesi benle ortak.,neutral,1
+6,58,3,yirmi dört-otuz altı-par-n,Menfaatlerinin yirmi dört tanesi benle ortak değil.,Menfaatlerinin otuz altısı benle ortak değil.,neutral,1
+6,58,4,yirmi dört-otuz altı-par-n,Menfaatlerinin otuz altısı benle ortak.,Menfaatlerinin yirmi dört tanesi benle ortak.,entailment,0
+6,58,5,yirmi dört-otuz altı-par-n,Menfaatlerinin otuz altısı benle ortak değil.,Menfaatlerinin yirmi dört tanesi benle ortak değil.,neutral,1
+6,58,6,yirmi dört-otuz altı-par-n,Menfaatlerinin yirmi dört tanesi benle ortak.,Menfaatlerinin otuz altısı benle ortak.,neutral,1
+6,58,7,yirmi dört-otuz altı-par-n,Menfaatlerinin otuz altısı benle ortak.,Menfaatlerinin yirmi dört tanesi benle ortak değil.,neutral,1
+6,58,8,yirmi dört-otuz altı-par-n,Menfaatlerinin yirmi dört tanesi benle ortak değil.,Menfaatlerinin otuz altısı benle ortak.,neutral,1
+6,58,9,yirmi dört-otuz altı-par-c,Menfaatlerinin yirmi dört tanesi benle ortak değil.,Menfaatlerinin yirmi dörtten azı benle ortak.,neutral,1
+6,58,10,yirmi dört-otuz altı-par-c,Menfaatlerinin yirmi dört tanesi benle ortak değil.,Menfaatlerinin en fazla yirmi üçü benle ortak.,neutral,1
+6,58,11,yirmi dört-otuz altı-par-c,Menfaatlerinin yirmi dört tanesi benle ortak değil.,Menfaatlerinin en az biri benle ortak.,implicature,3
+6,59,1,yirmi dört-otuz altı-par-n,Teşebbüste bulunan yirmi dört firma kapatıldı.,Teşebbüste bulunan otuz altı firma kapatılmadı.,neutral,1
+6,59,2,yirmi dört-otuz altı-par-n,Teşebbüste bulunan yirmi dörtten fazla firma kapatılmadı.,Teşebbüste bulunan yirmi dört firma kapatıldı.,neutral,1
+6,59,3,yirmi dört-otuz altı-par-n,Teşebbüste bulunan yirmi dört firma kapatılmadı.,Teşebbüste bulunan otuz altı firma kapatılmadı.,neutral,1
+6,59,4,yirmi dört-otuz altı-par-n,Teşebbüste bulunan otuz altı firma kapatıldı.,Teşebbüste bulunan yirmi dört firma kapatıldı.,entailment,0
+6,59,5,yirmi dört-otuz altı-par-n,Teşebbüste bulunan otuz altı firma kapatılmadı.,Teşebbüste bulunan yirmi dört firma kapatılmadı.,neutral,1
+6,59,6,yirmi dört-otuz altı-par-n,Teşebbüste bulunan yirmi dört firma kapatıldı.,Teşebbüste bulunan otuz altı firma kapatıldı.,neutral,1
+6,59,7,yirmi dört-otuz altı-par-n,Teşebbüste bulunan otuz altı firma kapatıldı.,Teşebbüste bulunan yirmi dört firma kapatılmadı.,neutral,1
+6,59,8,yirmi dört-otuz altı-par-n,Teşebbüste bulunan yirmi dört firma kapatılmadı.,Teşebbüste bulunan otuz altı firma kapatıldı.,neutral,1
+6,59,9,yirmi dört-otuz altı-par-c,Teşebbüste bulunan yirmi dört firma kapatılmadı.,Teşebbüste bulunan yirmi dörtten az firma kapatıldı.,neutral,1
+6,59,10,yirmi dört-otuz altı-par-c,Teşebbüste bulunan yirmi dört firma kapatılmadı.,Teşebbüste bulunan en fazla yirmi üç firma kapatıldı.,neutral,1
+6,59,11,yirmi dört-otuz altı-par-c,Teşebbüste bulunan yirmi dört firma kapatılmadı.,Teşebbüste bulunan en az bir firma kapatıldı.,implicature,3
+6,60,1,yirmi dört-otuz altı-par-n,Albümden yirmi dört şarkı seçmiş.,Albümden otuz altı şarkı seçmemiş.,neutral,1
+6,60,2,yirmi dört-otuz altı-par-n,Albümden yirmi dörtten fazla şarkı seçmemiş.,Albümden yirmi dört şarkı seçmiş.,neutral,1
+6,60,3,yirmi dört-otuz altı-par-n,Albümden yirmi dört şarkı seçmemiş.,Albümden otuz altı şarkı seçmemiş.,neutral,1
+6,60,4,yirmi dört-otuz altı-par-n,Albümden otuz altı şarkı seçmiş.,Albümden yirmi dört şarkı seçmiş.,entailment,0
+6,60,5,yirmi dört-otuz altı-par-n,Albümden otuz altı şarkı seçmemiş.,Albümden yirmi dört şarkı seçmemiş.,neutral,1
+6,60,6,yirmi dört-otuz altı-par-n,Albümden yirmi dört şarkı seçmiş.,Albümden otuz altı şarkı seçmiş.,neutral,1
+6,60,7,yirmi dört-otuz altı-par-n,Albümden otuz altı şarkı seçmiş.,Albümden yirmi dört şarkı seçmemiş.,neutral,1
+6,60,8,yirmi dört-otuz altı-par-n,Albümden yirmi dört şarkı seçmemiş.,Albümden otuz altı şarkı seçmiş.,neutral,1
+6,60,9,yirmi dört-otuz altı-par-c,Albümden yirmi dört şarkı seçmemiş.,Albümden yirmi dörtten az şarkı seçmiş.,neutral,1
+6,60,10,yirmi dört-otuz altı-par-c,Albümden yirmi dört şarkı seçmemiş.,Albümden en fazla yirmi üç şarkı seçmiş.,neutral,1
+6,60,11,yirmi dört-otuz altı-par-c,Albümden yirmi dört şarkı seçmemiş.,Albümden en az bir şarkı seçmiş.,implicature,3
+6,61,1,yirmi beş-kırk-par-n,Yemeklerin yirmi beşini tatma fırsatımız oldu.,Yemeklerin kırkını tatma fırsatımız olmadı.,neutral,1
+6,61,2,yirmi beş-kırk-par-n,Yemeklerin yirmi beşinden fazlasını tatma fırsatımız olmadı.,Yemeklerin yirmi beşini tatma fırsatımız oldu.,neutral,1
+6,61,3,yirmi beş-kırk-par-n,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,Yemeklerin kırkını tatma fırsatımız olmadı.,neutral,1
+6,61,4,yirmi beş-kırk-par-n,Yemeklerin kırkını tatma fırsatımız oldu.,Yemeklerin yirmi beşini tatma fırsatımız oldu.,entailment,0
+6,61,5,yirmi beş-kırk-par-n,Yemeklerin kırkını tatma fırsatımız olmadı.,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,neutral,1
+6,61,6,yirmi beş-kırk-par-n,Yemeklerin yirmi beşini tatma fırsatımız oldu.,Yemeklerin kırkını tatma fırsatımız oldu.,neutral,1
+6,61,7,yirmi beş-kırk-par-n,Yemeklerin kırkını tatma fırsatımız oldu.,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,neutral,1
+6,61,8,yirmi beş-kırk-par-n,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,Yemeklerin kırkını tatma fırsatımız oldu.,neutral,1
+6,61,9,yirmi beş-kırk-par-c,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,Yemeklerin yirmi beşinden azını tatma fırsatımız oldu.,neutral,1
+6,61,10,yirmi beş-kırk-par-c,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,Yemeklerin en fazla yirmi dördünü tatma fırsatımız oldu.,neutral,1
+6,61,11,yirmi beş-kırk-par-c,Yemeklerin yirmi beşini tatma fırsatımız olmadı.,Yemeklerin en az birini tatma fırsatımız oldu.,implicature,3
+6,62,1,yirmi beş-kırk-par-n,Emekli amcaların yirmi beşi bankaya gitti.,Emekli amcaların kırkı bankaya gitmedi.,neutral,1
+6,62,2,yirmi beş-kırk-par-n,Emekli amcaların yirmi beşinden fazlası bankaya gitmedi.,Emekli amcaların yirmi beşi bankaya gitti.,neutral,1
+6,62,3,yirmi beş-kırk-par-n,Emekli amcaların yirmi beşi bankaya gitmedi.,Emekli amcaların kırkı bankaya gitmedi.,neutral,1
+6,62,4,yirmi beş-kırk-par-n,Emekli amcaların kırkı bankaya gitti.,Emekli amcaların yirmi beşi bankaya gitti.,entailment,0
+6,62,5,yirmi beş-kırk-par-n,Emekli amcaların kırkı bankaya gitmedi.,Emekli amcaların yirmi beşi bankaya gitmedi.,neutral,1
+6,62,6,yirmi beş-kırk-par-n,Emekli amcaların yirmi beşi bankaya gitti.,Emekli amcaların kırkı bankaya gitti.,neutral,1
+6,62,7,yirmi beş-kırk-par-n,Emekli amcaların kırkı bankaya gitti.,Emekli amcaların yirmi beşi bankaya gitmedi.,neutral,1
+6,62,8,yirmi beş-kırk-par-n,Emekli amcaların yirmi beşi bankaya gitmedi.,Emekli amcaların kırkı bankaya gitti.,neutral,1
+6,62,9,yirmi beş-kırk-par-c,Emekli amcaların yirmi beşi bankaya gitmedi.,Emekli amcaların yirmi beşinden azı bankaya gitti.,neutral,1
+6,62,10,yirmi beş-kırk-par-c,Emekli amcaların yirmi beşi bankaya gitmedi.,Emekli amcaların en fazla yirmi dördü bankaya gitti.,neutral,1
+6,62,11,yirmi beş-kırk-par-c,Emekli amcaların yirmi beşi bankaya gitmedi.,Emekli amcaların en az biri bankaya gitti.,implicature,3
+6,63,1,yirmi beş-kırk-par-n,Kedilerin yirmi beşi evde bekliyor.,Kedilerin kırkı evde beklemiyor.,neutral,1
+6,63,2,yirmi beş-kırk-par-n,Kedilerin yirmi beşinden fazlası evde beklemiyor.,Kedilerin yirmi beşi evde bekliyor.,neutral,1
+6,63,3,yirmi beş-kırk-par-n,Kedilerin yirmi beşi evde beklemiyor.,Kedilerin kırkı evde beklemiyor.,neutral,1
+6,63,4,yirmi beş-kırk-par-n,Kedilerin kırkı evde bekliyor.,Kedilerin yirmi beşi evde bekliyor.,entailment,0
+6,63,5,yirmi beş-kırk-par-n,Kedilerin kırkı evde beklemiyor.,Kedilerin yirmi beşi evde beklemiyor.,neutral,1
+6,63,6,yirmi beş-kırk-par-n,Kedilerin yirmi beşi evde bekliyor.,Kedilerin kırkı evde bekliyor.,neutral,1
+6,63,7,yirmi beş-kırk-par-n,Kedilerin kırkı evde bekliyor.,Kedilerin yirmi beşi evde beklemiyor.,neutral,1
+6,63,8,yirmi beş-kırk-par-n,Kedilerin yirmi beşi evde beklemiyor.,Kedilerin kırkı evde bekliyor.,neutral,1
+6,63,9,yirmi beş-kırk-par-c,Kedilerin yirmi beşi evde beklemiyor.,Kedilerin yirmi beşinden azı evde bekliyor.,neutral,1
+6,63,10,yirmi beş-kırk-par-c,Kedilerin yirmi beşi evde beklemiyor.,Kedilerin en fazla yirmi dördü evde bekliyor.,neutral,1
+6,63,11,yirmi beş-kırk-par-c,Kedilerin yirmi beşi evde beklemiyor.,Kedilerin en az biri evde bekliyor.,implicature,3
+6,64,1,yirmi beş-kırk-par-n,Uçaktaki koltukların yirmi beşi dolu.,Uçaktaki koltukların kırkı boş.,neutral,1
+6,64,2,yirmi beş-kırk-par-n,Uçaktaki koltukların yirmi beşinden fazlası boş.,Uçaktaki koltukların yirmi beşi dolu.,neutral,1
+6,64,3,yirmi beş-kırk-par-n,Uçaktaki koltukların yirmi beşi boş.,Uçaktaki koltukların kırkı boş.,neutral,1
+6,64,4,yirmi beş-kırk-par-n,Uçaktaki koltukların kırkı dolu.,Uçaktaki koltukların yirmi beşi dolu.,entailment,0
+6,64,5,yirmi beş-kırk-par-n,Uçaktaki koltukların kırkı boş.,Uçaktaki koltukların yirmi beşi boş.,neutral,1
+6,64,6,yirmi beş-kırk-par-n,Uçaktaki koltukların yirmi beşi dolu.,Uçaktaki koltukların kırkı dolu.,neutral,1
+6,64,7,yirmi beş-kırk-par-n,Uçaktaki koltukların kırkı dolu.,Uçaktaki koltukların yirmi beşi boş.,neutral,1
+6,64,8,yirmi beş-kırk-par-n,Uçaktaki koltukların yirmi beşi boş.,Uçaktaki koltukların kırkı dolu.,neutral,1
+6,64,9,yirmi beş-kırk-par-c,Uçaktaki koltukların yirmi beşi boş.,Uçaktaki koltukların yirmi beşinden azı dolu.,neutral,1
+6,64,10,yirmi beş-kırk-par-c,Uçaktaki koltukların yirmi beşi boş.,Uçaktaki koltukların en fazla yirmi dördü dolu.,neutral,1
+6,64,11,yirmi beş-kırk-par-c,Uçaktaki koltukların yirmi beşi boş.,Uçaktaki koltukların en az biri dolu.,implicature,3
+6,65,1,yirmi beş-kırk-par-n,Tuşların yirmi beşi sorunlu.,Tuşların kırkı sorunlu değil.,neutral,1
+6,65,2,yirmi beş-kırk-par-n,Tuşların yirmi beşinden fazlası sorunlu değil.,Tuşların yirmi beşi sorunlu.,neutral,1
+6,65,3,yirmi beş-kırk-par-n,Tuşların yirmi beşi sorunlu değil.,Tuşların kırkı sorunlu değil.,neutral,1
+6,65,4,yirmi beş-kırk-par-n,Tuşların kırkı sorunlu.,Tuşların yirmi beşi sorunlu.,entailment,0
+6,65,5,yirmi beş-kırk-par-n,Tuşların kırkı sorunlu değil.,Tuşların yirmi beşi sorunlu değil.,neutral,1
+6,65,6,yirmi beş-kırk-par-n,Tuşların yirmi beşi sorunlu.,Tuşların kırkı sorunlu.,neutral,1
+6,65,7,yirmi beş-kırk-par-n,Tuşların kırkı sorunlu.,Tuşların yirmi beşi sorunlu değil.,neutral,1
+6,65,8,yirmi beş-kırk-par-n,Tuşların yirmi beşi sorunlu değil.,Tuşların kırkı sorunlu.,neutral,1
+6,65,9,yirmi beş-kırk-par-c,Tuşların yirmi beşi sorunlu değil.,Tuşların yirmi beşinden azı sorunlu.,neutral,1
+6,65,10,yirmi beş-kırk-par-c,Tuşların yirmi beşi sorunlu değil.,Tuşların en fazla yirmi dördü sorunlu.,neutral,1
+6,65,11,yirmi beş-kırk-par-c,Tuşların yirmi beşi sorunlu değil.,Tuşların en az biri sorunlu.,implicature,3
+6,66,1,yirmi beş-kırk-par-n,Kibritlerin yirmi beşi yanmış.,Kibritlerin kırkı yanmamış.,neutral,1
+6,66,2,yirmi beş-kırk-par-n,Kibritlerin yirmi beşinden fazlası yanmamış.,Kibritlerin yirmi beşi yanmış.,neutral,1
+6,66,3,yirmi beş-kırk-par-n,Kibritlerin yirmi beşi yanmamış.,Kibritlerin kırkı yanmamış.,neutral,1
+6,66,4,yirmi beş-kırk-par-n,Kibritlerin kırkı yanmış.,Kibritlerin yirmi beşi yanmış.,entailment,0
+6,66,5,yirmi beş-kırk-par-n,Kibritlerin kırkı yanmamış.,Kibritlerin yirmi beşi yanmamış.,neutral,1
+6,66,6,yirmi beş-kırk-par-n,Kibritlerin yirmi beşi yanmış.,Kibritlerin kırkı yanmış.,neutral,1
+6,66,7,yirmi beş-kırk-par-n,Kibritlerin kırkı yanmış.,Kibritlerin yirmi beşi yanmamış.,neutral,1
+6,66,8,yirmi beş-kırk-par-n,Kibritlerin yirmi beşi yanmamış.,Kibritlerin kırkı yanmış.,neutral,1
+6,66,9,yirmi beş-kırk-par-c,Kibritlerin yirmi beşi yanmamış.,Kibritlerin yirmi beşinden azı yanmış.,neutral,1
+6,66,10,yirmi beş-kırk-par-c,Kibritlerin yirmi beşi yanmamış.,Kibritlerin en fazla yirmi dördü yanmış.,neutral,1
+6,66,11,yirmi beş-kırk-par-c,Kibritlerin yirmi beşi yanmamış.,Kibritlerin en az biri yanmış.,implicature,3
+6,67,1,yirmi beş-kırk-par-n,Peçetelerin yirmi beşi yırtılmış.,Peçetelerin kırkı yırtılmamış.,neutral,1
+6,67,2,yirmi beş-kırk-par-n,Peçetelerin yirmi beşinden fazlası yırtılmamış.,Peçetelerin yirmi beşi yırtılmış.,neutral,1
+6,67,3,yirmi beş-kırk-par-n,Peçetelerin yirmi beşi yırtılmamış.,Peçetelerin kırkı yırtılmamış.,neutral,1
+6,67,4,yirmi beş-kırk-par-n,Peçetelerin kırkı yırtılmış.,Peçetelerin yirmi beşi yırtılmış.,entailment,0
+6,67,5,yirmi beş-kırk-par-n,Peçetelerin kırkı yırtılmamış.,Peçetelerin yirmi beşi yırtılmamış.,neutral,1
+6,67,6,yirmi beş-kırk-par-n,Peçetelerin yirmi beşi yırtılmış.,Peçetelerin kırkı yırtılmış.,neutral,1
+6,67,7,yirmi beş-kırk-par-n,Peçetelerin kırkı yırtılmış.,Peçetelerin yirmi beşi yırtılmamış.,neutral,1
+6,67,8,yirmi beş-kırk-par-n,Peçetelerin yirmi beşi yırtılmamış.,Peçetelerin kırkı yırtılmış.,neutral,1
+6,67,9,yirmi beş-kırk-par-c,Peçetelerin yirmi beşi yırtılmamış.,Peçetelerin yirmi beşinden azı yırtılmış.,neutral,1
+6,67,10,yirmi beş-kırk-par-c,Peçetelerin yirmi beşi yırtılmamış.,Peçetelerin en fazla yirmi dördü yırtılmış.,neutral,1
+6,67,11,yirmi beş-kırk-par-c,Peçetelerin yirmi beşi yırtılmamış.,Peçetelerin en az biri yırtılmış.,implicature,3
+6,68,1,yirmi beş-kırk-par-n,Kardeşimin yirmi dört kalemi kırıldı.,Kardeşimin kırk kalemi kırılmadı.,neutral,1
+6,68,2,yirmi beş-kırk-par-n,Kardeşimin yirmi dörtten fazla kalemi kırılmadı.,Kardeşimin yirmi dört kalemi kırıldı.,neutral,1
+6,68,3,yirmi beş-kırk-par-n,Kardeşimin yirmi dört kalemi kırılmadı.,Kardeşimin kırk kalemi kırılmadı.,neutral,1
+6,68,4,yirmi beş-kırk-par-n,Kardeşimin kırk kalemi kırıldı.,Kardeşimin yirmi dört kalemi kırıldı.,entailment,0
+6,68,5,yirmi beş-kırk-par-n,Kardeşimin kırk kalemi kırılmadı.,Kardeşimin yirmi dört kalemi kırılmadı.,neutral,1
+6,68,6,yirmi beş-kırk-par-n,Kardeşimin yirmi dört kalemi kırıldı.,Kardeşimin kırk kalemi kırıldı.,neutral,1
+6,68,7,yirmi beş-kırk-par-n,Kardeşimin kırk kalemi kırıldı.,Kardeşimin yirmi dört kalemi kırılmadı.,neutral,1
+6,68,8,yirmi beş-kırk-par-n,Kardeşimin yirmi dört kalemi kırılmadı.,Kardeşimin kırk kalemi kırıldı.,neutral,1
+6,68,9,yirmi beş-kırk-par-c,Kardeşimin yirmi dört kalemi kırılmadı.,Kardeşimin yirmi dörtten az kalemi kırıldı.,neutral,1
+6,68,10,yirmi beş-kırk-par-c,Kardeşimin yirmi dört kalemi kırılmadı.,Kardeşimin en fazla yirmi üç kalemi kırıldı.,neutral,1
+6,68,11,yirmi beş-kırk-par-c,Kardeşimin yirmi dört kalemi kırılmadı.,Kardeşimin en az bir kalemi kırıldı.,implicature,3
+6,69,1,yirmi beş-kırk-par-n,Defterin yirmi beş sayfası yırtık.,Defterin kırk sayfası yırtık değil.,neutral,1
+6,69,2,yirmi beş-kırk-par-n,Defterin yirmi beşten fazla sayfası yırtık değil.,Defterin yirmi beş sayfası yırtık.,neutral,1
+6,69,3,yirmi beş-kırk-par-n,Defterin yirmi beş sayfası yırtık değil.,Defterin kırk sayfası yırtık değil.,neutral,1
+6,69,4,yirmi beş-kırk-par-n,Defterin kırk sayfası yırtık.,Defterin yirmi beş sayfası yırtık.,entailment,0
+6,69,5,yirmi beş-kırk-par-n,Defterin kırk sayfası yırtık değil.,Defterin yirmi beş sayfası yırtık değil.,neutral,1
+6,69,6,yirmi beş-kırk-par-n,Defterin yirmi beş sayfası yırtık.,Defterin kırk sayfası yırtık.,neutral,1
+6,69,7,yirmi beş-kırk-par-n,Defterin kırk sayfası yırtık.,Defterin yirmi beş sayfası yırtık değil.,neutral,1
+6,69,8,yirmi beş-kırk-par-n,Defterin yirmi beş sayfası yırtık değil.,Defterin kırk sayfası yırtık.,neutral,1
+6,69,9,yirmi beş-kırk-par-c,Defterin yirmi beş sayfası yırtık değil.,Defterin yirmi beşten azı sayfası yırtık.,neutral,1
+6,69,10,yirmi beş-kırk-par-c,Defterin yirmi beş sayfası yırtık değil.,Defterin en fazla yirmi dördü sayfası yırtık.,neutral,1
+6,69,11,yirmi beş-kırk-par-c,Defterin yirmi beş sayfası yırtık değil.,Defterin en az bir sayfası yırtık.,implicature,3
+6,70,1,yirmi beş-kırk-par-n,Yirmi beşiniz burada beklemeli.,Kırkınız burada beklememeli.,neutral,1
+6,70,2,yirmi beş-kırk-par-n,Yirmi beşten fazlanız burada beklememeli.,Yirmi beşiniz burada beklemeli.,neutral,1
+6,70,3,yirmi beş-kırk-par-n,Yirmi beşiniz burada beklememeli.,Kırkınız burada beklememeli.,neutral,1
+6,70,4,yirmi beş-kırk-par-n,Kırkınız burada beklemeli.,Yirmi beşiniz burada beklemeli.,entailment,0
+6,70,5,yirmi beş-kırk-par-n,Kırkınız burada beklememeli.,Yirmi beşiniz burada beklememeli.,neutral,1
+6,70,6,yirmi beş-kırk-par-n,Yirmi beşiniz burada beklemeli.,Kırkınız burada beklemeli.,neutral,1
+6,70,7,yirmi beş-kırk-par-n,Kırkınız burada beklemeli.,Yirmi beşiniz burada beklememeli.,neutral,1
+6,70,8,yirmi beş-kırk-par-n,Yirmi beşiniz burada beklememeli.,Kırkınız burada beklemeli.,neutral,1
+6,70,9,yirmi beş-kırk-par-c,Yirmi beşiniz burada beklememeli.,Yirmi beşten azınız burada beklemeli.,neutral,1
+6,70,10,yirmi beş-kırk-par-c,Yirmi beşiniz burada beklememeli.,En fazla yirmi dördünüz burada beklemeli.,neutral,1
+6,70,11,yirmi beş-kırk-par-c,Yirmi beşiniz burada beklememeli.,En az biriniz burada beklemeli.,implicature,3
+6,71,1,otuz-altmış-par-n,Dairelerin otuzu satılmış.,Dairelerin altmışı satılmamış.,neutral,1
+6,71,2,otuz-altmış-par-n,Dairelerin otuzundan fazlası satılmamış.,Dairelerin otuzu satılmış.,neutral,1
+6,71,3,otuz-altmış-par-n,Dairelerin otuzu satılmamış.,Dairelerin altmışı satılmamış.,neutral,1
+6,71,4,otuz-altmış-par-n,Dairelerin altmışı satılmış.,Dairelerin otuzu satılmış.,entailment,0
+6,71,5,otuz-altmış-par-n,Dairelerin altmışı satılmamış.,Dairelerin otuzu satılmamış.,neutral,1
+6,71,6,otuz-altmış-par-n,Dairelerin otuzu satılmış.,Dairelerin altmışı satılmış.,neutral,1
+6,71,7,otuz-altmış-par-n,Dairelerin altmışı satılmış.,Dairelerin otuzu satılmamış.,neutral,1
+6,71,8,otuz-altmış-par-n,Dairelerin otuzu satılmamış.,Dairelerin altmışı satılmış.,neutral,1
+6,71,9,otuz-altmış-par-c,Dairelerin otuzu satılmamış.,Dairelerin otuzundan azı satılmış.,neutral,1
+6,71,10,otuz-altmış-par-c,Dairelerin otuzu satılmamış.,Dairelerin en fazla yirmi dokuzu satılmış.,neutral,1
+6,71,11,otuz-altmış-par-c,Dairelerin otuzu satılmamış.,Dairelerin en az biri satılmış.,implicature,3
+6,72,1,otuz-altmış-par-n,Topların otuzunun havası inmiş.,Topların altmışının havası inmemiş.,neutral,1
+6,72,2,otuz-altmış-par-n,Topların otuzundan fazlasının havası inmemiş.,Topların otuzunun havası inmiş.,neutral,1
+6,72,3,otuz-altmış-par-n,Topların otuzunun havası inmemiş.,Topların altmışının havası inmemiş.,neutral,1
+6,72,4,otuz-altmış-par-n,Topların altmışının havası inmiş.,Topların otuzunun havası inmiş.,entailment,0
+6,72,5,otuz-altmış-par-n,Topların altmışının havası inmemiş.,Topların otuzunun havası inmemiş.,neutral,1
+6,72,6,otuz-altmış-par-n,Topların otuzunun havası inmiş.,Topların altmışının havası inmiş.,neutral,1
+6,72,7,otuz-altmış-par-n,Topların altmışının havası inmiş.,Topların otuzunun havası inmemiş.,neutral,1
+6,72,8,otuz-altmış-par-n,Topların otuzunun havası inmemiş.,Topların altmışının havası inmiş.,neutral,1
+6,72,9,otuz-altmış-par-c,Topların otuzunun havası inmemiş.,Topların otuzundan azının havası inmiş.,neutral,1
+6,72,10,otuz-altmış-par-c,Topların otuzunun havası inmemiş.,Topların en fazla yirmi dokuzunun havası inmiş.,neutral,1
+6,72,11,otuz-altmış-par-c,Topların otuzunun havası inmemiş.,Topların en az birinin havası inmiş.,implicature,3
+6,73,1,otuz-altmış-par-n,Kurt türlerinin otuzu tehlike altında.,Kurt türlerinin altmışı tehlike altında değil.,neutral,1
+6,73,2,otuz-altmış-par-n,Kurt türlerinin otuzundan fazlası tehlike altında değil.,Kurt türlerinin otuzu tehlike altında.,neutral,1
+6,73,3,otuz-altmış-par-n,Kurt türlerinin otuzu tehlike altında değil.,Kurt türlerinin altmışı tehlike altında değil.,neutral,1
+6,73,4,otuz-altmış-par-n,Kurt türlerinin altmışı tehlike altında.,Kurt türlerinin otuzu tehlike altında.,entailment,0
+6,73,5,otuz-altmış-par-n,Kurt türlerinin altmışı tehlike altında değil.,Kurt türlerinin otuzu tehlike altında değil.,neutral,1
+6,73,6,otuz-altmış-par-n,Kurt türlerinin otuzu tehlike altında.,Kurt türlerinin altmışı tehlike altında.,neutral,1
+6,73,7,otuz-altmış-par-n,Kurt türlerinin altmışı tehlike altında.,Kurt türlerinin otuzu tehlike altında değil.,neutral,1
+6,73,8,otuz-altmış-par-n,Kurt türlerinin otuzu tehlike altında değil.,Kurt türlerinin altmışı tehlike altında.,neutral,1
+6,73,9,otuz-altmış-par-c,Kurt türlerinin otuzu tehlike altında değil.,Kurt türlerinin otuzundan azı tehlike altında.,neutral,1
+6,73,10,otuz-altmış-par-c,Kurt türlerinin otuzu tehlike altında değil.,Kurt türlerinin en fazla yirmi dokuzu tehlike altında.,neutral,1
+6,73,11,otuz-altmış-par-c,Kurt türlerinin otuzu tehlike altında değil.,Kurt türlerinin en az biri tehlike altında.,implicature,3
+6,74,1,otuz-altmış-par-n,Pizza paketlerinin otuzu kırmızı renkli.,Pizza paketlerinin altmışı kırmızı renkli değil.,neutral,1
+6,74,2,otuz-altmış-par-n,Pizza paketlerinin otuzundan fazlası kırmızı renkli değil.,Pizza paketlerinin otuzu kırmızı renkli.,neutral,1
+6,74,3,otuz-altmış-par-n,Pizza paketlerinin otuzu kırmızı renkli değil.,Pizza paketlerinin altmışı kırmızı renkli değil.,neutral,1
+6,74,4,otuz-altmış-par-n,Pizza paketlerinin altmışı kırmızı renkli.,Pizza paketlerinin otuzu kırmızı renkli.,entailment,0
+6,74,5,otuz-altmış-par-n,Pizza paketlerinin altmışı kırmızı renkli değil.,Pizza paketlerinin otuzu kırmızı renkli değil.,neutral,1
+6,74,6,otuz-altmış-par-n,Pizza paketlerinin otuzu kırmızı renkli.,Pizza paketlerinin altmışı kırmızı renkli.,neutral,1
+6,74,7,otuz-altmış-par-n,Pizza paketlerinin altmışı kırmızı renkli.,Pizza paketlerinin otuzu kırmızı renkli değil.,neutral,1
+6,74,8,otuz-altmış-par-n,Pizza paketlerinin otuzu kırmızı renkli değil.,Pizza paketlerinin altmışı kırmızı renkli.,neutral,1
+6,74,9,otuz-altmış-par-c,Pizza paketlerinin otuzu kırmızı renkli değil.,Pizza paketlerinin otuzundan azı kırmızı renkli.,neutral,1
+6,74,10,otuz-altmış-par-c,Pizza paketlerinin otuzu kırmızı renkli değil.,Pizza paketlerinin en fazla yirmi dokuzu kırmızı renkli.,neutral,1
+6,74,11,otuz-altmış-par-c,Pizza paketlerinin otuzu kırmızı renkli değil.,Pizza paketlerinin en az biri kırmızı renkli.,implicature,3
+6,75,1,otuz-altmış-par-n,Masa örtülerinin otuzu kare.,Masa örtülerinin altmışı kare değil.,neutral,1
+6,75,2,otuz-altmış-par-n,Masa örtülerinin otuzundan fazlası kare değil.,Masa örtülerinin otuzu kare.,neutral,1
+6,75,3,otuz-altmış-par-n,Masa örtülerinin otuzu kare değil.,Masa örtülerinin altmışı kare değil.,neutral,1
+6,75,4,otuz-altmış-par-n,Masa örtülerinin altmışı kare.,Masa örtülerinin otuzu kare.,entailment,0
+6,75,5,otuz-altmış-par-n,Masa örtülerinin altmışı kare değil.,Masa örtülerinin otuzu kare değil.,neutral,1
+6,75,6,otuz-altmış-par-n,Masa örtülerinin otuzu kare.,Masa örtülerinin altmışı kare.,neutral,1
+6,75,7,otuz-altmış-par-n,Masa örtülerinin altmışı kare.,Masa örtülerinin otuzu kare değil.,neutral,1
+6,75,8,otuz-altmış-par-n,Masa örtülerinin otuzu kare değil.,Masa örtülerinin altmışı kare.,neutral,1
+6,75,9,otuz-altmış-par-c,Masa örtülerinin otuzu kare değil.,Masa örtülerinin otuzundan azı kare.,neutral,1
+6,75,10,otuz-altmış-par-c,Masa örtülerinin otuzu kare değil.,Masa örtülerinin en fazla yirmi dokuzu kare.,neutral,1
+6,75,11,otuz-altmış-par-c,Masa örtülerinin otuzu kare değil.,Masa örtülerinin en az biri kare.,implicature,3
+6,76,1,otuz-altmış-par-n,Üniversitede aldığı derslerin otuzu mühendislik dersi.,Üniversitede aldığı derslerin altmışı mühendislik dersi değil.,neutral,1
+6,76,2,otuz-altmış-par-n,Üniversitede aldığı derslerin otuzundan fazlası mühendislik dersi değil.,Üniversitede aldığı derslerin otuzu mühendislik dersi.,neutral,1
+6,76,3,otuz-altmış-par-n,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,Üniversitede aldığı derslerin altmışı mühendislik dersi değil.,neutral,1
+6,76,4,otuz-altmış-par-n,Üniversitede aldığı derslerin altmışı mühendislik dersi.,Üniversitede aldığı derslerin otuzu mühendislik dersi.,entailment,0
+6,76,5,otuz-altmış-par-n,Üniversitede aldığı derslerin altmışı mühendislik dersi değil.,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,neutral,1
+6,76,6,otuz-altmış-par-n,Üniversitede aldığı derslerin otuzu mühendislik dersi.,Üniversitede aldığı derslerin altmışı mühendislik dersi.,neutral,1
+6,76,7,otuz-altmış-par-n,Üniversitede aldığı derslerin altmışı mühendislik dersi.,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,neutral,1
+6,76,8,otuz-altmış-par-n,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,Üniversitede aldığı derslerin altmışı mühendislik dersi.,neutral,1
+6,76,9,otuz-altmış-par-c,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,Üniversitede aldığı derslerin otuzundan azı mühendislik dersi.,neutral,1
+6,76,10,otuz-altmış-par-c,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,Üniversitede aldığı derslerin en fazla yirmi dokuzu mühendislik dersi.,neutral,1
+6,76,11,otuz-altmış-par-c,Üniversitede aldığı derslerin otuzu mühendislik dersi değil.,Üniversitede aldığı derslerin en az biri mühendislik dersi.,implicature,3
+6,77,1,otuz-altmış-par-n,Katılımcıların otuzu sanatkar.,Katılımcıların altmışı sanatkar değil.,neutral,1
+6,77,2,otuz-altmış-par-n,Katılımcıların otuzdan fazlası sanatkar değil.,Katılımcıların otuzu sanatkar.,neutral,1
+6,77,3,otuz-altmış-par-n,Katılımcıların otuzu sanatkar değil.,Katılımcıların altmışı sanatkar değil.,neutral,1
+6,77,4,otuz-altmış-par-n,Katılımcıların altmışı sanatkar.,Katılımcıların otuzu sanatkar.,entailment,0
+6,77,5,otuz-altmış-par-n,Katılımcıların altmışı sanatkar değil.,Katılımcıların otuzu sanatkar değil.,neutral,1
+6,77,6,otuz-altmış-par-n,Katılımcıların otuzu sanatkar.,Katılımcıların altmışı sanatkar.,neutral,1
+6,77,7,otuz-altmış-par-n,Katılımcıların altmışı sanatkar.,Katılımcıların otuzu sanatkar değil.,neutral,1
+6,77,8,otuz-altmış-par-n,Katılımcıların otuzu sanatkar değil.,Katılımcıların altmışı sanatkar.,neutral,1
+6,77,9,otuz-altmış-par-c,Katılımcıların otuzu sanatkar değil.,Katılımcıların otuzundan azı sanatkar.,neutral,1
+6,77,10,otuz-altmış-par-c,Katılımcıların otuzu sanatkar değil.,Katılımcıların en fazla yirmi dokuzu sanatkar.,neutral,1
+6,77,11,otuz-altmış-par-c,Katılımcıların otuzu sanatkar değil.,Katılımcıların en az biri sanatkar.,implicature,3
+6,78,1,otuz-altmış-par-n,Sınıflardan otuzunda resim yapılıyor.,Sınıflardan altmışında resim yapılmıyor.,neutral,1
+6,78,2,otuz-altmış-par-n,Sınıflardan otuzdan fazlasında resim yapılmıyor.,Sınıflardan otuzunda resim yapılıyor.,neutral,1
+6,78,3,otuz-altmış-par-n,Sınıflardan otuzunda resim yapılmıyor.,Sınıflardan altmışında resim yapılmıyor.,neutral,1
+6,78,4,otuz-altmış-par-n,Sınıflardan altmışında resim yapılıyor.,Sınıflardan otuzunda resim yapılıyor.,entailment,0
+6,78,5,otuz-altmış-par-n,Sınıflardan altmışında resim yapılmıyor.,Sınıflardan otuzunda resim yapılmıyor.,neutral,1
+6,78,6,otuz-altmış-par-n,Sınıflardan otuzunda resim yapılıyor.,Sınıflardan altmışında resim yapılıyor.,neutral,1
+6,78,7,otuz-altmış-par-n,Sınıflardan altmışında resim yapılıyor.,Sınıflardan otuzunda resim yapılmıyor.,neutral,1
+6,78,8,otuz-altmış-par-n,Sınıflardan otuzunda resim yapılmıyor.,Sınıflardan altmışında resim yapılıyor.,neutral,1
+6,78,9,otuz-altmış-par-c,Sınıflardan otuzunda resim yapılmıyor.,Sınıflardan otuzundan azında resim yapılıyor.,neutral,1
+6,78,10,otuz-altmış-par-c,Sınıflardan otuzunda resim yapılmıyor.,Sınıflardan en fazla yirmi dokuzunda resim yapılıyor.,neutral,1
+6,78,11,otuz-altmış-par-c,Sınıflardan otuzunda resim yapılmıyor.,Sınıflardan en az birinde resim yapılıyor.,implicature,3
+6,79,1,otuz-altmış-par-n,Kulüplerin otuzunda fotoğraf çekimi yasak.,Kulüplerin altmışında fotoğraf çekimi serbest.,neutral,1
+6,79,2,otuz-altmış-par-n,Kulüplerin otuzdan fazlasında fotoğraf çekimi serbest.,Kulüplerin otuzunda fotoğraf çekimi yasak.,neutral,1
+6,79,3,otuz-altmış-par-n,Kulüplerin otuzunda fotoğraf çekimi serbest.,Kulüplerin altmışında fotoğraf çekimi serbest.,neutral,1
+6,79,4,otuz-altmış-par-n,Kulüplerin altmışında fotoğraf çekimi yasak.,Kulüplerin otuzunda fotoğraf çekimi yasak.,entailment,0
+6,79,5,otuz-altmış-par-n,Kulüplerin altmışında fotoğraf çekimi serbest.,Kulüplerin otuzunda fotoğraf çekimi serbest.,neutral,1
+6,79,6,otuz-altmış-par-n,Kulüplerin otuzunda fotoğraf çekimi yasak.,Kulüplerin altmışında fotoğraf çekimi yasak.,neutral,1
+6,79,7,otuz-altmış-par-n,Kulüplerin altmışında fotoğraf çekimi yasak.,Kulüplerin otuzunda fotoğraf çekimi serbest.,neutral,1
+6,79,8,otuz-altmış-par-n,Kulüplerin otuzunda fotoğraf çekimi serbest.,Kulüplerin altmışında fotoğraf çekimi yasak.,neutral,1
+6,79,9,otuz-altmış-par-c,Kulüplerin otuzunda fotoğraf çekimi serbest.,Kulüplerin otuzundan azında fotoğraf çekimi yasak.,neutral,1
+6,79,10,otuz-altmış-par-c,Kulüplerin otuzunda fotoğraf çekimi serbest.,Kulüplerin en fazla yirmi dokuzunda fotoğraf çekimi yasak.,neutral,1
+6,79,11,otuz-altmış-par-c,Kulüplerin otuzunda fotoğraf çekimi serbest.,Kulüplerin en az birinde fotoğraf çekimi yasak.,implicature,3
+6,80,1,otuz-altmış-par-n,Yapıların otuzu depreme dayanıksız.,Yapıların altmışı depreme dayanıksız değil.,neutral,1
+6,80,2,otuz-altmış-par-n,Yapıların otuzdan fazlası depreme dayanıksız değil.,Yapıların otuzu depreme dayanıksız.,neutral,1
+6,80,3,otuz-altmış-par-n,Yapıların otuzu depreme dayanıksız değil.,Yapıların altmışı depreme dayanıksız değil.,neutral,1
+6,80,4,otuz-altmış-par-n,Yapıların altmışı depreme dayanıksız.,Yapıların otuzu depreme dayanıksız.,entailment,0
+6,80,5,otuz-altmış-par-n,Yapıların altmışı depreme dayanıksız değil.,Yapıların otuzu depreme dayanıksız değil.,neutral,1
+6,80,6,otuz-altmış-par-n,Yapıların otuzu depreme dayanıksız.,Yapıların altmışı depreme dayanıksız.,neutral,1
+6,80,7,otuz-altmış-par-n,Yapıların altmışı depreme dayanıksız.,Yapıların otuzu depreme dayanıksız değil.,neutral,1
+6,80,8,otuz-altmış-par-n,Yapıların otuzu depreme dayanıksız değil.,Yapıların altmışı depreme dayanıksız.,neutral,1
+6,80,9,otuz-altmış-par-c,Yapıların otuzu depreme dayanıksız değil.,Yapıların otuzundan azı depreme dayanıksız.,neutral,1
+6,80,10,otuz-altmış-par-c,Yapıların otuzu depreme dayanıksız değil.,Yapıların en fazla yirmi dokuzu depreme dayanıksız.,neutral,1
+6,80,11,otuz-altmış-par-c,Yapıların otuzu depreme dayanıksız değil.,Yapıların en az biri depreme dayanıksız.,implicature,3
+6,81,1,elli-yetmiş-par-n,Futbolcuların ellisi forvet oyuncusu.,Futbolcuların yetmişi forvet oyuncusu değil.,neutral,1
+6,81,2,elli-yetmiş-par-n,Futbolcuların ellisinden fazlası forvet oyuncusu değil.,Futbolcuların ellisi forvet oyuncusu.,neutral,1
+6,81,3,elli-yetmiş-par-n,Futbolcuların ellisi forvet oyuncusu değil.,Futbolcuların yetmişi forvet oyuncusu değil.,neutral,1
+6,81,4,elli-yetmiş-par-n,Futbolcuların yetmişi forvet oyuncusu.,Futbolcuların ellisi forvet oyuncusu.,entailment,0
+6,81,5,elli-yetmiş-par-n,Futbolcuların yetmişi forvet oyuncusu değil.,Futbolcuların ellisi forvet oyuncusu değil.,neutral,1
+6,81,6,elli-yetmiş-par-n,Futbolcuların ellisi forvet oyuncusu.,Futbolcuların yetmişi forvet oyuncusu.,neutral,1
+6,81,7,elli-yetmiş-par-n,Futbolcuların yetmişi forvet oyuncusu.,Futbolcuların ellisi forvet oyuncusu değil.,neutral,1
+6,81,8,elli-yetmiş-par-n,Futbolcuların ellisi forvet oyuncusu değil.,Futbolcuların yetmişi forvet oyuncusu.,neutral,1
+6,81,9,elli-yetmiş-par-c,Futbolcuların ellisi forvet oyuncusu değil.,Futbolcuların ellisinden azı forvet oyuncusu.,neutral,1
+6,81,10,elli-yetmiş-par-c,Futbolcuların ellisi forvet oyuncusu değil.,Futbolcuların en fazla kırk dokuzu forvet oyuncusu.,neutral,1
+6,81,11,elli-yetmiş-par-c,Futbolcuların ellisi forvet oyuncusu değil.,Futbolcuların en az biri forvet oyuncusu.,implicature,3
+6,82,1,elli-yetmiş-par-n,Galerideki arabalardan ellisi dizel.,Galerideki arabalardan yetmişi dizel değil.,neutral,1
+6,82,2,elli-yetmiş-par-n,Galerideki arabalardan ellisinden fazlası dizel değil.,Galerideki arabalardan ellisi dizel.,neutral,1
+6,82,3,elli-yetmiş-par-n,Galerideki arabalardan ellisi dizel değil.,Galerideki arabalardan yetmişi dizel değil.,neutral,1
+6,82,4,elli-yetmiş-par-n,Galerideki arabalardan yetmişi dizel.,Galerideki arabalardan ellisi dizel.,entailment,0
+6,82,5,elli-yetmiş-par-n,Galerideki arabalardan yetmişi dizel değil.,Galerideki arabalardan ellisi dizel değil.,neutral,1
+6,82,6,elli-yetmiş-par-n,Galerideki arabalardan ellisi dizel.,Galerideki arabalardan yetmişi dizel.,neutral,1
+6,82,7,elli-yetmiş-par-n,Galerideki arabalardan yetmişi dizel.,Galerideki arabalardan ellisi dizel değil.,neutral,1
+6,82,8,elli-yetmiş-par-n,Galerideki arabalardan ellisi dizel değil.,Galerideki arabalardan yetmişi dizel.,neutral,1
+6,82,9,elli-yetmiş-par-c,Galerideki arabalardan ellisi dizel değil.,Galerideki arabalardan ellisinden azı dizel.,neutral,1
+6,82,10,elli-yetmiş-par-c,Galerideki arabalardan ellisi dizel değil.,Galerideki arabalardan en fazla kırk dokuzu dizel.,neutral,1
+6,82,11,elli-yetmiş-par-c,Galerideki arabalardan ellisi dizel değil.,Galerideki arabalardan en az biri dizel.,implicature,3
+6,83,1,elli-yetmiş-par-n,Seçmenlerin ellisi buraya kayıtlı.,Seçmenlerin yetmişi buraya kayıtlı değil.,neutral,1
+6,83,2,elli-yetmiş-par-n,Seçmenlerin ellisinden fazlası buraya kayıtlı değil.,Seçmenlerin ellisi buraya kayıtlı.,neutral,1
+6,83,3,elli-yetmiş-par-n,Seçmenlerin ellisi buraya kayıtlı değil.,Seçmenlerin yetmişi buraya kayıtlı değil.,neutral,1
+6,83,4,elli-yetmiş-par-n,Seçmenlerin yetmişi buraya kayıtlı.,Seçmenlerin ellisi buraya kayıtlı.,entailment,0
+6,83,5,elli-yetmiş-par-n,Seçmenlerin yetmişi buraya kayıtlı değil.,Seçmenlerin ellisi buraya kayıtlı değil.,neutral,1
+6,83,6,elli-yetmiş-par-n,Seçmenlerin ellisi buraya kayıtlı.,Seçmenlerin yetmişi buraya kayıtlı.,neutral,1
+6,83,7,elli-yetmiş-par-n,Seçmenlerin yetmişi buraya kayıtlı.,Seçmenlerin ellisi buraya kayıtlı değil.,neutral,1
+6,83,8,elli-yetmiş-par-n,Seçmenlerin ellisi buraya kayıtlı değil.,Seçmenlerin yetmişi buraya kayıtlı.,neutral,1
+6,83,9,elli-yetmiş-par-c,Seçmenlerin ellisi buraya kayıtlı değil.,Seçmenlerin ellisinden azı buraya kayıtlı.,neutral,1
+6,83,10,elli-yetmiş-par-c,Seçmenlerin ellisi buraya kayıtlı değil.,Seçmenlerin en fazla kırk dokuzu buraya kayıtlı.,neutral,1
+6,83,11,elli-yetmiş-par-c,Seçmenlerin ellisi buraya kayıtlı değil.,Seçmenlerin en az biri buraya kayıtlı.,implicature,3
+6,84,1,elli-yetmiş-par-n,Bilgisayar oyunlarının ellisi ücretsiz.,Bilgisayar oyunlarının yetmişi ücretsiz değil.,neutral,1
+6,84,2,elli-yetmiş-par-n,Bilgisayar oyunlarının ellisinden fazlası ücretsiz değil.,Bilgisayar oyunlarının ellisi ücretsiz.,neutral,1
+6,84,3,elli-yetmiş-par-n,Bilgisayar oyunlarının ellisi ücretsiz değil.,Bilgisayar oyunlarının yetmişi ücretsiz değil.,neutral,1
+6,84,4,elli-yetmiş-par-n,Bilgisayar oyunlarının yetmişi ücretsiz.,Bilgisayar oyunlarının ellisi ücretsiz.,entailment,0
+6,84,5,elli-yetmiş-par-n,Bilgisayar oyunlarının yetmişi ücretsiz değil.,Bilgisayar oyunlarının ellisi ücretsiz değil.,neutral,1
+6,84,6,elli-yetmiş-par-n,Bilgisayar oyunlarının ellisi ücretsiz.,Bilgisayar oyunlarının yetmişi ücretsiz.,neutral,1
+6,84,7,elli-yetmiş-par-n,Bilgisayar oyunlarının yetmişi ücretsiz.,Bilgisayar oyunlarının ellisi ücretsiz değil.,neutral,1
+6,84,8,elli-yetmiş-par-n,Bilgisayar oyunlarının ellisi ücretsiz değil.,Bilgisayar oyunlarının yetmişi ücretsiz.,neutral,1
+6,84,9,elli-yetmiş-par-c,Bilgisayar oyunlarının ellisi ücretsiz değil.,Bilgisayar oyunlarının ellisinden azı ücretsiz.,neutral,1
+6,84,10,elli-yetmiş-par-c,Bilgisayar oyunlarının ellisi ücretsiz değil.,Bilgisayar oyunlarının en fazla kırk dokuzu ücretsiz.,neutral,1
+6,84,11,elli-yetmiş-par-c,Bilgisayar oyunlarının ellisi ücretsiz değil.,Bilgisayar oyunlarının en az biri ücretsiz.,implicature,3
+6,85,1,elli-yetmiş-par-n,Kabloların ellisi bakır.,Kabloların yetmişi bakır değil.,neutral,1
+6,85,2,elli-yetmiş-par-n,Kabloların ellisinden fazlası bakır değil.,Kabloların ellisi bakır.,neutral,1
+6,85,3,elli-yetmiş-par-n,Kabloların ellisi bakır değil.,Kabloların yetmişi bakır değil.,neutral,1
+6,85,4,elli-yetmiş-par-n,Kabloların yetmişi bakır.,Kabloların ellisi bakır.,entailment,0
+6,85,5,elli-yetmiş-par-n,Kabloların yetmişi bakır değil.,Kabloların ellisi bakır değil.,neutral,1
+6,85,6,elli-yetmiş-par-n,Kabloların ellisi bakır.,Kabloların yetmişi bakır.,neutral,1
+6,85,7,elli-yetmiş-par-n,Kabloların yetmişi bakır.,Kabloların ellisi bakır değil.,neutral,1
+6,85,8,elli-yetmiş-par-n,Kabloların ellisi bakır değil.,Kabloların yetmişi bakır.,neutral,1
+6,85,9,elli-yetmiş-par-c,Kabloların ellisi bakır değil.,Kabloların ellisinden azı bakır.,neutral,1
+6,85,10,elli-yetmiş-par-c,Kabloların ellisi bakır değil.,Kabloların en fazla kırk dokuzu bakır.,neutral,1
+6,85,11,elli-yetmiş-par-c,Kabloların ellisi bakır değil.,Kabloların en az biri bakır.,implicature,3
+6,86,1,elli-yetmiş-par-n,Hedeflerin ellisi vurulmuş.,Hedeflerin yetmişi vurulmamış.,neutral,1
+6,86,2,elli-yetmiş-par-n,Hedeflerin ellisinden fazlası vurulmamış.,Hedeflerin ellisi vurulmuş.,neutral,1
+6,86,3,elli-yetmiş-par-n,Hedeflerin ellisi vurulmamış.,Hedeflerin yetmişi vurulmamış.,neutral,1
+6,86,4,elli-yetmiş-par-n,Hedeflerin yetmişi vurulmuş.,Hedeflerin ellisi vurulmuş.,entailment,0
+6,86,5,elli-yetmiş-par-n,Hedeflerin yetmişi vurulmamış.,Hedeflerin ellisi vurulmamış.,neutral,1
+6,86,6,elli-yetmiş-par-n,Hedeflerin ellisi vurulmuş.,Hedeflerin yetmişi vurulmuş.,neutral,1
+6,86,7,elli-yetmiş-par-n,Hedeflerin yetmişi vurulmuş.,Hedeflerin ellisi vurulmamış.,neutral,1
+6,86,8,elli-yetmiş-par-n,Hedeflerin ellisi vurulmamış.,Hedeflerin yetmişi vurulmuş.,neutral,1
+6,86,9,elli-yetmiş-par-c,Hedeflerin ellisi vurulmamış.,Hedeflerin ellisinden azı vurulmuş.,neutral,1
+6,86,10,elli-yetmiş-par-c,Hedeflerin ellisi vurulmamış.,Hedeflerin en fazla kırk dokuzu vurulmuş.,neutral,1
+6,86,11,elli-yetmiş-par-c,Hedeflerin ellisi vurulmamış.,Hedeflerin en az biri vurulmuş.,implicature,3
+6,87,1,elli-yetmiş-par-n,Atların ellisi kahverengi.,Atların yetmişi kahverengi değil.,neutral,1
+6,87,2,elli-yetmiş-par-n,Atların ellisinden fazlası kahverengi değil.,Atların ellisi kahverengi.,neutral,1
+6,87,3,elli-yetmiş-par-n,Atların ellisi kahverengi değil.,Atların yetmişi kahverengi değil.,neutral,1
+6,87,4,elli-yetmiş-par-n,Atların yetmişi kahverengi.,Atların ellisi kahverengi.,entailment,0
+6,87,5,elli-yetmiş-par-n,Atların yetmişi kahverengi değil.,Atların ellisi kahverengi değil.,neutral,1
+6,87,6,elli-yetmiş-par-n,Atların ellisi kahverengi.,Atların yetmişi kahverengi.,neutral,1
+6,87,7,elli-yetmiş-par-n,Atların yetmişi kahverengi.,Atların ellisi kahverengi değil.,neutral,1
+6,87,8,elli-yetmiş-par-n,Atların ellisi kahverengi değil.,Atların yetmişi kahverengi.,neutral,1
+6,87,9,elli-yetmiş-par-c,Atların ellisi kahverengi değil.,Atların ellisinden azı kahverengi.,neutral,1
+6,87,10,elli-yetmiş-par-c,Atların ellisi kahverengi değil.,Atların en fazla kırk dokuzu kahverengi.,neutral,1
+6,87,11,elli-yetmiş-par-c,Atların ellisi kahverengi değil.,Atların en az biri kahverengi.,implicature,3
+6,88,1,elli-yetmiş-par-n,Kitaptaki üçgenlerin ellisi dik açılı.,Kitaptaki üçgenlerin yetmişi dik açılı değil.,neutral,1
+6,88,2,elli-yetmiş-par-n,Kitaptaki üçgenlerin ellisinden fazlası dik açılı değil.,Kitaptaki üçgenlerin ellisi dik açılı.,neutral,1
+6,88,3,elli-yetmiş-par-n,Kitaptaki üçgenlerin ellisi dik açılı değil.,Kitaptaki üçgenlerin yetmişi dik açılı değil.,neutral,1
+6,88,4,elli-yetmiş-par-n,Kitaptaki üçgenlerin yetmişi dik açılı.,Kitaptaki üçgenlerin ellisi dik açılı.,entailment,0
+6,88,5,elli-yetmiş-par-n,Kitaptaki üçgenlerin yetmişi dik açılı değil.,Kitaptaki üçgenlerin ellisi dik açılı değil.,neutral,1
+6,88,6,elli-yetmiş-par-n,Kitaptaki üçgenlerin ellisi dik açılı.,Kitaptaki üçgenlerin yetmişi dik açılı.,neutral,1
+6,88,7,elli-yetmiş-par-n,Kitaptaki üçgenlerin yetmişi dik açılı.,Kitaptaki üçgenlerin ellisi dik açılı değil.,neutral,1
+6,88,8,elli-yetmiş-par-n,Kitaptaki üçgenlerin ellisi dik açılı değil.,Kitaptaki üçgenlerin yetmişi dik açılı.,neutral,1
+6,88,9,elli-yetmiş-par-c,Kitaptaki üçgenlerin ellisi dik açılı değil.,Kitaptaki üçgenlerin ellisinden azı dik açılı.,neutral,1
+6,88,10,elli-yetmiş-par-c,Kitaptaki üçgenlerin ellisi dik açılı değil.,Kitaptaki üçgenlerin en fazla kırk dokuzu dik açılı.,neutral,1
+6,88,11,elli-yetmiş-par-c,Kitaptaki üçgenlerin ellisi dik açılı değil.,Kitaptaki üçgenlerin en az biri dik açılı.,implicature,3
+6,89,1,elli-yetmiş-par-n,Kalemlerin ellisi siyah yazıyor.,Kalemlerin yetmişi siyah yazmıyor.,neutral,1
+6,89,2,elli-yetmiş-par-n,Kalemlerin ellisinden fazlası siyah yazmıyor.,Kalemlerin ellisi siyah yazıyor.,neutral,1
+6,89,3,elli-yetmiş-par-n,Kalemlerin ellisi siyah yazmıyor.,Kalemlerin yetmişi siyah yazmıyor.,neutral,1
+6,89,4,elli-yetmiş-par-n,Kalemlerin yetmişi siyah yazıyor.,Kalemlerin ellisi siyah yazıyor.,entailment,0
+6,89,5,elli-yetmiş-par-n,Kalemlerin yetmişi siyah yazmıyor.,Kalemlerin ellisi siyah yazmıyor.,neutral,1
+6,89,6,elli-yetmiş-par-n,Kalemlerin ellisi siyah yazıyor.,Kalemlerin yetmişi siyah yazıyor.,neutral,1
+6,89,7,elli-yetmiş-par-n,Kalemlerin yetmişi siyah yazıyor.,Kalemlerin ellisi siyah yazmıyor.,neutral,1
+6,89,8,elli-yetmiş-par-n,Kalemlerin ellisi siyah yazmıyor.,Kalemlerin yetmişi siyah yazıyor.,neutral,1
+6,89,9,elli-yetmiş-par-c,Kalemlerin ellisi siyah yazmıyor.,Kalemlerin ellisinden azı siyah yazıyor.,neutral,1
+6,89,10,elli-yetmiş-par-c,Kalemlerin ellisi siyah yazmıyor.,Kalemlerin en fazla kırk dokuzu siyah yazıyor.,neutral,1
+6,89,11,elli-yetmiş-par-c,Kalemlerin ellisi siyah yazmıyor.,Kalemlerin en az biri siyah yazıyor.,implicature,3
+6,90,1,elli-yetmiş-par-n,Fabrikadaki elli kişiyle tartışmış.,Fabrikadaki yetmiş kişiyle tartışmamış.,neutral,1
+6,90,2,elli-yetmiş-par-n,Fabrikadaki elli kişiden fazlasıyla tartışmamış.,Fabrikadaki elli kişiyle tartışmış.,neutral,1
+6,90,3,elli-yetmiş-par-n,Fabrikadaki elli kişiyle tartışmamış.,Fabrikadaki yetmiş kişiyle tartışmamış.,neutral,1
+6,90,4,elli-yetmiş-par-n,Fabrikadaki yetmiş kişiyle tartışmış.,Fabrikadaki elli kişiyle tartışmış.,entailment,0
+6,90,5,elli-yetmiş-par-n,Fabrikadaki yetmiş kişiyle tartışmamış.,Fabrikadaki elli kişiyle tartışmamış.,neutral,1
+6,90,6,elli-yetmiş-par-n,Fabrikadaki elli kişiyle tartışmış.,Fabrikadaki yetmiş kişiyle tartışmış.,neutral,1
+6,90,7,elli-yetmiş-par-n,Fabrikadaki yetmiş kişiyle tartışmış.,Fabrikadaki elli kişiyle tartışmamış.,neutral,1
+6,90,8,elli-yetmiş-par-n,Fabrikadaki elli kişiyle tartışmamış.,Fabrikadaki yetmiş kişiyle tartışmış.,neutral,1
+6,90,9,elli-yetmiş-par-c,Fabrikadaki elli kişiyle tartışmamış.,Fabrikadaki elli kişiden azıyla tartışmış.,neutral,1
+6,90,10,elli-yetmiş-par-c,Fabrikadaki elli kişiyle tartışmamış.,Fabrikadaki en fazla kırk dokuz kişiyle tartışmış.,neutral,1
+6,90,11,elli-yetmiş-par-c,Fabrikadaki elli kişiyle tartışmamış.,Fabrikadaki en az biriyle tartışmış.,implicature,3

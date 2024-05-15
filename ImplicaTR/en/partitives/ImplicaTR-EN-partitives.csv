@@ -1,0 +1,991 @@
+﻿ling_category,set_n,sentence_n,scale,premise,hypothesis,category,label
+6,1,1,two-three-par-n,Two of the curtains are dirty.,Three of the curtains are not dirty.,neutral,1
+6,1,2,two-three-par-n,More than two of the curtains are not dirty.,Two of the curtains are dirty.,neutral,1
+6,1,3,two-three-par-n,Two of the curtains are not dirty.,Three of the curtains are not dirty.,neutral,1
+6,1,4,two-three-par-n,Three of the curtains are dirty.,Two of the curtains are dirty.,entailment,0
+6,1,5,two-three-par-n,Three of the curtains are not dirty.,Two of the curtains are not dirty.,neutral,1
+6,1,6,two-three-par-n,Two of the curtains are dirty.,Three of the curtains are dirty.,neutral,1
+6,1,7,two-three-par-n,Three of the curtains are dirty.,Two of the curtains are not dirty.,neutral,1
+6,1,8,two-three-par-n,Two of the curtains are not dirty.,Three of the curtains are dirty.,neutral,1
+6,1,9,two-three-par-c,Two of the curtains are not dirty.,Less than two of the curtains are dirty.,neutral,1
+6,1,10,two-three-par-c,Two of the curtains are not dirty.,At most two of the curtains are dirty.,neutral,1
+6,1,11,two-three-par-c,Two of the curtains are not dirty.,At least one of the curtains is dirty.,implicature,3
+6,2,1,two-three-par-n,I finished two parts of the game.,I didn't finish three parts of the game.,neutral,1
+6,2,2,two-three-par-n,I didn't finish more than two parts of the game.,I finished two parts of the game.,neutral,1
+6,2,3,two-three-par-n,I didn't finish two parts of the game.,I didn't finish three parts of the game.,neutral,1
+6,2,4,two-three-par-n,I finished three parts of the game.,I finished two parts of the game.,entailment,0
+6,2,5,two-three-par-n,I didn't finish three parts of the game.,I didn't finish two parts of the game.,neutral,1
+6,2,6,two-three-par-n,I finished two parts of the game.,I finished three parts of the game.,neutral,1
+6,2,7,two-three-par-n,I finished three parts of the game.,I didn't finish two parts of the game.,neutral,1
+6,2,8,two-three-par-n,I didn't finish two parts of the game.,I finished three parts of the game.,neutral,1
+6,2,9,two-three-par-c,I didn't finish two parts of the game.,I finished less than two parts of the game.,neutral,1
+6,2,10,two-three-par-c,I didn't finish two parts of the game.,I finished at most one part of the game.,neutral,1
+6,2,11,two-three-par-c,I didn't finish two parts of the game.,I finished at least one part of the game.,implicature,3
+6,3,1,two-three-par-n,Two phases of the project are complete.,Three phases of the project are not complete.,neutral,1
+6,3,2,two-three-par-n,More than two phases of the project are not complete.,Two phases of the project are complete.,neutral,1
+6,3,3,two-three-par-n,Two phases of the project are not complete.,Three phases of the project are not complete.,neutral,1
+6,3,4,two-three-par-n,Three phases of the project are complete.,Two phases of the project are complete.,entailment,0
+6,3,5,two-three-par-n,Three phases of the project are not complete.,Two phases of the project are not complete.,neutral,1
+6,3,6,two-three-par-n,Two phases of the project are complete.,Three phases of the project are complete.,neutral,1
+6,3,7,two-three-par-n,Three phases of the project are complete.,Two phases of the project are not complete.,neutral,1
+6,3,8,two-three-par-n,Two phases of the project are not complete.,Three phases of the project are complete.,neutral,1
+6,3,9,two-three-par-c,Two phases of the project are not complete.,Less than two phases of the project are complete.,neutral,1
+6,3,10,two-three-par-c,Two phases of the project are not complete.,At most one phase of the project is complete.,neutral,1
+6,3,11,two-three-par-c,Two phases of the project are not complete.,At least one phase of the project is complete.,implicature,3
+6,4,1,two-three-par-n,Two of the houses are earthquake resistant.,Three of the houses are not earthquake resistant.,neutral,1
+6,4,2,two-three-par-n,More than two of the houses are not earthquake resistant.,Two of the houses are earthquake resistant.,neutral,1
+6,4,3,two-three-par-n,Two of the houses are not earthquake resistant.,Three of the houses are not earthquake resistant.,neutral,1
+6,4,4,two-three-par-n,Three of the houses are earthquake resistant.,Two of the houses are earthquake resistant.,entailment,0
+6,4,5,two-three-par-n,Three of the houses are not earthquake resistant.,Two of the houses are not earthquake resistant.,neutral,1
+6,4,6,two-three-par-n,Two of the houses are earthquake resistant.,Three of the houses are earthquake resistant.,neutral,1
+6,4,7,two-three-par-n,Three of the houses are earthquake resistant.,Two of the houses are not earthquake resistant.,neutral,1
+6,4,8,two-three-par-n,Two of the houses are not earthquake resistant.,Three of the houses are earthquake resistant.,neutral,1
+6,4,9,two-three-par-c,Two of the houses are not earthquake resistant.,Less than two of the houses are earthquake resistant.,neutral,1
+6,4,10,two-three-par-c,Two of the houses are not earthquake resistant.,At most two of the houses are earthquake resistant.,neutral,1
+6,4,11,two-three-par-c,Two of the houses are not earthquake resistant.,At least one of the houses is earthquake resistant.,implicature,3
+6,5,1,two-three-par-n,Two of the companies went bankrupt.,Three of the companies did not go bankrupt.,neutral,1
+6,5,2,two-three-par-n,More than two of the companies did not go bankrupt.,Two of the companies went bankrupt.,neutral,1
+6,5,3,two-three-par-n,Two of the companies did not go bankrupt.,Three of the companies did not go bankrupt.,neutral,1
+6,5,4,two-three-par-n,Three of the companies went bankrupt.,Two of the companies went bankrupt.,entailment,0
+6,5,5,two-three-par-n,Three of the companies did not go bankrupt.,Two of the companies did not go bankrupt.,neutral,1
+6,5,6,two-three-par-n,Two of the companies went bankrupt.,Three of the companies went bankrupt.,neutral,1
+6,5,7,two-three-par-n,Three of the companies went bankrupt.,Two of the companies did not go bankrupt.,neutral,1
+6,5,8,two-three-par-n,Two of the companies did not go bankrupt.,Three of the companies went bankrupt.,neutral,1
+6,5,9,two-three-par-c,Two of the companies did not go bankrupt.,Less than two of the companies went bankrupt.,neutral,1
+6,5,10,two-three-par-c,Two of the companies did not go bankrupt.,At most two of the companies went bankrupt.,neutral,1
+6,5,11,two-three-par-c,Two of the companies did not go bankrupt.,At least one of the companies went bankrupt.,implicature,3
+6,6,1,two-three-par-n,Two of the awards will be given to us.,Three of the awards will not be given to us.,neutral,1
+6,6,2,two-three-par-n,More than two of the awards will not be given to us.,Two of the awards will be given to us.,neutral,1
+6,6,3,two-three-par-n,Two of the awards will not be given to us.,Three of the awards will not be given to us.,neutral,1
+6,6,4,two-three-par-n,Three of the awards will be given to us.,Two of the awards will be given to us.,entailment,0
+6,6,5,two-three-par-n,Three of the awards will not be given to us.,Two of the awards will not be given to us.,neutral,1
+6,6,6,two-three-par-n,Two of the awards will be given to us.,Three of the awards will be given to us.,neutral,1
+6,6,7,two-three-par-n,Three of the awards will be given to us.,Two of the awards will not be given to us.,neutral,1
+6,6,8,two-three-par-n,Two of the awards will not be given to us.,Three of the awards will be given to us.,neutral,1
+6,6,9,two-three-par-c,Two of the awards will not be given to us.,Less than two of the awards will be given to us.,neutral,1
+6,6,10,two-three-par-c,Two of the awards will not be given to us.,At most two of the awards will be given to us.,neutral,1
+6,6,11,two-three-par-c,Two of the awards will not be given to us.,At least one of the awards will be given to us.,implicature,3
+6,7,1,two-three-par-n,Two of the candidates were born here.,Three of the candidates were not born here.,neutral,1
+6,7,2,two-three-par-n,More than two of the candidates were not born here.,Two of the candidates were born here.,neutral,1
+6,7,3,two-three-par-n,Two of the candidates were not born here.,Three of the candidates were not born here.,neutral,1
+6,7,4,two-three-par-n,Three of the candidates were born here.,Two of the candidates were born here.,entailment,0
+6,7,5,two-three-par-n,Three of the candidates were not born here.,Two of the candidates were not born here.,neutral,1
+6,7,6,two-three-par-n,Two of the candidates were born here.,Three of the candidates were born here.,neutral,1
+6,7,7,two-three-par-n,Three of the candidates were born here.,Two of the candidates were not born here.,neutral,1
+6,7,8,two-three-par-n,Two of the candidates were not born here.,Three of the candidates were born here.,neutral,1
+6,7,9,two-three-par-c,Two of the candidates were not born here.,Less than two of the candidates were born here.,neutral,1
+6,7,10,two-three-par-c,Two of the candidates were not born here.,At most two of the candidates were born here.,neutral,1
+6,7,11,two-three-par-c,Two of the candidates were not born here.,At least one of the candidates was born here.,implicature,3
+6,8,1,two-three-par-n,Two of these projects will be successful.,Three of these projects will not be successful.,neutral,1
+6,8,2,two-three-par-n,More than two of these projects will not be successful.,Two of these projects will be successful.,neutral,1
+6,8,3,two-three-par-n,Two of these projects will not be successful.,Three of these projects will not be successful.,neutral,1
+6,8,4,two-three-par-n,Three of these projects will be successful.,Two of these projects will be successful.,entailment,0
+6,8,5,two-three-par-n,Three of these projects will not be successful.,Two of these projects will not be successful.,neutral,1
+6,8,6,two-three-par-n,Two of these projects will be successful.,Three of these projects will be successful.,neutral,1
+6,8,7,two-three-par-n,Three of these projects will be successful.,Two of these projects will not be successful.,neutral,1
+6,8,8,two-three-par-n,Two of these projects will not be successful.,Three of these projects will be successful.,neutral,1
+6,8,9,two-three-par-c,Two of these projects will not be successful.,Less than two of these projects will be successful.,neutral,1
+6,8,10,two-three-par-c,Two of these projects will not be successful.,At most two of these projects will be successful.,neutral,1
+6,8,11,two-three-par-c,Two of these projects will not be successful.,At least one of these projects will be successful.,implicature,3
+6,9,1,two-three-par-n,Two of the songs on the album became hits.,Three of the songs on the album did not become hits.,neutral,1
+6,9,2,two-three-par-n,More than two of the songs on the album did not become hits.,Two of the songs on the album became hits.,neutral,1
+6,9,3,two-three-par-n,Two of the songs on the album did not become hits.,Three of the songs on the album did not become hits.,neutral,1
+6,9,4,two-three-par-n,Three of the songs on the album became hits.,Two of the songs on the album became hits.,entailment,0
+6,9,5,two-three-par-n,Three of the songs on the album did not become hits.,Two of the songs on the album did not become hits.,neutral,1
+6,9,6,two-three-par-n,Two of the songs on the album became hits.,Three of the songs on the album became hits.,neutral,1
+6,9,7,two-three-par-n,Three of the songs on the album became hits.,Two of the songs on the album did not become hits.,neutral,1
+6,9,8,two-three-par-n,Two of the songs on the album did not become hits.,Three of the songs on the album became hits.,neutral,1
+6,9,9,two-three-par-c,Two of the songs on the album did not become hits.,Less than two of the songs on the album became hits.,neutral,1
+6,9,10,two-three-par-c,Two of the songs on the album did not become hits.,At most two of the songs on the album became hits.,neutral,1
+6,9,11,two-three-par-c,Two of the songs on the album did not become hits.,At least one of the songs on the album became hits.,implicature,3
+6,10,1,two-three-par-n,Two of my glasses are lost.,Three of my glasses are not lost.,neutral,1
+6,10,2,two-three-par-n,More than two of my glasses are not lost.,Two of my glasses are lost.,neutral,1
+6,10,3,two-three-par-n,Two of my glasses are not lost.,Three of my glasses are not lost.,neutral,1
+6,10,4,two-three-par-n,Three of my glasses are lost.,Two of my glasses are lost.,entailment,0
+6,10,5,two-three-par-n,Three of my glasses are not lost.,Two of my glasses are not lost.,neutral,1
+6,10,6,two-three-par-n,Two of my glasses are lost.,Three of my glasses are lost.,neutral,1
+6,10,7,two-three-par-n,Three of my glasses are lost.,Two of my glasses are not lost.,neutral,1
+6,10,8,two-three-par-n,Two of my glasses are not lost.,Three of my glasses are lost.,neutral,1
+6,10,9,two-three-par-c,Two of my glasses are not lost.,Less than two of my glasses are lost.,neutral,1
+6,10,10,two-three-par-c,Two of my glasses are not lost.,At most two of my glasses are lost.,neutral,1
+6,10,11,two-three-par-c,Two of my glasses are not lost.,At least one of my glasses is lost.,implicature,3
+6,11,1,three-five-par-n,Five of his ideas are logical.,Seven of his ideas are not logical.,neutral,1
+6,11,2,three-five-par-n,More than five of his ideas are not logical.,Five of his ideas are logical.,neutral,1
+6,11,3,three-five-par-n,Five of his ideas are not logical.,Seven of his ideas are not logical.,neutral,1
+6,11,4,three-five-par-n,Seven of his ideas are logical.,Five of his ideas are logical.,entailment,0
+6,11,5,three-five-par-n,Seven of his ideas are not logical.,Five of his ideas are not logical.,neutral,1
+6,11,6,three-five-par-n,Five of his ideas are logical.,Seven of his ideas are logical.,neutral,1
+6,11,7,three-five-par-n,Seven of his ideas are logical.,Five of his ideas are not logical.,neutral,1
+6,11,8,three-five-par-n,Five of his ideas are not logical.,Seven of his ideas are logical.,neutral,1
+6,11,9,three-five-par-c,Five of his ideas are not logical.,Less than five of his ideas are logical.,neutral,1
+6,11,10,three-five-par-c,Five of his ideas are not logical.,At most four of his ideas are logical.,neutral,1
+6,11,11,three-five-par-c,Five of his ideas are not logical.,At least one of his ideas is logical.,implicature,3
+6,12,1,three-five-par-n,Five of your televisions turned out to be broken.,Seven of your televisions didn't turn out to be broken.,neutral,1
+6,12,2,three-five-par-n,More than five of your televisions didn't turn out to be broken.,Five of your televisions turned out to be broken.,neutral,1
+6,12,3,three-five-par-n,Five of your televisions didn't turn out to be broken.,Seven of your televisions didn't turn out to be broken.,neutral,1
+6,12,4,three-five-par-n,Seven of your televisions turned out to be broken.,Five of your televisions turned out to be broken.,entailment,0
+6,12,5,three-five-par-n,Seven of your televisions didn't turn out to be broken.,Five of your televisions didn't turn out to be broken.,neutral,1
+6,12,6,three-five-par-n,Five of your televisions turned out to be broken.,Seven of your televisions turned out to be broken.,neutral,1
+6,12,7,three-five-par-n,Seven of your televisions turned out to be broken.,Five of your televisions didn't turn out to be broken.,neutral,1
+6,12,8,three-five-par-n,Five of your televisions didn't turn out to be broken.,Seven of your televisions turned out to be broken.,neutral,1
+6,12,9,three-five-par-c,Five of your televisions didn't turn out to be broken.,Less than five of your televisions turned out to be broken.,neutral,1
+6,12,10,three-five-par-c,Five of your televisions didn't turn out to be broken.,At most four of your televisions turned out to be broken.,neutral,1
+6,12,11,three-five-par-c,Five of your televisions didn't turn out to be broken.,At least one of your televisions turned out to be broken.,implicature,3
+6,13,1,three-five-par-n,Five buttons on the remote are working.,Seven buttons on the remote aren't working.,neutral,1
+6,13,2,three-five-par-n,More than five buttons on the remote aren't working.,Five buttons on the remote are working.,neutral,1
+6,13,3,three-five-par-n,Five buttons on the remote aren't working.,Seven buttons on the remote aren't working.,neutral,1
+6,13,4,three-five-par-n,Seven buttons on the remote are working.,Five buttons on the remote are working.,entailment,0
+6,13,5,three-five-par-n,Seven buttons on the remote aren't working.,Five buttons on the remote aren't working.,neutral,1
+6,13,6,three-five-par-n,Five buttons on the remote are working.,Seven buttons on the remote are working.,neutral,1
+6,13,7,three-five-par-n,Seven buttons on the remote are working.,Five buttons on the remote aren't working.,neutral,1
+6,13,8,three-five-par-n,Five buttons on the remote aren't working.,Seven buttons on the remote are working.,neutral,1
+6,13,9,three-five-par-c,Five buttons on the remote aren't working.,Less than five buttons on the remote are working.,neutral,1
+6,13,10,three-five-par-c,Five buttons on the remote aren't working.,At most four buttons on the remote are working.,neutral,1
+6,13,11,three-five-par-c,Five buttons on the remote aren't working.,At least one button on the remote is working.,implicature,3
+6,14,1,three-five-par-n,I planted five of the trees.,I didn't plant seven of the trees.,neutral,1
+6,14,2,three-five-par-n,I didn't plant more than five of the trees.,I planted five of the trees.,neutral,1
+6,14,3,three-five-par-n,I didn't plant five of the trees.,I didn't plant seven of the trees.,neutral,1
+6,14,4,three-five-par-n,I planted seven of the trees.,I planted five of the trees.,entailment,0
+6,14,5,three-five-par-n,I didn't plant seven of the trees.,I didn't plant five of the trees.,neutral,1
+6,14,6,three-five-par-n,I planted five of the trees.,I planted seven of the trees.,neutral,1
+6,14,7,three-five-par-n,I planted seven of the trees.,I didn't plant five of the trees.,neutral,1
+6,14,8,three-five-par-n,I didn't plant five of the trees.,I planted seven of the trees.,neutral,1
+6,14,9,three-five-par-c,I didn't plant five of the trees.,I planted less than five of the trees.,neutral,1
+6,14,10,three-five-par-c,I didn't plant five of the trees.,I planted at most four of the trees.,neutral,1
+6,14,11,three-five-par-c,I didn't plant five of the trees.,I planted at least one of the trees.,implicature,3
+6,15,1,three-five-par-n,Five people came from the gym.,Seven people didn't come from the gym.,neutral,1
+6,15,2,three-five-par-n,More than five people didn't come from the gym.,Five people came from the gym.,neutral,1
+6,15,3,three-five-par-n,Five people didn't come from the gym.,Seven people didn't come from the gym.,neutral,1
+6,15,4,three-five-par-n,Seven people came from the gym.,Five people came from the gym.,entailment,0
+6,15,5,three-five-par-n,Seven people didn't come from the gym.,Five people didn't come from the gym.,neutral,1
+6,15,6,three-five-par-n,Five people came from the gym.,Seven people came from the gym.,neutral,1
+6,15,7,three-five-par-n,Seven people came from the gym.,Five people didn't come from the gym.,neutral,1
+6,15,8,three-five-par-n,Five people didn't come from the gym.,Seven people came from the gym.,neutral,1
+6,15,9,three-five-par-c,Five people didn't come from the gym.,Less than five people came from the gym.,neutral,1
+6,15,10,three-five-par-c,Five people didn't come from the gym.,At most four people came from the gym.,neutral,1
+6,15,11,three-five-par-c,Five people didn't come from the gym.,At least one person came from the gym.,implicature,3
+6,16,1,three-five-par-n,They killed five members of the old board.,They didn't kill seven members of the old board.,neutral,1
+6,16,2,three-five-par-n,They didn't kill more than five members of the old board.,They killed five members of the old board.,neutral,1
+6,16,3,three-five-par-n,They didn't kill five members of the old board.,They didn't kill seven members of the old board.,neutral,1
+6,16,4,three-five-par-n,They killed seven members of the old board.,They killed five members of the old board.,entailment,0
+6,16,5,three-five-par-n,They didn't kill seven members of the old board.,They didn't kill five members of the old board.,neutral,1
+6,16,6,three-five-par-n,They killed five members of the old board.,They killed seven members of the old board.,neutral,1
+6,16,7,three-five-par-n,They killed seven members of the old board.,They didn't kill five members of the old board.,neutral,1
+6,16,8,three-five-par-n,They didn't kill five members of the old board.,They killed seven members of the old board.,neutral,1
+6,16,9,three-five-par-c,They didn't kill five members of the old board.,They killed less than five members of the old board.,neutral,1
+6,16,10,three-five-par-c,They didn't kill five members of the old board.,They killed at most four members of the old board.,neutral,1
+6,16,11,three-five-par-c,They didn't kill five members of the old board.,They killed at least one member of the old board.,implicature,3
+6,17,1,three-five-par-n,Five of the passengers on the bus were sleeping.,Seven of the passengers on the bus weren't sleeping.,neutral,1
+6,17,2,three-five-par-n,More than five of the passengers on the bus weren't sleeping.,Five of the passengers on the bus were sleeping.,neutral,1
+6,17,3,three-five-par-n,Five of the passengers on the bus weren't sleeping.,Seven of the passengers on the bus weren't sleeping.,neutral,1
+6,17,4,three-five-par-n,Seven of the passengers on the bus were sleeping.,Five of the passengers on the bus were sleeping.,entailment,0
+6,17,5,three-five-par-n,Seven of the passengers on the bus weren't sleeping.,Five of the passengers on the bus weren't sleeping.,neutral,1
+6,17,6,three-five-par-n,Five of the passengers on the bus were sleeping.,Seven of the passengers on the bus were sleeping.,neutral,1
+6,17,7,three-five-par-n,Seven of the passengers on the bus were sleeping.,Five of the passengers on the bus weren't sleeping.,neutral,1
+6,17,8,three-five-par-n,Five of the passengers on the bus weren't sleeping.,Seven of the passengers on the bus were sleeping.,neutral,1
+6,17,9,three-five-par-c,Five of the passengers on the bus weren't sleeping.,Less than five of the passengers on the bus were sleeping.,neutral,1
+6,17,10,three-five-par-c,Five of the passengers on the bus weren't sleeping.,At most four of the passengers on the bus were sleeping.,neutral,1
+6,17,11,three-five-par-c,Five of the passengers on the bus weren't sleeping.,At least one of the passengers on the bus was sleeping.,implicature,3
+6,18,1,three-five-par-n,Five of the trees in the field have turned to ash.,Seven of the trees in the field haven't turned to ash.,neutral,1
+6,18,2,three-five-par-n,More than five of the trees in the field haven't turned to ash.,Five of the trees in the field have turned to ash.,neutral,1
+6,18,3,three-five-par-n,Five of the trees in the field haven't turned to ash.,Seven of the trees in the field haven't turned to ash.,neutral,1
+6,18,4,three-five-par-n,Seven of the trees in the field have turned to ash.,Five of the trees in the field have turned to ash.,entailment,0
+6,18,5,three-five-par-n,Seven of the trees in the field haven't turned to ash.,Five of the trees in the field haven't turned to ash.,neutral,1
+6,18,6,three-five-par-n,Five of the trees in the field have turned to ash.,Seven of the trees in the field have turned to ash.,neutral,1
+6,18,7,three-five-par-n,Seven of the trees in the field have turned to ash.,Five of the trees in the field haven't turned to ash.,neutral,1
+6,18,8,three-five-par-n,Five of the trees in the field haven't turned to ash.,Seven of the trees in the field have turned to ash.,neutral,1
+6,18,9,three-five-par-c,Five of the trees in the field haven't turned to ash.,Less than five of the trees in the field have turned to ash.,neutral,1
+6,18,10,three-five-par-c,Five of the trees in the field haven't turned to ash.,At most four of the trees in the field have turned to ash.,neutral,1
+6,18,11,three-five-par-c,Five of the trees in the field haven't turned to ash.,At least one of the trees in the field has turned to ash.,implicature,3
+6,19,1,three-five-par-n,We reached five of our goals.,We didn't reach seven of our goals.,neutral,1
+6,19,2,three-five-par-n,We didn't reach more than five of our goals.,We reached five of our goals.,neutral,1
+6,19,3,three-five-par-n,We didn't reach five of our goals.,We didn't reach seven of our goals.,neutral,1
+6,19,4,three-five-par-n,We reached seven of our goals.,We reached five of our goals.,entailment,0
+6,19,5,three-five-par-n,We didn't reach seven of our goals.,We didn't reach five of our goals.,neutral,1
+6,19,6,three-five-par-n,We reached five of our goals.,We reached seven of our goals.,neutral,1
+6,19,7,three-five-par-n,We reached seven of our goals.,We didn't reach five of our goals.,neutral,1
+6,19,8,three-five-par-n,We didn't reach five of our goals.,We reached seven of our goals.,neutral,1
+6,19,9,three-five-par-c,We didn't reach five of our goals.,We reached less than five of our goals.,neutral,1
+6,19,10,three-five-par-c,We didn't reach five of our goals.,We reached at most four of our goals.,neutral,1
+6,19,11,three-five-par-c,We didn't reach five of our goals.,We reached at least one of our goals.,implicature,3
+6,20,1,three-five-par-n,Five seats on the bus are broken.,Seven seats on the bus aren't broken.,neutral,1
+6,20,2,three-five-par-n,More than five seats on the bus aren't broken.,Five seats on the bus are broken.,neutral,1
+6,20,3,three-five-par-n,Five seats on the bus aren't broken.,Seven seats on the bus aren't broken.,neutral,1
+6,20,4,three-five-par-n,Seven seats on the bus are broken.,Five seats on the bus are broken.,entailment,0
+6,20,5,three-five-par-n,Seven seats on the bus aren't broken.,Five seats on the bus aren't broken.,neutral,1
+6,20,6,three-five-par-n,Five seats on the bus are broken.,Seven seats on the bus are broken.,neutral,1
+6,20,7,three-five-par-n,Seven seats on the bus are broken.,Five seats on the bus aren't broken.,neutral,1
+6,20,8,three-five-par-n,Five seats on the bus aren't broken.,Seven seats on the bus are broken.,neutral,1
+6,20,9,three-five-par-c,Five seats on the bus aren't broken.,Less than five seats on the bus are broken.,neutral,1
+6,20,10,three-five-par-c,Five seats on the bus aren't broken.,At most four seats on the bus are broken.,neutral,1
+6,20,11,three-five-par-c,Five seats on the bus aren't broken.,At least one seat on the bus is broken.,implicature,3
+6,21,1,ten-twelve-par-n,He broke ten of the glasses.,He didn't break twelve of the glasses.,neutral,1
+6,21,2,ten-twelve-par-n,He didn't break more than ten of the glasses.,He broke ten of the glasses.,neutral,1
+6,21,3,ten-twelve-par-n,He didn't break ten of the glasses.,He didn't break twelve of the glasses.,neutral,1
+6,21,4,ten-twelve-par-n,He broke twelve of the glasses.,He broke ten of the glasses.,entailment,0
+6,21,5,ten-twelve-par-n,He didn't break twelve of the glasses.,He didn't break ten of the glasses.,neutral,1
+6,21,6,ten-twelve-par-n,He broke ten of the glasses.,He broke twelve of the glasses.,neutral,1
+6,21,7,ten-twelve-par-n,He broke twelve of the glasses.,He didn't break ten of the glasses.,neutral,1
+6,21,8,ten-twelve-par-n,He didn't break ten of the glasses.,He broke twelve of the glasses.,neutral,1
+6,21,9,ten-twelve-par-c,He didn't break ten of the glasses.,He broke less than ten of the glasses.,neutral,1
+6,21,10,ten-twelve-par-c,He didn't break ten of the glasses.,He broke at most nine of the glasses.,neutral,1
+6,21,11,ten-twelve-par-c,He didn't break ten of the glasses.,He broke at least one of the glasses.,implicature,3
+6,22,1,ten-twelve-par-n,Ten of the department's students failed the class.,Twelve of the department's students didn't fail the class.,neutral,1
+6,22,2,ten-twelve-par-n,More than ten of the department's students didn't fail the class.,Ten of the department's students failed the class.,neutral,1
+6,22,3,ten-twelve-par-n,Ten of the department's students didn't fail the class.,Twelve of the department's students didn't fail the class.,neutral,1
+6,22,4,ten-twelve-par-n,Twelve of the department's students failed the class.,Ten of the department's students failed the class.,entailment,0
+6,22,5,ten-twelve-par-n,Twelve of the department's students didn't fail the class.,Ten of the department's students didn't fail the class.,neutral,1
+6,22,6,ten-twelve-par-n,Ten of the department's students failed the class.,Twelve of the department's students failed the class.,neutral,1
+6,22,7,ten-twelve-par-n,Twelve of the department's students failed the class.,Ten of the department's students didn't fail the class.,neutral,1
+6,22,8,ten-twelve-par-n,Ten of the department's students didn't fail the class.,Twelve of the department's students failed the class.,neutral,1
+6,22,9,ten-twelve-par-c,Ten of the department's students didn't fail the class.,Less than ten of the department's students failed the class.,neutral,1
+6,22,10,ten-twelve-par-c,Ten of the department's students didn't fail the class.,At most nine of the department's students failed the class.,neutral,1
+6,22,11,ten-twelve-par-c,Ten of the department's students didn't fail the class.,At least one of the department's students failed the class.,implicature,3
+6,23,1,ten-twelve-par-n,Ten of the places have closed.,Twelve of the places haven't closed.,neutral,1
+6,23,2,ten-twelve-par-n,More than ten of the places haven't closed.,Ten of the places have closed.,neutral,1
+6,23,3,ten-twelve-par-n,Ten of the places haven't closed.,Twelve of the places haven't closed.,neutral,1
+6,23,4,ten-twelve-par-n,Twelve of the places have closed.,Ten of the places have closed.,entailment,0
+6,23,5,ten-twelve-par-n,Twelve of the places haven't closed.,Ten of the places haven't closed.,neutral,1
+6,23,6,ten-twelve-par-n,Ten of the places have closed.,Twelve of the places have closed.,neutral,1
+6,23,7,ten-twelve-par-n,Twelve of the places have closed.,Ten of the places haven't closed.,neutral,1
+6,23,8,ten-twelve-par-n,Ten of the places haven't closed.,Twelve of the places have closed.,neutral,1
+6,23,9,ten-twelve-par-c,Ten of the places haven't closed.,Less than ten of the places have closed.,neutral,1
+6,23,10,ten-twelve-par-c,Ten of the places haven't closed.,At most nine of the places have closed.,neutral,1
+6,23,11,ten-twelve-par-c,Ten of the places haven't closed.,At least one of the places has closed.,implicature,3
+6,24,1,ten-twelve-par-n,Ten of the candidates are business graduates.,Twelve of the candidates are not business graduates.,neutral,1
+6,24,2,ten-twelve-par-n,More than ten of the candidates are not business graduates.,Ten of the candidates are business graduates.,neutral,1
+6,24,3,ten-twelve-par-n,Ten of the candidates are not business graduates.,Twelve of the candidates are not business graduates.,neutral,1
+6,24,4,ten-twelve-par-n,Twelve of the candidates are business graduates.,Ten of the candidates are business graduates.,entailment,0
+6,24,5,ten-twelve-par-n,Twelve of the candidates are not business graduates.,Ten of the candidates are not business graduates.,neutral,1
+6,24,6,ten-twelve-par-n,Ten of the candidates are business graduates.,Twelve of the candidates are business graduates.,neutral,1
+6,24,7,ten-twelve-par-n,Twelve of the candidates are business graduates.,Ten of the candidates are not business graduates.,neutral,1
+6,24,8,ten-twelve-par-n,Ten of the candidates are not business graduates.,Twelve of the candidates are business graduates.,neutral,1
+6,24,9,ten-twelve-par-c,Ten of the candidates are not business graduates.,Less than ten of the candidates are business graduates.,neutral,1
+6,24,10,ten-twelve-par-c,Ten of the candidates are not business graduates.,At most nine of the candidates are business graduates.,neutral,1
+6,24,11,ten-twelve-par-c,Ten of the candidates are not business graduates.,At least one of the candidates is a business graduate.,implicature,3
+6,25,1,ten-twelve-par-n,He memorized ten lines of the poem.,He didn't memorize twelve lines of the poem.,neutral,1
+6,25,2,ten-twelve-par-n,He didn't memorize more than ten lines of the poem.,He memorized ten lines of the poem.,neutral,1
+6,25,3,ten-twelve-par-n,He didn't memorize ten lines of the poem.,He didn't memorize twelve lines of the poem.,neutral,1
+6,25,4,ten-twelve-par-n,He memorized twelve lines of the poem.,He memorized ten lines of the poem.,entailment,0
+6,25,5,ten-twelve-par-n,He didn't memorize twelve lines of the poem.,He didn't memorize ten lines of the poem.,neutral,1
+6,25,6,ten-twelve-par-n,He memorized ten lines of the poem.,He memorized twelve lines of the poem.,neutral,1
+6,25,7,ten-twelve-par-n,He memorized twelve lines of the poem.,He didn't memorize ten lines of the poem.,neutral,1
+6,25,8,ten-twelve-par-n,He didn't memorize ten lines of the poem.,He memorized twelve lines of the poem.,neutral,1
+6,25,9,ten-twelve-par-c,He didn't memorize ten lines of the poem.,He memorized fewer than ten lines of the poem.,neutral,1
+6,25,10,ten-twelve-par-c,He didn't memorize ten lines of the poem.,He memorized at most nine lines of the poem.,neutral,1
+6,25,11,ten-twelve-par-c,He didn't memorize ten lines of the poem.,He memorized at least one line of the poem.,implicature,3
+6,26,1,ten-twelve-par-n,Ten of those we talked to agreed with him.,Twelve of those we talked to didn't agree with him.,neutral,1
+6,26,2,ten-twelve-par-n,More than ten of those we talked to didn't agree with him.,Ten of those we talked to agreed with him.,neutral,1
+6,26,3,ten-twelve-par-n,Ten of those we talked to didn't agree with him.,Twelve of those we talked to didn't agree with him.,neutral,1
+6,26,4,ten-twelve-par-n,Twelve of those we talked to agreed with him.,Ten of those we talked to agreed with him.,entailment,0
+6,26,5,ten-twelve-par-n,Twelve of those we talked to didn't agree with him.,Ten of those we talked to didn't agree with him.,neutral,1
+6,26,6,ten-twelve-par-n,Ten of those we talked to agreed with him.,Twelve of those we talked to agreed with him.,neutral,1
+6,26,7,ten-twelve-par-n,Twelve of those we talked to agreed with him.,Ten of those we talked to didn't agree with him.,neutral,1
+6,26,8,ten-twelve-par-n,Ten of those we talked to didn't agree with him.,Twelve of those we talked to agreed with him.,neutral,1
+6,26,9,ten-twelve-par-c,Ten of those we talked to didn't agree with him.,Less than ten of those we talked to agreed with him.,neutral,1
+6,26,10,ten-twelve-par-c,Ten of those we talked to didn't agree with him.,At most nine of those we talked to agreed with him.,neutral,1
+6,26,11,ten-twelve-par-c,Ten of those we talked to didn't agree with him.,At least one of those we talked to agreed with him.,implicature,3
+6,27,1,ten-twelve-par-n,I had listened to ten songs on your list.,I hadn't listened to twelve songs on your list.,neutral,1
+6,27,2,ten-twelve-par-n,I hadn't listened to more than ten songs on your list.,I had listened to ten songs on your list.,neutral,1
+6,27,3,ten-twelve-par-n,I hadn't listened to ten songs on your list.,I hadn't listened to twelve songs on your list.,neutral,1
+6,27,4,ten-twelve-par-n,I had listened to twelve songs on your list.,I had listened to ten songs on your list.,entailment,0
+6,27,5,ten-twelve-par-n,I hadn't listened to twelve songs on your list.,I hadn't listened to ten songs on your list.,neutral,1
+6,27,6,ten-twelve-par-n,I had listened to ten songs on your list.,I had listened to twelve songs on your list.,neutral,1
+6,27,7,ten-twelve-par-n,I had listened to twelve songs on your list.,I hadn't listened to ten songs on your list.,neutral,1
+6,27,8,ten-twelve-par-n,I hadn't listened to ten songs on your list.,I had listened to twelve songs on your list.,neutral,1
+6,27,9,ten-twelve-par-c,I hadn't listened to ten songs on your list.,I had listened to fewer than ten songs on your list.,neutral,1
+6,27,10,ten-twelve-par-c,I hadn't listened to ten songs on your list.,I had listened to at most nine songs on your list.,neutral,1
+6,27,11,ten-twelve-par-c,I hadn't listened to ten songs on your list.,I had listened to at least one song on your list.,implicature,3
+6,28,1,ten-twelve-par-n,She sewed ten of the dresses.,She didn't sew twelve of the dresses.,neutral,1
+6,28,2,ten-twelve-par-n,She didn't sew more than ten of the dresses.,She sewed ten of the dresses.,neutral,1
+6,28,3,ten-twelve-par-n,She didn't sew ten of the dresses.,She didn't sew twelve of the dresses.,neutral,1
+6,28,4,ten-twelve-par-n,She sewed twelve of the dresses.,She sewed ten of the dresses.,entailment,0
+6,28,5,ten-twelve-par-n,She didn't sew twelve of the dresses.,She didn't sew ten of the dresses.,neutral,1
+6,28,6,ten-twelve-par-n,She sewed ten of the dresses.,She sewed twelve of the dresses.,neutral,1
+6,28,7,ten-twelve-par-n,She sewed twelve of the dresses.,She didn't sew ten of the dresses.,neutral,1
+6,28,8,ten-twelve-par-n,She didn't sew ten of the dresses.,She sewed twelve of the dresses.,neutral,1
+6,28,9,ten-twelve-par-c,She didn't sew ten of the dresses.,She sewed less than ten of the dresses.,neutral,1
+6,28,10,ten-twelve-par-c,She didn't sew ten of the dresses.,She sewed at most nine of the dresses.,neutral,1
+6,28,11,ten-twelve-par-c,She didn't sew ten of the dresses.,She sewed at least one of the dresses.,implicature,3
+6,29,1,ten-twelve-par-n,Ten keys on the keyboard are missing.,Twelve keys on the keyboard are not missing.,neutral,1
+6,29,2,ten-twelve-par-n,More than ten keys on the keyboard are not missing.,Ten keys on the keyboard are missing.,neutral,1
+6,29,3,ten-twelve-par-n,Ten keys on the keyboard are not missing.,Twelve keys on the keyboard are not missing.,neutral,1
+6,29,4,ten-twelve-par-n,Twelve keys on the keyboard are missing.,Ten keys on the keyboard are missing.,entailment,0
+6,29,5,ten-twelve-par-n,Twelve keys on the keyboard are not missing.,Ten keys on the keyboard are not missing.,neutral,1
+6,29,6,ten-twelve-par-n,Ten keys on the keyboard are missing.,Twelve keys on the keyboard are missing.,neutral,1
+6,29,7,ten-twelve-par-n,Twelve keys on the keyboard are missing.,Ten keys on the keyboard are not missing.,neutral,1
+6,29,8,ten-twelve-par-n,Ten keys on the keyboard are not missing.,Twelve keys on the keyboard are missing.,neutral,1
+6,29,9,ten-twelve-par-c,Ten keys on the keyboard are not missing.,Fewer than ten keys on the keyboard are missing.,neutral,1
+6,29,10,ten-twelve-par-c,Ten keys on the keyboard are not missing.,At most nine keys on the keyboard are missing.,neutral,1
+6,29,11,ten-twelve-par-c,Ten keys on the keyboard are not missing.,At least one key on the keyboard is missing.,implicature,3
+6,30,1,ten-twelve-par-n,Ten cars on the train are full.,Twelve cars on the train are not full.,neutral,1
+6,30,2,ten-twelve-par-n,More than ten cars on the train are not full.,Ten cars on the train are full.,neutral,1
+6,30,3,ten-twelve-par-n,Ten cars on the train are not full.,Twelve cars on the train are not full.,neutral,1
+6,30,4,ten-twelve-par-n,Twelve cars on the train are full.,Ten cars on the train are full.,entailment,0
+6,30,5,ten-twelve-par-n,Twelve cars on the train are not full.,Ten cars on the train are not full.,neutral,1
+6,30,6,ten-twelve-par-n,Ten cars on the train are full.,Twelve cars on the train are full.,neutral,1
+6,30,7,ten-twelve-par-n,Twelve cars on the train are full.,Ten cars on the train are not full.,neutral,1
+6,30,8,ten-twelve-par-n,Ten cars on the train are not full.,Twelve cars on the train are full.,neutral,1
+6,30,9,ten-twelve-par-c,Ten cars on the train are not full.,Less than ten cars on the train are full.,neutral,1
+6,30,10,ten-twelve-par-c,Ten cars on the train are not full.,At most nine cars on the train are full.,neutral,1
+6,30,11,ten-twelve-par-c,Ten cars on the train are not full.,At least one car on the train is full.,implicature,3
+6,31,1,fifteen-twenty-par-n,He bought fifteen of the computers.,He didn't buy twenty of the computers.,neutral,1
+6,31,2,fifteen-twenty-par-n,He didn't buy more than fifteen of the computers.,He bought fifteen of the computers.,neutral,1
+6,31,3,fifteen-twenty-par-n,He didn't buy fifteen of the computers.,He didn't buy twenty of the computers.,neutral,1
+6,31,4,fifteen-twenty-par-n,He bought twenty of the computers.,He bought fifteen of the computers.,entailment,0
+6,31,5,fifteen-twenty-par-n,He didn't buy twenty of the computers.,He didn't buy fifteen of the computers.,neutral,1
+6,31,6,fifteen-twenty-par-n,He bought fifteen of the computers.,He bought twenty of the computers.,neutral,1
+6,31,7,fifteen-twenty-par-n,He bought twenty of the computers.,He didn't buy fifteen of the computers.,neutral,1
+6,31,8,fifteen-twenty-par-n,He didn't buy fifteen of the computers.,He bought twenty of the computers.,neutral,1
+6,31,9,fifteen-twenty-par-c,He didn't buy fifteen of the computers.,He bought less than fifteen of the computers.,neutral,1
+6,31,10,fifteen-twenty-par-c,He didn't buy fifteen of the computers.,He bought at most fourteen of the computers.,neutral,1
+6,31,11,fifteen-twenty-par-c,He didn't buy fifteen of the computers.,He bought at least one of the computers.,implicature,3
+6,32,1,fifteen-twenty-par-n,Fifteen of the tiles arrived broken.,Twenty of the tiles didn't arrive broken.,neutral,1
+6,32,2,fifteen-twenty-par-n,More than fifteen of the tiles didn't arrive broken.,Fifteen of the tiles arrived broken.,neutral,1
+6,32,3,fifteen-twenty-par-n,Fifteen of the tiles didn't arrive broken.,Twenty of the tiles didn't arrive broken.,neutral,1
+6,32,4,fifteen-twenty-par-n,Twenty of the tiles arrived broken.,Fifteen of the tiles arrived broken.,entailment,0
+6,32,5,fifteen-twenty-par-n,Twenty of the tiles didn't arrive broken.,Fifteen of the tiles didn't arrive broken.,neutral,1
+6,32,6,fifteen-twenty-par-n,Fifteen of the tiles arrived broken.,Twenty of the tiles arrived broken.,neutral,1
+6,32,7,fifteen-twenty-par-n,Twenty of the tiles arrived broken.,Fifteen of the tiles didn't arrive broken.,neutral,1
+6,32,8,fifteen-twenty-par-n,Fifteen of the tiles didn't arrive broken.,Twenty of the tiles arrived broken.,neutral,1
+6,32,9,fifteen-twenty-par-c,Fifteen of the tiles didn't arrive broken.,Less than fifteen of the tiles arrived broken.,neutral,1
+6,32,10,fifteen-twenty-par-c,Fifteen of the tiles didn't arrive broken.,At most fourteen of the tiles arrived broken.,neutral,1
+6,32,11,fifteen-twenty-par-c,Fifteen of the tiles didn't arrive broken.,At least one of the tiles arrived broken.,implicature,3
+6,33,1,fifteen-twenty-par-n,Fifteen of the submitted plans were accepted.,Twenty of the submitted plans were not accepted.,neutral,1
+6,33,2,fifteen-twenty-par-n,More than fifteen of the submitted plans were not accepted.,Fifteen of the submitted plans were accepted.,neutral,1
+6,33,3,fifteen-twenty-par-n,Fifteen of the submitted plans were not accepted.,Twenty of the submitted plans were not accepted.,neutral,1
+6,33,4,fifteen-twenty-par-n,Twenty of the submitted plans were accepted.,Fifteen of the submitted plans were accepted.,entailment,0
+6,33,5,fifteen-twenty-par-n,Twenty of the submitted plans were not accepted.,Fifteen of the submitted plans were not accepted.,neutral,1
+6,33,6,fifteen-twenty-par-n,Fifteen of the submitted plans were accepted.,Twenty of the submitted plans were accepted.,neutral,1
+6,33,7,fifteen-twenty-par-n,Twenty of the submitted plans were accepted.,Fifteen of the submitted plans were not accepted.,neutral,1
+6,33,8,fifteen-twenty-par-n,Fifteen of the submitted plans were not accepted.,Twenty of the submitted plans were accepted.,neutral,1
+6,33,9,fifteen-twenty-par-c,Fifteen of the submitted plans were not accepted.,Less than fifteen of the submitted plans were accepted.,neutral,1
+6,33,10,fifteen-twenty-par-c,Fifteen of the submitted plans were not accepted.,At most fourteen of the submitted plans were accepted.,neutral,1
+6,33,11,fifteen-twenty-par-c,Fifteen of the submitted plans were not accepted.,At least one of the submitted plans was accepted.,implicature,3
+6,34,1,fifteen-twenty-par-n,Fifteen of the windows are dirty.,Twenty of the windows are not dirty.,neutral,1
+6,34,2,fifteen-twenty-par-n,More than fifteen of the windows are not dirty.,Fifteen of the windows are dirty.,neutral,1
+6,34,3,fifteen-twenty-par-n,Fifteen of the windows are not dirty.,Twenty of the windows are not dirty.,neutral,1
+6,34,4,fifteen-twenty-par-n,Twenty of the windows are dirty.,Fifteen of the windows are dirty.,entailment,0
+6,34,5,fifteen-twenty-par-n,Twenty of the windows are not dirty.,Fifteen of the windows are not dirty.,neutral,1
+6,34,6,fifteen-twenty-par-n,Fifteen of the windows are dirty.,Twenty of the windows are dirty.,neutral,1
+6,34,7,fifteen-twenty-par-n,Twenty of the windows are dirty.,Fifteen of the windows are not dirty.,neutral,1
+6,34,8,fifteen-twenty-par-n,Fifteen of the windows are not dirty.,Twenty of the windows are dirty.,neutral,1
+6,34,9,fifteen-twenty-par-c,Fifteen of the windows are not dirty.,Less than fifteen of the windows are dirty.,neutral,1
+6,34,10,fifteen-twenty-par-c,Fifteen of the windows are not dirty.,At most fourteen of the windows are dirty.,neutral,1
+6,34,11,fifteen-twenty-par-c,Fifteen of the windows are not dirty.,At least one of the windows is dirty.,implicature,3
+6,35,1,fifteen-twenty-par-n,He took fifteen of the pillows.,He didn't take twenty of the pillows.,neutral,1
+6,35,2,fifteen-twenty-par-n,He didn't take more than fifteen of the pillows.,He took fifteen of the pillows.,neutral,1
+6,35,3,fifteen-twenty-par-n,He didn't take fifteen of the pillows.,He didn't take twenty of the pillows.,neutral,1
+6,35,4,fifteen-twenty-par-n,He took twenty of the pillows.,He took fifteen of the pillows.,entailment,0
+6,35,5,fifteen-twenty-par-n,He didn't take twenty of the pillows.,He didn't take fifteen of the pillows.,neutral,1
+6,35,6,fifteen-twenty-par-n,He took fifteen of the pillows.,He took twenty of the pillows.,neutral,1
+6,35,7,fifteen-twenty-par-n,He took twenty of the pillows.,He didn't take fifteen of the pillows.,neutral,1
+6,35,8,fifteen-twenty-par-n,He didn't take fifteen of the pillows.,He took twenty of the pillows.,neutral,1
+6,35,9,fifteen-twenty-par-c,He didn't take fifteen of the pillows.,He took less than fifteen of the pillows.,neutral,1
+6,35,10,fifteen-twenty-par-c,He didn't take fifteen of the pillows.,He took at most fourteen of the pillows.,neutral,1
+6,35,11,fifteen-twenty-par-c,He didn't take fifteen of the pillows.,He took at least one of the pillows.,implicature,3
+6,36,1,fifteen-twenty-par-n,Ali broke fifteen of the speakers in the stadium.,Ali didn't break twenty of the speakers in the stadium.,neutral,1
+6,36,2,fifteen-twenty-par-n,Ali didn't break more than fifteen of the speakers in the stadium.,Ali broke fifteen of the speakers in the stadium.,neutral,1
+6,36,3,fifteen-twenty-par-n,Ali didn't break fifteen of the speakers in the stadium.,Ali didn't break twenty of the speakers in the stadium.,neutral,1
+6,36,4,fifteen-twenty-par-n,Ali broke twenty of the speakers in the stadium.,Ali broke fifteen of the speakers in the stadium.,entailment,0
+6,36,5,fifteen-twenty-par-n,Ali didn't break twenty of the speakers in the stadium.,Ali didn't break fifteen of the speakers in the stadium.,neutral,1
+6,36,6,fifteen-twenty-par-n,Ali broke fifteen of the speakers in the stadium.,Ali broke twenty of the speakers in the stadium.,neutral,1
+6,36,7,fifteen-twenty-par-n,Ali broke twenty of the speakers in the stadium.,Ali didn't break fifteen of the speakers in the stadium.,neutral,1
+6,36,8,fifteen-twenty-par-n,Ali didn't break fifteen of the speakers in the stadium.,Ali broke twenty of the speakers in the stadium.,neutral,1
+6,36,9,fifteen-twenty-par-c,Ali didn't break fifteen of the speakers in the stadium.,Ali broke less than fifteen of the speakers in the stadium.,neutral,1
+6,36,10,fifteen-twenty-par-c,Ali didn't break fifteen of the speakers in the stadium.,Ali broke at most fourteen of the speakers in the stadium.,neutral,1
+6,36,11,fifteen-twenty-par-c,Ali didn't break fifteen of the speakers in the stadium.,Ali broke at least one of the speakers in the stadium.,implicature,3
+6,37,1,fifteen-twenty-par-n,Fifteen of the tree species on the island are native.,Twenty of the tree species on the island are not native.,neutral,1
+6,37,2,fifteen-twenty-par-n,More than fifteen of the tree species on the island are not native.,Fifteen of the tree species on the island are native.,neutral,1
+6,37,3,fifteen-twenty-par-n,Fifteen of the tree species on the island are not native.,Twenty of the tree species on the island are not native.,neutral,1
+6,37,4,fifteen-twenty-par-n,Twenty of the tree species on the island are native.,Fifteen of the tree species on the island are native.,entailment,0
+6,37,5,fifteen-twenty-par-n,Twenty of the tree species on the island are not native.,Fifteen of the tree species on the island are not native.,neutral,1
+6,37,6,fifteen-twenty-par-n,Fifteen of the tree species on the island are native.,Twenty of the tree species on the island are native.,neutral,1
+6,37,7,fifteen-twenty-par-n,Twenty of the tree species on the island are native.,Fifteen of the tree species on the island are not native.,neutral,1
+6,37,8,fifteen-twenty-par-n,Fifteen of the tree species on the island are not native.,Twenty of the tree species on the island are native.,neutral,1
+6,37,9,fifteen-twenty-par-c,Fifteen of the tree species on the island are not native.,Less than fifteen of the tree species on the island are native.,neutral,1
+6,37,10,fifteen-twenty-par-c,Fifteen of the tree species on the island are not native.,At most fourteen of the tree species on the island are native.,neutral,1
+6,37,11,fifteen-twenty-par-c,Fifteen of the tree species on the island are not native.,At least one of the tree species on the island is native.,implicature,3
+6,38,1,fifteen-twenty-par-n,Fifteen of the workers in the factory are women.,Twenty of the workers in the factory are not women.,neutral,1
+6,38,2,fifteen-twenty-par-n,More than fifteen of the workers in the factory are not women.,Fifteen of the workers in the factory are women.,neutral,1
+6,38,3,fifteen-twenty-par-n,Fifteen of the workers in the factory are not women.,Twenty of the workers in the factory are not women.,neutral,1
+6,38,4,fifteen-twenty-par-n,Twenty of the workers in the factory are women.,Fifteen of the workers in the factory are women.,entailment,0
+6,38,5,fifteen-twenty-par-n,Twenty of the workers in the factory are not women.,Fifteen of the workers in the factory are not women.,neutral,1
+6,38,6,fifteen-twenty-par-n,Fifteen of the workers in the factory are women.,Twenty of the workers in the factory are women.,neutral,1
+6,38,7,fifteen-twenty-par-n,Twenty of the workers in the factory are women.,Fifteen of the workers in the factory are not women.,neutral,1
+6,38,8,fifteen-twenty-par-n,Fifteen of the workers in the factory are not women.,Twenty of the workers in the factory are women.,neutral,1
+6,38,9,fifteen-twenty-par-c,Fifteen of the workers in the factory are not women.,Less than fifteen of the workers in the factory are women.,neutral,1
+6,38,10,fifteen-twenty-par-c,Fifteen of the workers in the factory are not women.,At most fourteen of the workers in the factory are women.,neutral,1
+6,38,11,fifteen-twenty-par-c,Fifteen of the workers in the factory are not women.,At least one of the workers in the factory is a woman.,implicature,3
+6,39,1,fifteen-twenty-par-n,Fifteen of the family members are abroad.,Twenty of the family members are not abroad.,neutral,1
+6,39,2,fifteen-twenty-par-n,More than fifteen of the family members are not abroad.,Fifteen of the family members are abroad.,neutral,1
+6,39,3,fifteen-twenty-par-n,Fifteen of the family members are not abroad.,Twenty of the family members are not abroad.,neutral,1
+6,39,4,fifteen-twenty-par-n,Twenty of the family members are abroad.,Fifteen of the family members are abroad.,entailment,0
+6,39,5,fifteen-twenty-par-n,Twenty of the family members are not abroad.,Fifteen of the family members are not abroad.,neutral,1
+6,39,6,fifteen-twenty-par-n,Fifteen of the family members are abroad.,Twenty of the family members are abroad.,neutral,1
+6,39,7,fifteen-twenty-par-n,Twenty of the family members are abroad.,Fifteen of the family members are not abroad.,neutral,1
+6,39,8,fifteen-twenty-par-n,Fifteen of the family members are not abroad.,Twenty of the family members are abroad.,neutral,1
+6,39,9,fifteen-twenty-par-c,Fifteen of the family members are not abroad.,Less than fifteen of the family members are abroad.,neutral,1
+6,39,10,fifteen-twenty-par-c,Fifteen of the family members are not abroad.,At most fourteen of the family members are abroad.,neutral,1
+6,39,11,fifteen-twenty-par-c,Fifteen of the family members are not abroad.,At least one of the family members is abroad.,implicature,3
+6,40,1,fifteen-twenty-par-n,He took fifteen of the pillows.,He didn't take twenty of the pillows.,neutral,1
+6,40,2,fifteen-twenty-par-n,He didn't take more than fifteen of the pillows.,He took fifteen of the pillows.,neutral,1
+6,40,3,fifteen-twenty-par-n,He didn't take fifteen of the pillows.,He didn't take twenty of the pillows.,neutral,1
+6,40,4,fifteen-twenty-par-n,He took twenty of the pillows.,He took fifteen of the pillows.,entailment,0
+6,40,5,fifteen-twenty-par-n,He didn't take twenty of the pillows.,He didn't take fifteen of the pillows.,neutral,1
+6,40,6,fifteen-twenty-par-n,He took fifteen of the pillows.,He took twenty of the pillows.,neutral,1
+6,40,7,fifteen-twenty-par-n,He took twenty of the pillows.,He didn't take fifteen of the pillows.,neutral,1
+6,40,8,fifteen-twenty-par-n,He didn't take fifteen of the pillows.,He took twenty of the pillows.,neutral,1
+6,40,9,fifteen-twenty-par-c,He didn't take fifteen of the pillows.,He took less than fifteen of the pillows.,neutral,1
+6,40,10,fifteen-twenty-par-c,He didn't take fifteen of the pillows.,He took at most fourteen of the pillows.,neutral,1
+6,40,11,fifteen-twenty-par-c,He didn't take fifteen of the pillows.,He took at least one of the pillows.,implicature,3
+6,41,1,seventeen-twenty-nine-par-n,Seventeen of the chairs are broken.,Twenty of the chairs are not broken.,neutral,1
+6,41,2,seventeen-twenty-nine-par-n,More than seventeen of the chairs are not broken.,Seventeen of the chairs are broken.,neutral,1
+6,41,3,seventeen-twenty-nine-par-n,Seventeen of the chairs are not broken.,Twenty of the chairs are not broken.,neutral,1
+6,41,4,seventeen-twenty-nine-par-n,Twenty of the chairs are broken.,Seventeen of the chairs are broken.,entailment,0
+6,41,5,seventeen-twenty-nine-par-n,Twenty of the chairs are not broken.,Seventeen of the chairs are not broken.,neutral,1
+6,41,6,seventeen-twenty-nine-par-n,Seventeen of the chairs are broken.,Twenty of the chairs are broken.,neutral,1
+6,41,7,seventeen-twenty-nine-par-n,Twenty of the chairs are broken.,Seventeen of the chairs are not broken.,neutral,1
+6,41,8,seventeen-twenty-nine-par-n,Seventeen of the chairs are not broken.,Twenty of the chairs are broken.,neutral,1
+6,41,9,seventeen-twenty-nine-par-c,Seventeen of the chairs are not broken.,Less than seventeen of the chairs are broken.,neutral,1
+6,41,10,seventeen-twenty-nine-par-c,Seventeen of the chairs are not broken.,At most sixteen of the chairs are broken.,neutral,1
+6,41,11,seventeen-twenty-nine-par-c,Seventeen of the chairs are not broken.,At least one of the chairs is broken.,implicature,3
+6,42,1,seventeen-twenty-nine-par-n,Seventeen of the boxes are empty.,Twenty of the boxes are not empty.,neutral,1
+6,42,2,seventeen-twenty-nine-par-n,More than seventeen of the boxes are not empty.,Seventeen of the boxes are empty.,neutral,1
+6,42,3,seventeen-twenty-nine-par-n,Seventeen of the boxes are not empty.,Twenty of the boxes are not empty.,neutral,1
+6,42,4,seventeen-twenty-nine-par-n,Twenty of the boxes are empty.,Seventeen of the boxes are empty.,entailment,0
+6,42,5,seventeen-twenty-nine-par-n,Twenty of the boxes are not empty.,Seventeen of the boxes are not empty.,neutral,1
+6,42,6,seventeen-twenty-nine-par-n,Seventeen of the boxes are empty.,Twenty of the boxes are empty.,neutral,1
+6,42,7,seventeen-twenty-nine-par-n,Twenty of the boxes are empty.,Seventeen of the boxes are not empty.,neutral,1
+6,42,8,seventeen-twenty-nine-par-n,Seventeen of the boxes are not empty.,Twenty of the boxes are empty.,neutral,1
+6,42,9,seventeen-twenty-nine-par-c,Seventeen of the boxes are not empty.,Less than seventeen of the boxes are empty.,neutral,1
+6,42,10,seventeen-twenty-nine-par-c,Seventeen of the boxes are not empty.,At most sixteen of the boxes are empty.,neutral,1
+6,42,11,seventeen-twenty-nine-par-c,Seventeen of the boxes are not empty.,At least one of the boxes is empty.,implicature,3
+6,43,1,seventeen-twenty-nine-par-n,Seventeen of the dogs are on the street.,Twenty of the dogs are not on the street.,neutral,1
+6,43,2,seventeen-twenty-nine-par-n,More than seventeen of the dogs are not on the street.,Seventeen of the dogs are on the street.,neutral,1
+6,43,3,seventeen-twenty-nine-par-n,Seventeen of the dogs are not on the street.,Twenty of the dogs are not on the street.,neutral,1
+6,43,4,seventeen-twenty-nine-par-n,Twenty of the dogs are on the street.,Seventeen of the dogs are on the street.,entailment,0
+6,43,5,seventeen-twenty-nine-par-n,Twenty of the dogs are not on the street.,Seventeen of the dogs are not on the street.,neutral,1
+6,43,6,seventeen-twenty-nine-par-n,Seventeen of the dogs are on the street.,Twenty of the dogs are on the street.,neutral,1
+6,43,7,seventeen-twenty-nine-par-n,Twenty of the dogs are on the street.,Seventeen of the dogs are not on the street.,neutral,1
+6,43,8,seventeen-twenty-nine-par-n,Seventeen of the dogs are not on the street.,Twenty of the dogs are on the street.,neutral,1
+6,43,9,seventeen-twenty-nine-par-c,Seventeen of the dogs are not on the street.,Less than seventeen of the dogs are on the street.,neutral,1
+6,43,10,seventeen-twenty-nine-par-c,Seventeen of the dogs are not on the street.,At most sixteen of the dogs are on the street.,neutral,1
+6,43,11,seventeen-twenty-nine-par-c,Seventeen of the dogs are not on the street.,At least one of the dogs is on the street.,implicature,3
+6,44,1,seventeen-twenty-nine-par-n,Seventeen of the women are working.,Twenty of the women are not working.,neutral,1
+6,44,2,seventeen-twenty-nine-par-n,More than seventeen of the women are not working.,Seventeen of the women are working.,neutral,1
+6,44,3,seventeen-twenty-nine-par-n,Seventeen of the women are not working.,Twenty of the women are not working.,neutral,1
+6,44,4,seventeen-twenty-nine-par-n,Twenty of the women are working.,Seventeen of the women are working.,entailment,0
+6,44,5,seventeen-twenty-nine-par-n,Twenty of the women are not working.,Seventeen of the women are not working.,neutral,1
+6,44,6,seventeen-twenty-nine-par-n,Seventeen of the women are working.,Twenty of the women are working.,neutral,1
+6,44,7,seventeen-twenty-nine-par-n,Twenty of the women are working.,Seventeen of the women are not working.,neutral,1
+6,44,8,seventeen-twenty-nine-par-n,Seventeen of the women are not working.,Twenty of the women are working.,neutral,1
+6,44,9,seventeen-twenty-nine-par-c,Seventeen of the women are not working.,Less than seventeen of the women are working.,neutral,1
+6,44,10,seventeen-twenty-nine-par-c,Seventeen of the women are not working.,At most sixteen of the women are working.,neutral,1
+6,44,11,seventeen-twenty-nine-par-c,Seventeen of the women are not working.,At least one of the women is working.,implicature,3
+6,45,1,seventeen-twenty-nine-par-n,Seventeen members of the board are here.,Twenty members of the board are not here.,neutral,1
+6,45,2,seventeen-twenty-nine-par-n,More than seventeen members of the board are not here.,Seventeen members of the board are here.,neutral,1
+6,45,3,seventeen-twenty-nine-par-n,Seventeen members of the board are not here.,Twenty members of the board are not here.,neutral,1
+6,45,4,seventeen-twenty-nine-par-n,Twenty members of the board are here.,Seventeen members of the board are here.,entailment,0
+6,45,5,seventeen-twenty-nine-par-n,Twenty members of the board are not here.,Seventeen members of the board are not here.,neutral,1
+6,45,6,seventeen-twenty-nine-par-n,Seventeen members of the board are here.,Twenty members of the board are here.,neutral,1
+6,45,7,seventeen-twenty-nine-par-n,Twenty members of the board are here.,Seventeen members of the board are not here.,neutral,1
+6,45,8,seventeen-twenty-nine-par-n,Seventeen members of the board are not here.,Twenty members of the board are here.,neutral,1
+6,45,9,seventeen-twenty-nine-par-c,Seventeen members of the board are not here.,Less than seventeen of the board are here.,neutral,1
+6,45,10,seventeen-twenty-nine-par-c,Seventeen members of the board are not here.,At most sixteen of the board are here.,neutral,1
+6,45,11,seventeen-twenty-nine-par-c,Seventeen members of the board are not here.,At least one of the board is here.,implicature,3
+6,46,1,seventeen-twenty-nine-par-n,Seventeen of the bicycles are broken.,Twenty of the bicycles are not broken.,neutral,1
+6,46,2,seventeen-twenty-nine-par-n,More than seventeen of the bicycles are not broken.,Seventeen of the bicycles are broken.,neutral,1
+6,46,3,seventeen-twenty-nine-par-n,Seventeen of the bicycles are not broken.,Twenty of the bicycles are not broken.,neutral,1
+6,46,4,seventeen-twenty-nine-par-n,Twenty of the bicycles are broken.,Seventeen of the bicycles are broken.,entailment,0
+6,46,5,seventeen-twenty-nine-par-n,Twenty of the bicycles are not broken.,Seventeen of the bicycles are not broken.,neutral,1
+6,46,6,seventeen-twenty-nine-par-n,Seventeen of the bicycles are broken.,Twenty of the bicycles are broken.,neutral,1
+6,46,7,seventeen-twenty-nine-par-n,Twenty of the bicycles are broken.,Seventeen of the bicycles are not broken.,neutral,1
+6,46,8,seventeen-twenty-nine-par-n,Seventeen of the bicycles are not broken.,Twenty of the bicycles are broken.,neutral,1
+6,46,9,seventeen-twenty-nine-par-c,Seventeen of the bicycles are not broken.,Less than seventeen of the bicycles are broken.,neutral,1
+6,46,10,seventeen-twenty-nine-par-c,Seventeen of the bicycles are not broken.,At most sixteen of the bicycles are broken.,neutral,1
+6,46,11,seventeen-twenty-nine-par-c,Seventeen of the bicycles are not broken.,At least one of the bicycles is broken.,implicature,3
+6,47,1,seventeen-twenty-nine-par-n,He has rented out seventeen floors of the building.,He has not rented out twenty floors of the building.,neutral,1
+6,47,2,seventeen-twenty-nine-par-n,He has not rented out more than seventeen floors of the building.,He has rented out seventeen floors of the building.,neutral,1
+6,47,3,seventeen-twenty-nine-par-n,He has not rented out seventeen floors of the building.,He has not rented out twenty floors of the building.,neutral,1
+6,47,4,seventeen-twenty-nine-par-n,He has rented out twenty floors of the building.,He has rented out seventeen floors of the building.,entailment,0
+6,47,5,seventeen-twenty-nine-par-n,He has not rented out twenty floors of the building.,He has not rented out seventeen floors of the building.,neutral,1
+6,47,6,seventeen-twenty-nine-par-n,He has rented out seventeen floors of the building.,He has rented out twenty floors of the building.,neutral,1
+6,47,7,seventeen-twenty-nine-par-n,He has rented out twenty floors of the building.,He has not rented out seventeen floors of the building.,neutral,1
+6,47,8,seventeen-twenty-nine-par-n,He has not rented out seventeen floors of the building.,He has rented out twenty floors of the building.,neutral,1
+6,47,9,seventeen-twenty-nine-par-c,He has not rented out seventeen floors of the building.,He has rented out less than seventeen floors of the building.,neutral,1
+6,47,10,seventeen-twenty-nine-par-c,He has not rented out seventeen floors of the building.,He has rented out at most sixteen floors of the building.,neutral,1
+6,47,11,seventeen-twenty-nine-par-c,He has not rented out seventeen floors of the building.,He has rented out at least one floor of the building.,implicature,3
+6,48,1,seventeen-twenty-nine-par-n,I saw seventeen decks of the ship.,I did not see twenty decks of the ship.,neutral,1
+6,48,2,seventeen-twenty-nine-par-n,I did not see more than seventeen decks of the ship.,I saw seventeen decks of the ship.,neutral,1
+6,48,3,seventeen-twenty-nine-par-n,I did not see seventeen decks of the ship.,I did not see twenty decks of the ship.,neutral,1
+6,48,4,seventeen-twenty-nine-par-n,I saw twenty decks of the ship.,I saw seventeen decks of the ship.,entailment,0
+6,48,5,seventeen-twenty-nine-par-n,I did not see twenty decks of the ship.,I did not see seventeen decks of the ship.,neutral,1
+6,48,6,seventeen-twenty-nine-par-n,I saw seventeen decks of the ship.,I saw twenty decks of the ship.,neutral,1
+6,48,7,seventeen-twenty-nine-par-n,I saw twenty decks of the ship.,I did not see seventeen decks of the ship.,neutral,1
+6,48,8,seventeen-twenty-nine-par-n,I did not see seventeen decks of the ship.,I saw twenty decks of the ship.,neutral,1
+6,48,9,seventeen-twenty-nine-par-c,I did not see seventeen decks of the ship.,I saw less than seventeen of the ship.,neutral,1
+6,48,10,seventeen-twenty-nine-par-c,I did not see seventeen decks of the ship.,I saw at most sixteen of the ship.,neutral,1
+6,48,11,seventeen-twenty-nine-par-c,I did not see seventeen decks of the ship.,I saw at least one of the ship.,implicature,3
+6,49,1,seventeen-twenty-nine-par-n,Seventeen of the wires are old.,Twenty of the wires are not old.,neutral,1
+6,49,2,seventeen-twenty-nine-par-n,More than seventeen of the wires are not old.,Seventeen of the wires are old.,neutral,1
+6,49,3,seventeen-twenty-nine-par-n,Seventeen of the wires are not old.,Twenty of the wires are not old.,neutral,1
+6,49,4,seventeen-twenty-nine-par-n,Twenty of the wires are old.,Seventeen of the wires are old.,entailment,0
+6,49,5,seventeen-twenty-nine-par-n,Twenty of the wires are not old.,Seventeen of the wires are not old.,neutral,1
+6,49,6,seventeen-twenty-nine-par-n,Seventeen of the wires are old.,Twenty of the wires are old.,neutral,1
+6,49,7,seventeen-twenty-nine-par-n,Twenty of the wires are old.,Seventeen of the wires are not old.,neutral,1
+6,49,8,seventeen-twenty-nine-par-n,Seventeen of the wires are not old.,Twenty of the wires are old.,neutral,1
+6,49,9,seventeen-twenty-nine-par-c,Seventeen of the wires are not old.,Less than seventeen of the wires are old.,neutral,1
+6,49,10,seventeen-twenty-nine-par-c,Seventeen of the wires are not old.,At most sixteen of the wires are old.,neutral,1
+6,49,11,seventeen-twenty-nine-par-c,Seventeen of the wires are not old.,At least one of the wires is old.,implicature,3
+6,50,1,seventeen-twenty-nine-par-n,Seventeen of our dogs are sick.,Twenty of our dogs are not sick.,neutral,1
+6,50,2,seventeen-twenty-nine-par-n,More than seventeen of our dogs are not sick.,Seventeen of our dogs are sick.,neutral,1
+6,50,3,seventeen-twenty-nine-par-n,Seventeen of our dogs are not sick.,Twenty of our dogs are not sick.,neutral,1
+6,50,4,seventeen-twenty-nine-par-n,Twenty of our dogs are sick.,Seventeen of our dogs are sick.,entailment,0
+6,50,5,seventeen-twenty-nine-par-n,Twenty of our dogs are not sick.,Seventeen of our dogs are not sick.,neutral,1
+6,50,6,seventeen-twenty-nine-par-n,Seventeen of our dogs are sick.,Twenty of our dogs are sick.,neutral,1
+6,50,7,seventeen-twenty-nine-par-n,Twenty of our dogs are sick.,Seventeen of our dogs are not sick.,neutral,1
+6,50,8,seventeen-twenty-nine-par-n,Seventeen of our dogs are not sick.,Twenty of our dogs are sick.,neutral,1
+6,50,9,seventeen-twenty-nine-par-c,Seventeen of our dogs are not sick.,Less than seventeen of our dogs are sick.,neutral,1
+6,50,10,seventeen-twenty-nine-par-c,Seventeen of our dogs are not sick.,At most sixteen of our dogs are sick.,neutral,1
+6,50,11,seventeen-twenty-nine-par-c,Seventeen of our dogs are not sick.,At least one of our dogs is sick.,implicature,3
+6,51,1,twenty-four-thirty-six-par-n,Twenty of your routes seem suitable for us.,Four of your routes do not seem suitable for us.,neutral,1
+6,51,2,twenty-four-thirty-six-par-n,More than twenty of your routes do not seem suitable for us.,Twenty of your routes seem suitable for us.,neutral,1
+6,51,3,twenty-four-thirty-six-par-n,Twenty of your routes do not seem suitable for us.,Four of your routes do not seem suitable for us.,neutral,1
+6,51,4,twenty-four-thirty-six-par-n,Four of your routes seem suitable for us.,Twenty of your routes seem suitable for us.,entailment,0
+6,51,5,twenty-four-thirty-six-par-n,Four of your routes do not seem suitable for us.,Twenty of your routes do not seem suitable for us.,neutral,1
+6,51,6,twenty-four-thirty-six-par-n,Twenty of your routes seem suitable for us.,Four of your routes seem suitable for us.,neutral,1
+6,51,7,twenty-four-thirty-six-par-n,Four of your routes seem suitable for us.,Twenty of your routes do not seem suitable for us.,neutral,1
+6,51,8,twenty-four-thirty-six-par-n,Twenty of your routes do not seem suitable for us.,Four of your routes seem suitable for us.,neutral,1
+6,51,9,twenty-four-thirty-six-par-c,Twenty of your routes do not seem suitable for us.,Less than twenty of your routes seem suitable for us.,neutral,1
+6,51,10,twenty-four-thirty-six-par-c,Twenty of your routes do not seem suitable for us.,At most twenty-three of your routes seem suitable for us.,neutral,1
+6,51,11,twenty-four-thirty-six-par-c,Twenty of your routes do not seem suitable for us.,At least one of your routes seems suitable for us.,implicature,3
+6,52,1,twenty-four-thirty-six-par-n,Twenty of the tables have stains on them.,Four of the tables do not have stains on them.,neutral,1
+6,52,2,twenty-four-thirty-six-par-n,More than twenty of the tables do not have stains on them.,Twenty of the tables have stains on them.,neutral,1
+6,52,3,twenty-four-thirty-six-par-n,Twenty of the tables do not have stains on them.,Four of the tables do not have stains on them.,neutral,1
+6,52,4,twenty-four-thirty-six-par-n,Four of the tables have stains on them.,Twenty of the tables have stains on them.,entailment,0
+6,52,5,twenty-four-thirty-six-par-n,Four of the tables do not have stains on them.,Twenty of the tables do not have stains on them.,neutral,1
+6,52,6,twenty-four-thirty-six-par-n,Twenty of the tables have stains on them.,Four of the tables have stains on them.,neutral,1
+6,52,7,twenty-four-thirty-six-par-n,Four of the tables have stains on them.,Twenty of the tables do not have stains on them.,neutral,1
+6,52,8,twenty-four-thirty-six-par-n,Twenty of the tables do not have stains on them.,Four of the tables have stains on them.,neutral,1
+6,52,9,twenty-four-thirty-six-par-c,Twenty of the tables do not have stains on them.,Less than twenty of the tables have stains on them.,neutral,1
+6,52,10,twenty-four-thirty-six-par-c,Twenty of the tables do not have stains on them.,At most twenty-three of the tables have stains on them.,neutral,1
+6,52,11,twenty-four-thirty-six-par-c,Twenty of the tables do not have stains on them.,At least one of the tables has a stain on it.,implicature,3
+6,53,1,twenty-four-thirty-six-par-n,Twenty of the seats are springy.,Four of the seats are not springy.,neutral,1
+6,53,2,twenty-four-thirty-six-par-n,More than twenty of the seats are not springy.,Twenty of the seats are springy.,neutral,1
+6,53,3,twenty-four-thirty-six-par-n,Twenty of the seats are not springy.,Four of the seats are not springy.,neutral,1
+6,53,4,twenty-four-thirty-six-par-n,Four of the seats are springy.,Twenty of the seats are springy.,entailment,0
+6,53,5,twenty-four-thirty-six-par-n,Four of the seats are not springy.,Twenty of the seats are not springy.,neutral,1
+6,53,6,twenty-four-thirty-six-par-n,Twenty of the seats are springy.,Four of the seats are springy.,neutral,1
+6,53,7,twenty-four-thirty-six-par-n,Four of the seats are springy.,Twenty of the seats are not springy.,neutral,1
+6,53,8,twenty-four-thirty-six-par-n,Twenty of the seats are not springy.,Four of the seats are springy.,neutral,1
+6,53,9,twenty-four-thirty-six-par-c,Twenty of the seats are not springy.,Less than twenty of the seats are springy.,neutral,1
+6,53,10,twenty-four-thirty-six-par-c,Twenty of the seats are not springy.,At most twenty-three of the seats are springy.,neutral,1
+6,53,11,twenty-four-thirty-six-par-c,Twenty of the seats are not springy.,At least one of the seats is springy.,implicature,3
+6,54,1,twenty-four-thirty-six-par-n,Twenty of the paintings are old.,Four of the paintings are not old.,neutral,1
+6,54,2,twenty-four-thirty-six-par-n,More than twenty of the paintings are not old.,Twenty of the paintings are old.,neutral,1
+6,54,3,twenty-four-thirty-six-par-n,Twenty of the paintings are not old.,Four of the paintings are not old.,neutral,1
+6,54,4,twenty-four-thirty-six-par-n,Four of the paintings are old.,Twenty of the paintings are old.,entailment,0
+6,54,5,twenty-four-thirty-six-par-n,Four of the paintings are not old.,Twenty of the paintings are not old.,neutral,1
+6,54,6,twenty-four-thirty-six-par-n,Twenty of the paintings are old.,Four of the paintings are old.,neutral,1
+6,54,7,twenty-four-thirty-six-par-n,Four of the paintings are old.,Twenty of the paintings are not old.,neutral,1
+6,54,8,twenty-four-thirty-six-par-n,Twenty of the paintings are not old.,Four of the paintings are old.,neutral,1
+6,54,9,twenty-four-thirty-six-par-c,Twenty of the paintings are not old.,Less than twenty of the paintings are old.,neutral,1
+6,54,10,twenty-four-thirty-six-par-c,Twenty of the paintings are not old.,At most twenty-three of the paintings are old.,neutral,1
+6,54,11,twenty-four-thirty-six-par-c,Twenty of the paintings are not old.,At least one of the paintings is old.,implicature,3
+6,55,1,twenty-four-thirty-six-par-n,Twenty valid cards are with me.,Four valid cards are not with me.,neutral,1
+6,55,2,twenty-four-thirty-six-par-n,More than twenty valid cards are not with me.,Twenty valid cards are with me.,neutral,1
+6,55,3,twenty-four-thirty-six-par-n,Twenty valid cards are not with me.,Four valid cards are not with me.,neutral,1
+6,55,4,twenty-four-thirty-six-par-n,Four valid cards are with me.,Twenty valid cards are with me.,entailment,0
+6,55,5,twenty-four-thirty-six-par-n,Four valid cards are not with me.,Twenty valid cards are not with me.,neutral,1
+6,55,6,twenty-four-thirty-six-par-n,Twenty valid cards are with me.,Four valid cards are with me.,neutral,1
+6,55,7,twenty-four-thirty-six-par-n,Four valid cards are with me.,Twenty valid cards are not with me.,neutral,1
+6,55,8,twenty-four-thirty-six-par-n,Twenty valid cards are not with me.,Four valid cards are with me.,neutral,1
+6,55,9,twenty-four-thirty-six-par-c,Twenty valid cards are not with me.,Less than twenty valid cards are with me.,neutral,1
+6,55,10,twenty-four-thirty-six-par-c,Twenty valid cards are not with me.,At most twenty-three valid cards are with me.,neutral,1
+6,55,11,twenty-four-thirty-six-par-c,Twenty valid cards are not with me.,At least one valid card is with me.,implicature,3
+6,56,1,twenty-four-thirty-six-par-n,I counted twenty of the parents' responsibilities.,I didn't count four of the parents' responsibilities.,neutral,1
+6,56,2,twenty-four-thirty-six-par-n,I didn't count more than twenty of the parents' responsibilities.,I counted twenty of the parents' responsibilities.,neutral,1
+6,56,3,twenty-four-thirty-six-par-n,I didn't count twenty of the parents' responsibilities.,I didn't count four of the parents' responsibilities.,neutral,1
+6,56,4,twenty-four-thirty-six-par-n,I counted four of the parents' responsibilities.,I counted twenty of the parents' responsibilities.,entailment,0
+6,56,5,twenty-four-thirty-six-par-n,I didn't count four of the parents' responsibilities.,I didn't count twenty of the parents' responsibilities.,neutral,1
+6,56,6,twenty-four-thirty-six-par-n,I counted twenty of the parents' responsibilities.,I counted four of the parents' responsibilities.,neutral,1
+6,56,7,twenty-four-thirty-six-par-n,I counted four of the parents' responsibilities.,I didn't count twenty of the parents' responsibilities.,neutral,1
+6,56,8,twenty-four-thirty-six-par-n,I didn't count twenty of the parents' responsibilities.,I counted four of the parents' responsibilities.,neutral,1
+6,56,9,twenty-four-thirty-six-par-c,I didn't count twenty of the parents' responsibilities.,I counted less than twenty of the parents' responsibilities.,neutral,1
+6,56,10,twenty-four-thirty-six-par-c,I didn't count twenty of the parents' responsibilities.,I counted at most twenty-three of the parents' responsibilities.,neutral,1
+6,56,11,twenty-four-thirty-six-par-c,I didn't count twenty of the parents' responsibilities.,I counted at least one of the parents' responsibilities.,implicature,3
+6,57,1,twenty-four-thirty-six-par-n,I bought twenty of the shoes that were sold.,I didn't buy four of the shoes that were sold.,neutral,1
+6,57,2,twenty-four-thirty-six-par-n,I didn't buy more than twenty of the shoes that were sold.,I bought twenty of the shoes that were sold.,neutral,1
+6,57,3,twenty-four-thirty-six-par-n,I didn't buy twenty of the shoes that were sold.,I didn't buy four of the shoes that were sold.,neutral,1
+6,57,4,twenty-four-thirty-six-par-n,I bought four of the shoes that were sold.,I bought twenty of the shoes that were sold.,entailment,0
+6,57,5,twenty-four-thirty-six-par-n,I didn't buy four of the shoes that were sold.,I didn't buy twenty of the shoes that were sold.,neutral,1
+6,57,6,twenty-four-thirty-six-par-n,I bought twenty of the shoes that were sold.,I bought four of the shoes that were sold.,neutral,1
+6,57,7,twenty-four-thirty-six-par-n,I bought four of the shoes that were sold.,I didn't buy twenty of the shoes that were sold.,neutral,1
+6,57,8,twenty-four-thirty-six-par-n,I didn't buy twenty of the shoes that were sold.,I bought four of the shoes that were sold.,neutral,1
+6,57,9,twenty-four-thirty-six-par-c,I didn't buy twenty of the shoes that were sold.,I bought less than twenty of the shoes that were sold.,neutral,1
+6,57,10,twenty-four-thirty-six-par-c,I didn't buy twenty of the shoes that were sold.,I bought at most twenty-three of the shoes that were sold.,neutral,1
+6,57,11,twenty-four-thirty-six-par-c,I didn't buy twenty of the shoes that were sold.,I bought at least one of the shoes that were sold.,implicature,3
+6,58,1,twenty-four-thirty-six-par-n,Twenty of their interests are common with me.,Four of their interests are not common with me.,neutral,1
+6,58,2,twenty-four-thirty-six-par-n,More than twenty of their interests are not common with me.,Twenty of their interests are common with me.,neutral,1
+6,58,3,twenty-four-thirty-six-par-n,Twenty of their interests are not common with me.,Four of their interests are not common with me.,neutral,1
+6,58,4,twenty-four-thirty-six-par-n,Four of their interests are common with me.,Twenty of their interests are common with me.,entailment,0
+6,58,5,twenty-four-thirty-six-par-n,Four of their interests are not common with me.,Twenty of their interests are not common with me.,neutral,1
+6,58,6,twenty-four-thirty-six-par-n,Twenty of their interests are common with me.,Four of their interests are common with me.,neutral,1
+6,58,7,twenty-four-thirty-six-par-n,Four of their interests are common with me.,Twenty of their interests are not common with me.,neutral,1
+6,58,8,twenty-four-thirty-six-par-n,Twenty of their interests are not common with me.,Four of their interests are common with me.,neutral,1
+6,58,9,twenty-four-thirty-six-par-c,Twenty of their interests are not common with me.,Less than twenty of their interests are common with me.,neutral,1
+6,58,10,twenty-four-thirty-six-par-c,Twenty of their interests are not common with me.,At most twenty-three of their interests are common with me.,neutral,1
+6,58,11,twenty-four-thirty-six-par-c,Twenty of their interests are not common with me.,At least one of their interests is common with me.,implicature,3
+6,59,1,twenty-four-thirty-six-par-n,Twenty companies that attempted the initiative were closed down.,Four companies that attempted the initiative were not closed down.,neutral,1
+6,59,2,twenty-four-thirty-six-par-n,More than twenty companies that attempted the initiative were not closed down.,Twenty companies that attempted the initiative were closed down.,neutral,1
+6,59,3,twenty-four-thirty-six-par-n,Twenty companies that attempted the initiative were not closed down.,Four companies that attempted the initiative were not closed down.,neutral,1
+6,59,4,twenty-four-thirty-six-par-n,Four companies that attempted the initiative were closed down.,Twenty companies that attempted the initiative were closed down.,entailment,0
+6,59,5,twenty-four-thirty-six-par-n,Four companies that attempted the initiative were not closed down.,Twenty companies that attempted the initiative were not closed down.,neutral,1
+6,59,6,twenty-four-thirty-six-par-n,Twenty companies that attempted the initiative were closed down.,Four companies that attempted the initiative were closed down.,neutral,1
+6,59,7,twenty-four-thirty-six-par-n,Four companies that attempted the initiative were closed down.,Twenty companies that attempted the initiative were not closed down.,neutral,1
+6,59,8,twenty-four-thirty-six-par-n,Twenty companies that attempted the initiative were not closed down.,Four companies that attempted the initiative were closed down.,neutral,1
+6,59,9,twenty-four-thirty-six-par-c,Twenty companies that attempted the initiative were not closed down.,Less than twenty companies that attempted the initiative were closed down.,neutral,1
+6,59,10,twenty-four-thirty-six-par-c,Twenty companies that attempted the initiative were not closed down.,At most twenty-three companies that attempted the initiative were closed down.,neutral,1
+6,59,11,twenty-four-thirty-six-par-c,Twenty companies that attempted the initiative were not closed down.,At least one company that attempted the initiative was closed down.,implicature,3
+6,60,1,twenty-four-thirty-six-par-n,He chose twenty songs from the album.,He didn't choose four songs from the album.,neutral,1
+6,60,2,twenty-four-thirty-six-par-n,He didn't choose more than twenty songs from the album.,He chose twenty songs from the album.,neutral,1
+6,60,3,twenty-four-thirty-six-par-n,He didn't choose twenty songs from the album.,He didn't choose four songs from the album.,neutral,1
+6,60,4,twenty-four-thirty-six-par-n,He chose four songs from the album.,He chose twenty songs from the album.,entailment,0
+6,60,5,twenty-four-thirty-six-par-n,He didn't choose four songs from the album.,He didn't choose twenty songs from the album.,neutral,1
+6,60,6,twenty-four-thirty-six-par-n,He chose twenty songs from the album.,He chose four songs from the album.,neutral,1
+6,60,7,twenty-four-thirty-six-par-n,He chose four songs from the album.,He didn't choose twenty songs from the album.,neutral,1
+6,60,8,twenty-four-thirty-six-par-n,He didn't choose twenty songs from the album.,He chose four songs from the album.,neutral,1
+6,60,9,twenty-four-thirty-six-par-c,He didn't choose twenty songs from the album.,He chose less than twenty songs from the album.,neutral,1
+6,60,10,twenty-four-thirty-six-par-c,He didn't choose twenty songs from the album.,He chose at most twenty-three songs from the album.,neutral,1
+6,60,11,twenty-four-thirty-six-par-c,He didn't choose twenty songs from the album.,He chose at least one song from the album.,implicature,3
+6,61,1,twenty-five-forty-par-n,We had the opportunity to taste twenty of the dishes.,We didn't have the opportunity to taste five of the dishes.,neutral,1
+6,61,2,twenty-five-forty-par-n,We didn't have the opportunity to taste more than twenty of the dishes.,We had the opportunity to taste twenty of the dishes.,neutral,1
+6,61,3,twenty-five-forty-par-n,We didn't have the opportunity to taste twenty of the dishes.,We didn't have the opportunity to taste five of the dishes.,neutral,1
+6,61,4,twenty-five-forty-par-n,We had the opportunity to taste five of the dishes.,We had the opportunity to taste twenty of the dishes.,entailment,0
+6,61,5,twenty-five-forty-par-n,We didn't have the opportunity to taste five of the dishes.,We didn't have the opportunity to taste twenty of the dishes.,neutral,1
+6,61,6,twenty-five-forty-par-n,We had the opportunity to taste twenty of the dishes.,We had the opportunity to taste five of the dishes.,neutral,1
+6,61,7,twenty-five-forty-par-n,We had the opportunity to taste five of the dishes.,We didn't have the opportunity to taste twenty of the dishes.,neutral,1
+6,61,8,twenty-five-forty-par-n,We didn't have the opportunity to taste twenty of the dishes.,We had the opportunity to taste five of the dishes.,neutral,1
+6,61,9,twenty-five-forty-par-c,We didn't have the opportunity to taste twenty of the dishes.,We had the opportunity to taste less than twenty of the dishes.,neutral,1
+6,61,10,twenty-five-forty-par-c,We didn't have the opportunity to taste twenty of the dishes.,We had the opportunity to taste at most twenty four of the dishes.,neutral,1
+6,61,11,twenty-five-forty-par-c,We didn't have the opportunity to taste twenty of the dishes.,We had the opportunity to taste at least one of the dishes.,implicature,3
+6,62,1,twenty-five-forty-par-n,Twenty of the retired uncles went to the bank.,Five of the retired uncles didn't go to the bank.,neutral,1
+6,62,2,twenty-five-forty-par-n,More than twenty of the retired uncles didn't go to the bank.,Twenty of the retired uncles went to the bank.,neutral,1
+6,62,3,twenty-five-forty-par-n,Twenty of the retired uncles didn't go to the bank.,Five of the retired uncles didn't go to the bank.,neutral,1
+6,62,4,twenty-five-forty-par-n,Five of the retired uncles went to the bank.,Twenty of the retired uncles went to the bank.,entailment,0
+6,62,5,twenty-five-forty-par-n,Five of the retired uncles didn't go to the bank.,Twenty of the retired uncles didn't go to the bank.,neutral,1
+6,62,6,twenty-five-forty-par-n,Twenty of the retired uncles went to the bank.,Five of the retired uncles went to the bank.,neutral,1
+6,62,7,twenty-five-forty-par-n,Five of the retired uncles went to the bank.,Twenty of the retired uncles didn't go to the bank.,neutral,1
+6,62,8,twenty-five-forty-par-n,Twenty of the retired uncles didn't go to the bank.,Five of the retired uncles went to the bank.,neutral,1
+6,62,9,twenty-five-forty-par-c,Twenty of the retired uncles didn't go to the bank.,Less than twenty of the retired uncles went to the bank.,neutral,1
+6,62,10,twenty-five-forty-par-c,Twenty of the retired uncles didn't go to the bank.,At most twenty four of the retired uncles went to the bank.,neutral,1
+6,62,11,twenty-five-forty-par-c,Twenty of the retired uncles didn't go to the bank.,At least one of the retired uncles went to the bank.,implicature,3
+6,63,1,twenty-five-forty-par-n,Twenty of the cats are waiting at home.,Five of the cats aren't waiting at home.,neutral,1
+6,63,2,twenty-five-forty-par-n,More than twenty of the cats aren't waiting at home.,Twenty of the cats are waiting at home.,neutral,1
+6,63,3,twenty-five-forty-par-n,Twenty of the cats aren't waiting at home.,Five of the cats aren't waiting at home.,neutral,1
+6,63,4,twenty-five-forty-par-n,Five of the cats are waiting at home.,Twenty of the cats are waiting at home.,entailment,0
+6,63,5,twenty-five-forty-par-n,Five of the cats aren't waiting at home.,Twenty of the cats aren't waiting at home.,neutral,1
+6,63,6,twenty-five-forty-par-n,Twenty of the cats are waiting at home.,Five of the cats are waiting at home.,neutral,1
+6,63,7,twenty-five-forty-par-n,Five of the cats are waiting at home.,Twenty of the cats aren't waiting at home.,neutral,1
+6,63,8,twenty-five-forty-par-n,Twenty of the cats aren't waiting at home.,Five of the cats are waiting at home.,neutral,1
+6,63,9,twenty-five-forty-par-c,Twenty of the cats aren't waiting at home.,Less than twenty of the cats are waiting at home.,neutral,1
+6,63,10,twenty-five-forty-par-c,Twenty of the cats aren't waiting at home.,At most twenty four of the cats are waiting at home.,neutral,1
+6,63,11,twenty-five-forty-par-c,Twenty of the cats aren't waiting at home.,At least one of the cats is waiting at home.,implicature,3
+6,64,1,twenty-five-forty-par-n,Twenty of the seats on the plane are full.,Five of the seats on the plane are empty.,neutral,1
+6,64,2,twenty-five-forty-par-n,More than twenty of the seats on the plane are empty.,Twenty of the seats on the plane are full.,neutral,1
+6,64,3,twenty-five-forty-par-n,Twenty of the seats on the plane are empty.,Five of the seats on the plane are empty.,neutral,1
+6,64,4,twenty-five-forty-par-n,Five of the seats on the plane are full.,Twenty of the seats on the plane are full.,entailment,0
+6,64,5,twenty-five-forty-par-n,Five of the seats on the plane are empty.,Twenty of the seats on the plane are empty.,neutral,1
+6,64,6,twenty-five-forty-par-n,Twenty of the seats on the plane are full.,Five of the seats on the plane are full.,neutral,1
+6,64,7,twenty-five-forty-par-n,Five of the seats on the plane are full.,Twenty of the seats on the plane are empty.,neutral,1
+6,64,8,twenty-five-forty-par-n,Twenty of the seats on the plane are empty.,Five of the seats on the plane are full.,neutral,1
+6,64,9,twenty-five-forty-par-c,Twenty of the seats on the plane are empty.,Less than twenty of the seats on the plane are full.,neutral,1
+6,64,10,twenty-five-forty-par-c,Twenty of the seats on the plane are empty.,At most twenty four of the seats on the plane are full.,neutral,1
+6,64,11,twenty-five-forty-par-c,Twenty of the seats on the plane are empty.,At least one of the seats on the plane is full.,implicature,3
+6,65,1,twenty-five-forty-par-n,Twenty of the keys are problematic.,Five of the keys aren't problematic.,neutral,1
+6,65,2,twenty-five-forty-par-n,More than twenty of the keys aren't problematic.,Twenty of the keys are problematic.,neutral,1
+6,65,3,twenty-five-forty-par-n,Twenty of the keys aren't problematic.,Five of the keys aren't problematic.,neutral,1
+6,65,4,twenty-five-forty-par-n,Five of the keys are problematic.,Twenty of the keys are problematic.,entailment,0
+6,65,5,twenty-five-forty-par-n,Five of the keys aren't problematic.,Twenty of the keys aren't problematic.,neutral,1
+6,65,6,twenty-five-forty-par-n,Twenty of the keys are problematic.,Five of the keys are problematic.,neutral,1
+6,65,7,twenty-five-forty-par-n,Five of the keys are problematic.,Twenty of the keys aren't problematic.,neutral,1
+6,65,8,twenty-five-forty-par-n,Twenty of the keys aren't problematic.,Five of the keys are problematic.,neutral,1
+6,65,9,twenty-five-forty-par-c,Twenty of the keys aren't problematic.,Less than twenty of the keys are problematic.,neutral,1
+6,65,10,twenty-five-forty-par-c,Twenty of the keys aren't problematic.,At most twenty four of the keys are problematic.,neutral,1
+6,65,11,twenty-five-forty-par-c,Twenty of the keys aren't problematic.,At least one of the keys is problematic.,implicature,3
+6,66,1,twenty-five-forty-par-n,Twenty of the matches are burnt.,Five of the matches aren't burnt.,neutral,1
+6,66,2,twenty-five-forty-par-n,More than twenty of the matches aren't burnt.,Twenty of the matches are burnt.,neutral,1
+6,66,3,twenty-five-forty-par-n,Twenty of the matches aren't burnt.,Five of the matches aren't burnt.,neutral,1
+6,66,4,twenty-five-forty-par-n,Five of the matches are burnt.,Twenty of the matches are burnt.,entailment,0
+6,66,5,twenty-five-forty-par-n,Five of the matches aren't burnt.,Twenty of the matches aren't burnt.,neutral,1
+6,66,6,twenty-five-forty-par-n,Twenty of the matches are burnt.,Five of the matches are burnt.,neutral,1
+6,66,7,twenty-five-forty-par-n,Five of the matches are burnt.,Twenty of the matches aren't burnt.,neutral,1
+6,66,8,twenty-five-forty-par-n,Twenty of the matches aren't burnt.,Five of the matches are burnt.,neutral,1
+6,66,9,twenty-five-forty-par-c,Twenty of the matches aren't burnt.,Less than twenty of the matches are burnt.,neutral,1
+6,66,10,twenty-five-forty-par-c,Twenty of the matches aren't burnt.,At most twenty four of the matches are burnt.,neutral,1
+6,66,11,twenty-five-forty-par-c,Twenty of the matches aren't burnt.,At least one of the matches is burnt.,implicature,3
+6,67,1,twenty-five-forty-par-n,Twenty of the napkins are torn.,Five of the napkins aren't torn.,neutral,1
+6,67,2,twenty-five-forty-par-n,More than twenty of the napkins aren't torn.,Twenty of the napkins are torn.,neutral,1
+6,67,3,twenty-five-forty-par-n,Twenty of the napkins aren't torn.,Five of the napkins aren't torn.,neutral,1
+6,67,4,twenty-five-forty-par-n,Five of the napkins are torn.,Twenty of the napkins are torn.,entailment,0
+6,67,5,twenty-five-forty-par-n,Five of the napkins aren't torn.,Twenty of the napkins aren't torn.,neutral,1
+6,67,6,twenty-five-forty-par-n,Twenty of the napkins are torn.,Five of the napkins are torn.,neutral,1
+6,67,7,twenty-five-forty-par-n,Five of the napkins are torn.,Twenty of the napkins aren't torn.,neutral,1
+6,67,8,twenty-five-forty-par-n,Twenty of the napkins aren't torn.,Five of the napkins are torn.,neutral,1
+6,67,9,twenty-five-forty-par-c,Twenty of the napkins aren't torn.,Less than twenty of the napkins are torn.,neutral,1
+6,67,10,twenty-five-forty-par-c,Twenty of the napkins aren't torn.,At most twenty four of the napkins are torn.,neutral,1
+6,67,11,twenty-five-forty-par-c,Twenty of the napkins aren't torn.,At least one of the napkins is torn.,implicature,3
+6,68,1,twenty-five-forty-par-n,Twenty four of my brother's pencils are broken.,Five of my brother's pencils aren't broken.,neutral,1
+6,68,2,twenty-five-forty-par-n,More than twenty four of my brother's pencils aren't broken.,Twenty four of my brother's pencils are broken.,neutral,1
+6,68,3,twenty-five-forty-par-n,Twenty four of my brother's pencils aren't broken.,Five of my brother's pencils aren't broken.,neutral,1
+6,68,4,twenty-five-forty-par-n,Five of my brother's pencils are broken.,Twenty four of my brother's pencils are broken.,entailment,0
+6,68,5,twenty-five-forty-par-n,Five of my brother's pencils aren't broken.,Twenty four of my brother's pencils aren't broken.,neutral,1
+6,68,6,twenty-five-forty-par-n,Twenty four of my brother's pencils are broken.,Five of my brother's pencils are broken.,neutral,1
+6,68,7,twenty-five-forty-par-n,Five of my brother's pencils are broken.,Twenty four of my brother's pencils aren't broken.,neutral,1
+6,68,8,twenty-five-forty-par-n,Twenty four of my brother's pencils aren't broken.,Five of my brother's pencils are broken.,neutral,1
+6,68,9,twenty-five-forty-par-c,Twenty four of my brother's pencils aren't broken.,Less than twenty four of my brother's pencils are broken.,neutral,1
+6,68,10,twenty-five-forty-par-c,Twenty four of my brother's pencils aren't broken.,At most twenty three of my brother's pencils are broken.,neutral,1
+6,68,11,twenty-five-forty-par-c,Twenty four of my brother's pencils aren't broken.,At least one of my brother's pencils is broken.,implicature,3
+6,69,1,twenty-five-forty-par-n,Twenty of the pages of the notebook are torn.,Five of the pages of the notebook aren't torn.,neutral,1
+6,69,2,twenty-five-forty-par-n,More than twenty of the pages of the notebook aren't torn.,Twenty of the pages of the notebook are torn.,neutral,1
+6,69,3,twenty-five-forty-par-n,Twenty of the pages of the notebook aren't torn.,Five of the pages of the notebook aren't torn.,neutral,1
+6,69,4,twenty-five-forty-par-n,Five of the pages of the notebook are torn.,Twenty of the pages of the notebook are torn.,entailment,0
+6,69,5,twenty-five-forty-par-n,Five of the pages of the notebook aren't torn.,Twenty of the pages of the notebook aren't torn.,neutral,1
+6,69,6,twenty-five-forty-par-n,Twenty of the pages of the notebook are torn.,Five of the pages of the notebook are torn.,neutral,1
+6,69,7,twenty-five-forty-par-n,Five of the pages of the notebook are torn.,Twenty of the pages of the notebook aren't torn.,neutral,1
+6,69,8,twenty-five-forty-par-n,Twenty of the pages of the notebook aren't torn.,Five of the pages of the notebook are torn.,neutral,1
+6,69,9,twenty-five-forty-par-c,Twenty of the pages of the notebook aren't torn.,Less than twenty of the pages of the notebook are torn.,neutral,1
+6,69,10,twenty-five-forty-par-c,Twenty of the pages of the notebook aren't torn.,At most twenty four of the pages of the notebook are torn.,neutral,1
+6,69,11,twenty-five-forty-par-c,Twenty of the pages of the notebook aren't torn.,At least one of the pages of the notebook is torn.,implicature,3
+6,70,1,twenty-five-forty-par-n,Twenty of you must wait here.,Five of you mustn't wait here.,neutral,1
+6,70,2,twenty-five-forty-par-n,More than twenty of you mustn't wait here.,Twenty of you must wait here.,neutral,1
+6,70,3,twenty-five-forty-par-n,Twenty of you mustn't wait here.,Five of you mustn't wait here.,neutral,1
+6,70,4,twenty-five-forty-par-n,Five of you must wait here.,Twenty of you must wait here.,entailment,0
+6,70,5,twenty-five-forty-par-n,Five of you mustn't wait here.,Twenty of you mustn't wait here.,neutral,1
+6,70,6,twenty-five-forty-par-n,Twenty of you must wait here.,Five of you must wait here.,neutral,1
+6,70,7,twenty-five-forty-par-n,Five of you must wait here.,Twenty of you mustn't wait here.,neutral,1
+6,70,8,twenty-five-forty-par-n,Twenty of you mustn't wait here.,Five of you must wait here.,neutral,1
+6,70,9,twenty-five-forty-par-c,Twenty of you mustn't wait here.,Less than twenty of you must wait here.,neutral,1
+6,70,10,twenty-five-forty-par-c,Twenty of you mustn't wait here.,At most twenty four of you must wait here.,neutral,1
+6,70,11,twenty-five-forty-par-c,Twenty of you mustn't wait here.,At least one of you must wait here.,implicature,3
+6,71,1,thirty-sixty-par-n,Thirty of the apartments have been sold.,Sixty of the apartments have not been sold.,neutral,1
+6,71,2,thirty-sixty-par-n,More than thirty of the apartments have not been sold.,Thirty of the apartments have been sold.,neutral,1
+6,71,3,thirty-sixty-par-n,Thirty of the apartments have not been sold.,Sixty of the apartments have not been sold.,neutral,1
+6,71,4,thirty-sixty-par-n,Sixty of the apartments have been sold.,Thirty of the apartments have been sold.,entailment,0
+6,71,5,thirty-sixty-par-n,Sixty of the apartments have not been sold.,Thirty of the apartments have not been sold.,neutral,1
+6,71,6,thirty-sixty-par-n,Thirty of the apartments have been sold.,Sixty of the apartments have been sold.,neutral,1
+6,71,7,thirty-sixty-par-n,Sixty of the apartments have been sold.,Thirty of the apartments have not been sold.,neutral,1
+6,71,8,thirty-sixty-par-n,Thirty of the apartments have not been sold.,Sixty of the apartments have been sold.,neutral,1
+6,71,9,thirty-sixty-par-c,Thirty of the apartments have not been sold.,Less than thirty of the apartments have been sold.,neutral,1
+6,71,10,thirty-sixty-par-c,Thirty of the apartments have not been sold.,At most twenty-nine of the apartments have been sold.,neutral,1
+6,71,11,thirty-sixty-par-c,Thirty of the apartments have not been sold.,At least one of the apartments has been sold.,implicature,3
+6,72,1,thirty-sixty-par-n,Thirty of the balls are flat.,Sixty of the balls are not flat.,neutral,1
+6,72,2,thirty-sixty-par-n,More than thirty of the balls are not flat.,Thirty of the balls are flat.,neutral,1
+6,72,3,thirty-sixty-par-n,Thirty of the balls are not flat.,Sixty of the balls are not flat.,neutral,1
+6,72,4,thirty-sixty-par-n,Sixty of the balls are flat.,Thirty of the balls are flat.,entailment,0
+6,72,5,thirty-sixty-par-n,Sixty of the balls are not flat.,Thirty of the balls are not flat.,neutral,1
+6,72,6,thirty-sixty-par-n,Thirty of the balls are flat.,Sixty of the balls are flat.,neutral,1
+6,72,7,thirty-sixty-par-n,Sixty of the balls are flat.,Thirty of the balls are not flat.,neutral,1
+6,72,8,thirty-sixty-par-n,Thirty of the balls are not flat.,Sixty of the balls are flat.,neutral,1
+6,72,9,thirty-sixty-par-c,Thirty of the balls are not flat.,Less than thirty of the balls are flat.,neutral,1
+6,72,10,thirty-sixty-par-c,Thirty of the balls are not flat.,At most twenty-nine of the balls are flat.,neutral,1
+6,72,11,thirty-sixty-par-c,Thirty of the balls are not flat.,At least one of the balls is flat.,implicature,3
+6,73,1,thirty-sixty-par-n,Thirty wolf species are endangered.,Sixty wolf species are not endangered.,neutral,1
+6,73,2,thirty-sixty-par-n,More than thirty wolf species are not endangered.,Thirty wolf species are endangered.,neutral,1
+6,73,3,thirty-sixty-par-n,Thirty wolf species are not endangered.,Sixty wolf species are not endangered.,neutral,1
+6,73,4,thirty-sixty-par-n,Sixty wolf species are endangered.,Thirty wolf species are endangered.,entailment,0
+6,73,5,thirty-sixty-par-n,Sixty wolf species are not endangered.,Thirty wolf species are not endangered.,neutral,1
+6,73,6,thirty-sixty-par-n,Thirty wolf species are endangered.,Sixty wolf species are endangered.,neutral,1
+6,73,7,thirty-sixty-par-n,Sixty wolf species are endangered.,Thirty wolf species are not endangered.,neutral,1
+6,73,8,thirty-sixty-par-n,Thirty wolf species are not endangered.,Sixty wolf species are endangered.,neutral,1
+6,73,9,thirty-sixty-par-c,Thirty wolf species are not endangered.,Less than thirty wolf species are endangered.,neutral,1
+6,73,10,thirty-sixty-par-c,Thirty wolf species are not endangered.,At most twenty-nine wolf species are endangered.,neutral,1
+6,73,11,thirty-sixty-par-c,Thirty wolf species are not endangered.,At least one wolf species is endangered.,implicature,3
+6,74,1,thirty-sixty-par-n,Thirty of the pizza boxes are red.,Sixty of the pizza boxes are not red.,neutral,1
+6,74,2,thirty-sixty-par-n,More than thirty of the pizza boxes are not red.,Thirty of the pizza boxes are red.,neutral,1
+6,74,3,thirty-sixty-par-n,Thirty of the pizza boxes are not red.,Sixty of the pizza boxes are not red.,neutral,1
+6,74,4,thirty-sixty-par-n,Sixty of the pizza boxes are red.,Thirty of the pizza boxes are red.,entailment,0
+6,74,5,thirty-sixty-par-n,Sixty of the pizza boxes are not red.,Thirty of the pizza boxes are not red.,neutral,1
+6,74,6,thirty-sixty-par-n,Thirty of the pizza boxes are red.,Sixty of the pizza boxes are red.,neutral,1
+6,74,7,thirty-sixty-par-n,Sixty of the pizza boxes are red.,Thirty of the pizza boxes are not red.,neutral,1
+6,74,8,thirty-sixty-par-n,Thirty of the pizza boxes are not red.,Sixty of the pizza boxes are red.,neutral,1
+6,74,9,thirty-sixty-par-c,Thirty of the pizza boxes are not red.,Less than thirty of the pizza boxes are red.,neutral,1
+6,74,10,thirty-sixty-par-c,Thirty of the pizza boxes are not red.,At most twenty-nine of the pizza boxes are red.,neutral,1
+6,74,11,thirty-sixty-par-c,Thirty of the pizza boxes are not red.,At least one pizza box is red.,implicature,3
+6,75,1,thirty-sixty-par-n,Thirty of the tablecloths are square.,Sixty of the tablecloths are not square.,neutral,1
+6,75,2,thirty-sixty-par-n,More than thirty of the tablecloths are not square.,Thirty of the tablecloths are square.,neutral,1
+6,75,3,thirty-sixty-par-n,Thirty of the tablecloths are not square.,Sixty of the tablecloths are not square.,neutral,1
+6,75,4,thirty-sixty-par-n,Sixty of the tablecloths are square.,Thirty of the tablecloths are square.,entailment,0
+6,75,5,thirty-sixty-par-n,Sixty of the tablecloths are not square.,Thirty of the tablecloths are not square.,neutral,1
+6,75,6,thirty-sixty-par-n,Thirty of the tablecloths are square.,Sixty of the tablecloths are square.,neutral,1
+6,75,7,thirty-sixty-par-n,Sixty of the tablecloths are square.,Thirty of the tablecloths are not square.,neutral,1
+6,75,8,thirty-sixty-par-n,Thirty of the tablecloths are not square.,Sixty of the tablecloths are square.,neutral,1
+6,75,9,thirty-sixty-par-c,Thirty of the tablecloths are not square.,Less than thirty of the tablecloths are square.,neutral,1
+6,75,10,thirty-sixty-par-c,Thirty of the tablecloths are not square.,At most twenty-nine of the tablecloths are square.,neutral,1
+6,75,11,thirty-sixty-par-c,Thirty of the tablecloths are not square.,At least one tablecloth is square.,implicature,3
+6,76,1,thirty-sixty-par-n,Thirty of the courses he took in college are engineering courses.,Sixty of the courses he took in college are not engineering courses.,neutral,1
+6,76,2,thirty-sixty-par-n,More than thirty of the courses he took in college are not engineering courses.,Thirty of the courses he took in college are engineering courses.,neutral,1
+6,76,3,thirty-sixty-par-n,Thirty of the courses he took in college are not engineering courses.,Sixty of the courses he took in college are not engineering courses.,neutral,1
+6,76,4,thirty-sixty-par-n,Sixty of the courses he took in college are engineering courses.,Thirty of the courses he took in college are engineering courses.,entailment,0
+6,76,5,thirty-sixty-par-n,Sixty of the courses he took in college are not engineering courses.,Thirty of the courses he took in college are not engineering courses.,neutral,1
+6,76,6,thirty-sixty-par-n,Thirty of the courses he took in college are engineering courses.,Sixty of the courses he took in college are engineering courses.,neutral,1
+6,76,7,thirty-sixty-par-n,Sixty of the courses he took in college are engineering courses.,Thirty of the courses he took in college are not engineering courses.,neutral,1
+6,76,8,thirty-sixty-par-n,Thirty of the courses he took in college are not engineering courses.,Sixty of the courses he took in college are engineering courses.,neutral,1
+6,76,9,thirty-sixty-par-c,Thirty of the courses he took in college are not engineering courses.,Less than thirty of the courses he took in college are engineering courses.,neutral,1
+6,76,10,thirty-sixty-par-c,Thirty of the courses he took in college are not engineering courses.,At most twenty-nine of the courses he took in college are engineering courses.,neutral,1
+6,76,11,thirty-sixty-par-c,Thirty of the courses he took in college are not engineering courses.,At least one of the courses he took in college is an engineering course.,implicature,3
+6,77,1,thirty-sixty-par-n,Thirty of the participants are artists.,Sixty of the participants are not artists.,neutral,1
+6,77,2,thirty-sixty-par-n,More than thirty of the participants are not artists.,Thirty of the participants are artists.,neutral,1
+6,77,3,thirty-sixty-par-n,Thirty of the participants are not artists.,Sixty of the participants are not artists.,neutral,1
+6,77,4,thirty-sixty-par-n,Sixty of the participants are artists.,Thirty of the participants are artists.,entailment,0
+6,77,5,thirty-sixty-par-n,Sixty of the participants are not artists.,Thirty of the participants are not artists.,neutral,1
+6,77,6,thirty-sixty-par-n,Thirty of the participants are artists.,Sixty of the participants are artists.,neutral,1
+6,77,7,thirty-sixty-par-n,Sixty of the participants are artists.,Thirty of the participants are not artists.,neutral,1
+6,77,8,thirty-sixty-par-n,Thirty of the participants are not artists.,Sixty of the participants are artists.,neutral,1
+6,77,9,thirty-sixty-par-c,Thirty of the participants are not artists.,Less than thirty of the participants are artists.,neutral,1
+6,77,10,thirty-sixty-par-c,Thirty of the participants are not artists.,At most twenty-nine of the participants are artists.,neutral,1
+6,77,11,thirty-sixty-par-c,Thirty of the participants are not artists.,At least one participant is an artist.,implicature,3
+6,78,1,thirty-sixty-par-n,Painting is being done in thirty of the classrooms.,Painting is not being done in sixty of the classrooms.,neutral,1
+6,78,2,thirty-sixty-par-n,Painting is not being done in more than thirty of the classrooms.,Painting is being done in thirty of the classrooms.,neutral,1
+6,78,3,thirty-sixty-par-n,Painting is not being done in thirty of the classrooms.,Painting is not being done in sixty of the classrooms.,neutral,1
+6,78,4,thirty-sixty-par-n,Painting is being done in sixty of the classrooms.,Painting is being done in thirty of the classrooms.,entailment,0
+6,78,5,thirty-sixty-par-n,Painting is not being done in sixty of the classrooms.,Painting is not being done in thirty of the classrooms.,neutral,1
+6,78,6,thirty-sixty-par-n,Painting is being done in thirty of the classrooms.,Painting is being done in sixty of the classrooms.,neutral,1
+6,78,7,thirty-sixty-par-n,Painting is being done in sixty of the classrooms.,Painting is not being done in thirty of the classrooms.,neutral,1
+6,78,8,thirty-sixty-par-n,Painting is not being done in thirty of the classrooms.,Painting is being done in sixty of the classrooms.,neutral,1
+6,78,9,thirty-sixty-par-c,Painting is not being done in thirty of the classrooms.,Painting is being done in less than thirty of the classrooms.,neutral,1
+6,78,10,thirty-sixty-par-c,Painting is not being done in thirty of the classrooms.,Painting is being done in at most twenty-nine of the classrooms.,neutral,1
+6,78,11,thirty-sixty-par-c,Painting is not being done in thirty of the classrooms.,Painting is being done in at least one of the classrooms.,implicature,3
+6,79,1,thirty-sixty-par-n,Photography is prohibited in thirty of the clubs.,Photography is allowed in sixty of the clubs.,neutral,1
+6,79,2,thirty-sixty-par-n,Photography is allowed in more than thirty of the clubs.,Photography is prohibited in thirty of the clubs.,neutral,1
+6,79,3,thirty-sixty-par-n,Photography is allowed in thirty of the clubs.,Photography is allowed in sixty of the clubs.,neutral,1
+6,79,4,thirty-sixty-par-n,Photography is prohibited in sixty of the clubs.,Photography is prohibited in thirty of the clubs.,entailment,0
+6,79,5,thirty-sixty-par-n,Photography is allowed in sixty of the clubs.,Photography is allowed in thirty of the clubs.,neutral,1
+6,79,6,thirty-sixty-par-n,Photography is prohibited in thirty of the clubs.,Photography is prohibited in sixty of the clubs.,neutral,1
+6,79,7,thirty-sixty-par-n,Photography is prohibited in sixty of the clubs.,Photography is allowed in thirty of the clubs.,neutral,1
+6,79,8,thirty-sixty-par-n,Photography is allowed in thirty of the clubs.,Photography is prohibited in sixty of the clubs.,neutral,1
+6,79,9,thirty-sixty-par-c,Photography is allowed in thirty of the clubs.,Photography is prohibited in less than thirty of the clubs.,neutral,1
+6,79,10,thirty-sixty-par-c,Photography is allowed in thirty of the clubs.,Photography is prohibited in at most twenty-nine of the clubs.,neutral,1
+6,79,11,thirty-sixty-par-c,Photography is allowed in thirty of the clubs.,Photography is prohibited in at least one of the clubs.,implicature,3
+6,80,1,thirty-sixty-par-n,Thirty of the buildings are not earthquake resistant.,Sixty of the buildings are earthquake resistant.,neutral,1
+6,80,2,thirty-sixty-par-n,More than thirty of the buildings are earthquake resistant.,Thirty of the buildings are not earthquake resistant.,neutral,1
+6,80,3,thirty-sixty-par-n,Thirty of the buildings are earthquake resistant.,Sixty of the buildings are earthquake resistant.,neutral,1
+6,80,4,thirty-sixty-par-n,Sixty of the buildings are not earthquake resistant.,Thirty of the buildings are not earthquake resistant.,entailment,0
+6,80,5,thirty-sixty-par-n,Sixty of the buildings are earthquake resistant.,Thirty of the buildings are earthquake resistant.,neutral,1
+6,80,6,thirty-sixty-par-n,Thirty of the buildings are not earthquake resistant.,Sixty of the buildings are not earthquake resistant.,neutral,1
+6,80,7,thirty-sixty-par-n,Sixty of the buildings are not earthquake resistant.,Thirty of the buildings are earthquake resistant.,neutral,1
+6,80,8,thirty-sixty-par-n,Thirty of the buildings are earthquake resistant.,Sixty of the buildings are not earthquake resistant.,neutral,1
+6,80,9,thirty-sixty-par-c,Thirty of the buildings are earthquake resistant.,Less than thirty of the buildings are not earthquake resistant.,neutral,1
+6,80,10,thirty-sixty-par-c,Thirty of the buildings are earthquake resistant.,At most twenty-nine of the buildings are not earthquake resistant.,neutral,1
+6,80,11,thirty-sixty-par-c,Thirty of the buildings are earthquake resistant.,At least one building is not earthquake resistant.,implicature,3
+6,81,1,fifty-seventy-par-n,Fifty of the football players are forwards.,Seventy of the football players are not forwards.,neutral,1
+6,81,2,fifty-seventy-par-n,More than fifty of the football players are not forwards.,Fifty of the football players are forwards.,neutral,1
+6,81,3,fifty-seventy-par-n,Fifty of the football players are not forwards.,Seventy of the football players are not forwards.,neutral,1
+6,81,4,fifty-seventy-par-n,Seventy of the football players are forwards.,Fifty of the football players are forwards.,entailment,0
+6,81,5,fifty-seventy-par-n,Seventy of the football players are not forwards.,Fifty of the football players are not forwards.,neutral,1
+6,81,6,fifty-seventy-par-n,Fifty of the football players are forwards.,Seventy of the football players are forwards.,neutral,1
+6,81,7,fifty-seventy-par-n,Seventy of the football players are forwards.,Fifty of the football players are not forwards.,neutral,1
+6,81,8,fifty-seventy-par-n,Fifty of the football players are not forwards.,Seventy of the football players are forwards.,neutral,1
+6,81,9,fifty-seventy-par-c,Fifty of the football players are not forwards.,Less than fifty of the football players are forwards.,neutral,1
+6,81,10,fifty-seventy-par-c,Fifty of the football players are not forwards.,At most forty-nine of the football players are forwards.,neutral,1
+6,81,11,fifty-seventy-par-c,Fifty of the football players are not forwards.,At least one of the football players is a forward.,implicature,3
+6,82,1,fifty-seventy-par-n,Fifty of the cars in the gallery are diesel.,Seventy of the cars in the gallery are not diesel.,neutral,1
+6,82,2,fifty-seventy-par-n,More than fifty of the cars in the gallery are not diesel.,Fifty of the cars in the gallery are diesel.,neutral,1
+6,82,3,fifty-seventy-par-n,Fifty of the cars in the gallery are not diesel.,Seventy of the cars in the gallery are not diesel.,neutral,1
+6,82,4,fifty-seventy-par-n,Seventy of the cars in the gallery are diesel.,Fifty of the cars in the gallery are diesel.,entailment,0
+6,82,5,fifty-seventy-par-n,Seventy of the cars in the gallery are not diesel.,Fifty of the cars in the gallery are not diesel.,neutral,1
+6,82,6,fifty-seventy-par-n,Fifty of the cars in the gallery are diesel.,Seventy of the cars in the gallery are diesel.,neutral,1
+6,82,7,fifty-seventy-par-n,Seventy of the cars in the gallery are diesel.,Fifty of the cars in the gallery are not diesel.,neutral,1
+6,82,8,fifty-seventy-par-n,Fifty of the cars in the gallery are not diesel.,Seventy of the cars in the gallery are diesel.,neutral,1
+6,82,9,fifty-seventy-par-c,Fifty of the cars in the gallery are not diesel.,Less than fifty of the cars in the gallery are diesel.,neutral,1
+6,82,10,fifty-seventy-par-c,Fifty of the cars in the gallery are not diesel.,At most forty-nine of the cars in the gallery are diesel.,neutral,1
+6,82,11,fifty-seventy-par-c,Fifty of the cars in the gallery are not diesel.,At least one of the cars in the gallery is diesel.,implicature,3
+6,83,1,fifty-seventy-par-n,Fifty of the voters are registered here.,Seventy of the voters are not registered here.,neutral,1
+6,83,2,fifty-seventy-par-n,More than fifty of the voters are not registered here.,Fifty of the voters are registered here.,neutral,1
+6,83,3,fifty-seventy-par-n,Fifty of the voters are not registered here.,Seventy of the voters are not registered here.,neutral,1
+6,83,4,fifty-seventy-par-n,Seventy of the voters are registered here.,Fifty of the voters are registered here.,entailment,0
+6,83,5,fifty-seventy-par-n,Seventy of the voters are not registered here.,Fifty of the voters are not registered here.,neutral,1
+6,83,6,fifty-seventy-par-n,Fifty of the voters are registered here.,Seventy of the voters are registered here.,neutral,1
+6,83,7,fifty-seventy-par-n,Seventy of the voters are registered here.,Fifty of the voters are not registered here.,neutral,1
+6,83,8,fifty-seventy-par-n,Fifty of the voters are not registered here.,Seventy of the voters are registered here.,neutral,1
+6,83,9,fifty-seventy-par-c,Fifty of the voters are not registered here.,Less than fifty of the voters are registered here.,neutral,1
+6,83,10,fifty-seventy-par-c,Fifty of the voters are not registered here.,At most forty-nine of the voters are registered here.,neutral,1
+6,83,11,fifty-seventy-par-c,Fifty of the voters are not registered here.,At least one of the voters is registered here.,implicature,3
+6,84,1,fifty-seventy-par-n,Fifty of the computer games are free.,Seventy of the computer games are not free.,neutral,1
+6,84,2,fifty-seventy-par-n,More than fifty of the computer games are not free.,Fifty of the computer games are free.,neutral,1
+6,84,3,fifty-seventy-par-n,Fifty of the computer games are not free.,Seventy of the computer games are not free.,neutral,1
+6,84,4,fifty-seventy-par-n,Seventy of the computer games are free.,Fifty of the computer games are free.,entailment,0
+6,84,5,fifty-seventy-par-n,Seventy of the computer games are not free.,Fifty of the computer games are not free.,neutral,1
+6,84,6,fifty-seventy-par-n,Fifty of the computer games are free.,Seventy of the computer games are free.,neutral,1
+6,84,7,fifty-seventy-par-n,Seventy of the computer games are free.,Fifty of the computer games are not free.,neutral,1
+6,84,8,fifty-seventy-par-n,Fifty of the computer games are not free.,Seventy of the computer games are free.,neutral,1
+6,84,9,fifty-seventy-par-c,Fifty of the computer games are not free.,Less than fifty of the computer games are free.,neutral,1
+6,84,10,fifty-seventy-par-c,Fifty of the computer games are not free.,At most forty-nine of the computer games are free.,neutral,1
+6,84,11,fifty-seventy-par-c,Fifty of the computer games are not free.,At least one of the computer games is free.,implicature,3
+6,85,1,fifty-seventy-par-n,Fifty of the cables are copper.,Seventy of the cables are not copper.,neutral,1
+6,85,2,fifty-seventy-par-n,More than fifty of the cables are not copper.,Fifty of the cables are copper.,neutral,1
+6,85,3,fifty-seventy-par-n,Fifty of the cables are not copper.,Seventy of the cables are not copper.,neutral,1
+6,85,4,fifty-seventy-par-n,Seventy of the cables are copper.,Fifty of the cables are copper.,entailment,0
+6,85,5,fifty-seventy-par-n,Seventy of the cables are not copper.,Fifty of the cables are not copper.,neutral,1
+6,85,6,fifty-seventy-par-n,Fifty of the cables are copper.,Seventy of the cables are copper.,neutral,1
+6,85,7,fifty-seventy-par-n,Seventy of the cables are copper.,Fifty of the cables are not copper.,neutral,1
+6,85,8,fifty-seventy-par-n,Fifty of the cables are not copper.,Seventy of the cables are copper.,neutral,1
+6,85,9,fifty-seventy-par-c,Fifty of the cables are not copper.,Less than fifty of the cables are copper.,neutral,1
+6,85,10,fifty-seventy-par-c,Fifty of the cables are not copper.,At most forty-nine of the cables are copper.,neutral,1
+6,85,11,fifty-seventy-par-c,Fifty of the cables are not copper.,At least one of the cables is copper.,implicature,3
+6,86,1,fifty-seventy-par-n,Fifty of the targets have been hit.,Seventy of the targets have not been hit.,neutral,1
+6,86,2,fifty-seventy-par-n,More than fifty of the targets have not been hit.,Fifty of the targets have been hit.,neutral,1
+6,86,3,fifty-seventy-par-n,Fifty of the targets have not been hit.,Seventy of the targets have not been hit.,neutral,1
+6,86,4,fifty-seventy-par-n,Seventy of the targets have been hit.,Fifty of the targets have been hit.,entailment,0
+6,86,5,fifty-seventy-par-n,Seventy of the targets have not been hit.,Fifty of the targets have not been hit.,neutral,1
+6,86,6,fifty-seventy-par-n,Fifty of the targets have been hit.,Seventy of the targets have been hit.,neutral,1
+6,86,7,fifty-seventy-par-n,Seventy of the targets have been hit.,Fifty of the targets have not been hit.,neutral,1
+6,86,8,fifty-seventy-par-n,Fifty of the targets have not been hit.,Seventy of the targets have been hit.,neutral,1
+6,86,9,fifty-seventy-par-c,Fifty of the targets have not been hit.,Less than fifty of the targets have been hit.,neutral,1
+6,86,10,fifty-seventy-par-c,Fifty of the targets have not been hit.,At most forty-nine of the targets have been hit.,neutral,1
+6,86,11,fifty-seventy-par-c,Fifty of the targets have not been hit.,At least one of the targets has been hit.,implicature,3
+6,87,1,fifty-seventy-par-n,Fifty of the horses are brown.,Seventy of the horses are not brown.,neutral,1
+6,87,2,fifty-seventy-par-n,More than fifty of the horses are not brown.,Fifty of the horses are brown.,neutral,1
+6,87,3,fifty-seventy-par-n,Fifty of the horses are not brown.,Seventy of the horses are not brown.,neutral,1
+6,87,4,fifty-seventy-par-n,Seventy of the horses are brown.,Fifty of the horses are brown.,entailment,0
+6,87,5,fifty-seventy-par-n,Seventy of the horses are not brown.,Fifty of the horses are not brown.,neutral,1
+6,87,6,fifty-seventy-par-n,Fifty of the horses are brown.,Seventy of the horses are brown.,neutral,1
+6,87,7,fifty-seventy-par-n,Seventy of the horses are brown.,Fifty of the horses are not brown.,neutral,1
+6,87,8,fifty-seventy-par-n,Fifty of the horses are not brown.,Seventy of the horses are brown.,neutral,1
+6,87,9,fifty-seventy-par-c,Fifty of the horses are not brown.,Less than fifty of the horses are brown.,neutral,1
+6,87,10,fifty-seventy-par-c,Fifty of the horses are not brown.,At most forty-nine of the horses are brown.,neutral,1
+6,87,11,fifty-seventy-par-c,Fifty of the horses are not brown.,At least one of the horses is brown.,implicature,3
+6,88,1,fifty-seventy-par-n,Fifty of the triangles in the book are right-angled.,Seventy of the triangles in the book are not right-angled.,neutral,1
+6,88,2,fifty-seventy-par-n,More than fifty of the triangles in the book are not right-angled.,Fifty of the triangles in the book are right-angled.,neutral,1
+6,88,3,fifty-seventy-par-n,Fifty of the triangles in the book are not right-angled.,Seventy of the triangles in the book are not right-angled.,neutral,1
+6,88,4,fifty-seventy-par-n,Seventy of the triangles in the book are right-angled.,Fifty of the triangles in the book are right-angled.,entailment,0
+6,88,5,fifty-seventy-par-n,Seventy of the triangles in the book are not right-angled.,Fifty of the triangles in the book are not right-angled.,neutral,1
+6,88,6,fifty-seventy-par-n,Fifty of the triangles in the book are right-angled.,Seventy of the triangles in the book are right-angled.,neutral,1
+6,88,7,fifty-seventy-par-n,Seventy of the triangles in the book are right-angled.,Fifty of the triangles in the book are not right-angled.,neutral,1
+6,88,8,fifty-seventy-par-n,Fifty of the triangles in the book are not right-angled.,Seventy of the triangles in the book are right-angled.,neutral,1
+6,88,9,fifty-seventy-par-c,Fifty of the triangles in the book are not right-angled.,Less than fifty of the triangles in the book are right-angled.,neutral,1
+6,88,10,fifty-seventy-par-c,Fifty of the triangles in the book are not right-angled.,At most forty-nine of the triangles in the book are right-angled.,neutral,1
+6,88,11,fifty-seventy-par-c,Fifty of the triangles in the book are not right-angled.,At least one of the triangles in the book is right-angled.,implicature,3
+6,89,1,fifty-seventy-par-n,Fifty of the pens write black.,Seventy of the pens do not write black.,neutral,1
+6,89,2,fifty-seventy-par-n,More than fifty of the pens do not write black.,Fifty of the pens write black.,neutral,1
+6,89,3,fifty-seventy-par-n,Fifty of the pens do not write black.,Seventy of the pens do not write black.,neutral,1
+6,89,4,fifty-seventy-par-n,Seventy of the pens write black.,Fifty of the pens write black.,entailment,0
+6,89,5,fifty-seventy-par-n,Seventy of the pens do not write black.,Fifty of the pens do not write black.,neutral,1
+6,89,6,fifty-seventy-par-n,Fifty of the pens write black.,Seventy of the pens write black.,neutral,1
+6,89,7,fifty-seventy-par-n,Seventy of the pens write black.,Fifty of the pens do not write black.,neutral,1
+6,89,8,fifty-seventy-par-n,Fifty of the pens do not write black.,Seventy of the pens write black.,neutral,1
+6,89,9,fifty-seventy-par-c,Fifty of the pens do not write black.,Less than fifty of the pens write black.,neutral,1
+6,89,10,fifty-seventy-par-c,Fifty of the pens do not write black.,At most forty-nine of the pens write black.,neutral,1
+6,89,11,fifty-seventy-par-c,Fifty of the pens do not write black.,At least one of the pens writes black.,implicature,3
+6,90,1,fifty-seventy-par-n,He argued with fifty people at the factory.,He did not argue with seventy people at the factory.,neutral,1
+6,90,2,fifty-seventy-par-n,He did not argue with more than fifty people at the factory.,He argued with fifty people at the factory.,neutral,1
+6,90,3,fifty-seventy-par-n,He did not argue with fifty people at the factory.,He did not argue with seventy people at the factory.,neutral,1
+6,90,4,fifty-seventy-par-n,He argued with seventy people at the factory.,He argued with fifty people at the factory.,entailment,0
+6,90,5,fifty-seventy-par-n,He did not argue with seventy people at the factory.,He did not argue with fifty people at the factory.,neutral,1
+6,90,6,fifty-seventy-par-n,He argued with fifty people at the factory.,He argued with seventy people at the factory.,neutral,1
+6,90,7,fifty-seventy-par-n,He argued with seventy people at the factory.,He did not argue with fifty people at the factory.,neutral,1
+6,90,8,fifty-seventy-par-n,He did not argue with fifty people at the factory.,He argued with seventy people at the factory.,neutral,1
+6,90,9,fifty-seventy-par-c,He did not argue with fifty people at the factory.,He argued with less than fifty people at the factory.,neutral,1
+6,90,10,fifty-seventy-par-c,He did not argue with fifty people at the factory.,He argued with at most forty-nine people at the factory.,neutral,1
+6,90,11,fifty-seventy-par-c,He did not argue with fifty people at the factory.,He argued with at least one person at the factory.,implicature,3

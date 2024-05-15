@@ -3,7 +3,7 @@ ImplicaTR is an NLI dataset that improves the conventional entailment-neutral-co
 
 ImplicaTR was semi-synthetically created originally in Turkish and comes also in English, translated with Gemini Pro 1.5 through "guided-translation".
 
-There is also a base version of ImplicaTR, on top of which ImplicaTR was created; more info xx
+There is also a base version of ImplicaTR, on top of which ImplicaTR was created; more info in the Base Version section below.
 
 Thus, this repo features four versions of ImplicaTR:
 
