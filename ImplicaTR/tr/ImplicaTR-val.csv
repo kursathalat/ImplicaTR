@@ -17,7 +17,7 @@
 5,411,8,elli-yetmiş,Elli kişi yükümü hafifletmedi.,Yetmiş kişi yükümü hafifletti.,contradiction,2
 5,411,9,elli-yetmiş-c,Elli kişi yükümü hafifletmedi.,Elli kişiden azı yükümü hafifletti.,implicature,3
 5,411,10,elli-yetmiş-c,Elli kişi yükümü hafifletmedi.,En fazla kırk dokuz kişi yükümü hafifletti.,implicature,3
-5,411,11,elli-yetmiş-c,Elli kişi yükümü hafifletmedi.,En az bir tane kişi yükümü hafifletti.,implicature,3
+5,411,11,elli-yetmiş-c,Elli kişi yükümü hafifletmedi.,En az bir kişi yükümü hafifletti.,implicature,3
 5,189,1,on beş-yirmi,Türkçe on beş ülkede konuşuluyor.,Türkçe yirmi ülkede konuşulmuyor.,implicature,3
 5,189,2,on beş-yirmi,Türkçe on beşten fazla ülkede konuşulmuyor.,Türkçe on beş ülkede konuşuluyor.,implicature,3
 5,189,3,on beş-yirmi,Türkçe on beş ülkede konuşulmuyor.,Türkçe yirmi ülkede konuşulmuyor.,entailment,0
@@ -146,7 +146,7 @@
 5,322,8,yirmi beş-kırk,Yirmi beş kişi onu anlamadı.,Kırk kişi onu anladı.,contradiction,2
 5,322,9,yirmi beş-kırk-c,Yirmi beş kişi onu anlamadı.,Yirmi beşten az kişi onu anladı.,implicature,3
 5,322,10,yirmi beş-kırk-c,Yirmi beş kişi onu anlamadı.,En fazla yirmi dört kişi onu anladı.,implicature,3
-5,322,11,yirmi beş-kırk-c,Yirmi beş kişi onu anlamadı.,En az bir tane kişi onu anladı.,implicature,3
+5,322,11,yirmi beş-kırk-c,Yirmi beş kişi onu anlamadı.,En az bir kişi onu anladı.,implicature,3
 2,327,1,seslenmek-bağırmak,Nevresim takımı eski olan çocuğa seslenmiştiniz.,Nevresim takımı eski olan çocuğa bağırmamıştınız.,implicature,3
 2,327,2,seslenmek-bağırmak,Nevresim takımı eski olan çocuğa bağırmamıştınız.,Nevresim takımı eski olan çocuğa seslenmiştiniz.,implicature,3
 2,327,3,seslenmek-bağırmak,Nevresim takımı eski olan çocuğa seslenmemiştiniz.,Nevresim takımı eski olan çocuğa bağırmamıştınız.,entailment,0
@@ -264,7 +264,7 @@
 5,321,8,yirmi beş-kırk,Bu ilaç yirmi beş defa test edilmedi.,Bu ilaç kırk defa test edildi.,contradiction,2
 5,321,9,yirmi beş-kırk-c,Bu ilaç yirmi beş defa test edilmedi.,Bu ilaç yirmi beşten az defa test edildi.,implicature,3
 5,321,10,yirmi beş-kırk-c,Bu ilaç yirmi beş defa test edilmedi.,Bu ilaç en fazla yirmi dört defa test edildi.,implicature,3
-5,321,11,yirmi beş-kırk-c,Bu ilaç yirmi beş defa test edilmedi.,Bu ilaç en az bir tane defa test edildi.,implicature,3
+5,321,11,yirmi beş-kırk-c,Bu ilaç yirmi beş defa test edilmedi.,Bu ilaç en az bir defa test edildi.,implicature,3
 5,418,1,elli-yetmiş,Elli siteye ulaşımımız engellendi.,Yetmiş siteye ulaşımımız engellenmedi.,implicature,3
 5,418,2,elli-yetmiş,Elli siteden fazlasına ulaşımımız engellenmedi.,Elli siteye ulaşımımız engellendi.,implicature,3
 5,418,3,elli-yetmiş,Elli siteye ulaşımımız engellenmedi.,Yetmiş siteye ulaşımımız engellenmedi.,entailment,0
@@ -329,7 +329,7 @@
 5,72,8,beş-yedi,Dün gelenler beş kişi görmemişler.,Dün gelenler yedi kişi görmüşler.,contradiction,2
 5,72,9,beş-yedi-c,Dün gelenler beş kişi görmemişler.,Dün gelenler beşten az kişi görmüşler.,implicature,3
 5,72,10,beş-yedi-c,Dün gelenler beş kişi görmemişler.,Dün gelenler en fazla dört kişi görmüşler.,implicature,3
-5,72,11,beş-yedi-c,Dün gelenler beş kişi görmemişler.,Dün gelenler en az bir tane kişi görmüşler.,implicature,3
+5,72,11,beş-yedi-c,Dün gelenler beş kişi görmemişler.,Dün gelenler en az bir kişi görmüşler.,implicature,3
 5,420,1,elli-yetmiş,Yalanlarına elli kişiyi çekti.,Yalanlarına yetmiş kişiyi çekmedi.,implicature,3
 5,420,2,elli-yetmiş,Yalanlarına elli kişiden fazlasını çekmedi.,Yalanlarına elli kişiyi çekti.,implicature,3
 5,420,3,elli-yetmiş,Yalanlarına elli kişiyi çekmedi.,Yalanlarına yetmiş kişiyi çekmedi.,entailment,0
@@ -340,7 +340,7 @@
 5,420,8,elli-yetmiş,Yalanlarına elli kişiyi çekmedi.,Yalanlarına yetmiş kişiyi çekti.,contradiction,2
 5,420,9,elli-yetmiş-c,Yalanlarına elli kişiyi çekmedi.,Yalanlarına elli kişiden azını çekti.,implicature,3
 5,420,10,elli-yetmiş-c,Yalanlarına elli kişiyi çekmedi.,Yalanlarına en fazla kırk dokuz kişiyi çekti.,implicature,3
-5,420,11,elli-yetmiş-c,Yalanlarına elli kişiyi çekmedi.,Yalanlarına en az bir tane kişiyi çekti.,implicature,3
+5,420,11,elli-yetmiş-c,Yalanlarına elli kişiyi çekmedi.,Yalanlarına en az bir kişiyi çekti.,implicature,3
 3,370,1,birkaç-çok,Gözlüklerimin birkaçı miyop gözler için.,Gözlüklerimin çoğu miyop gözler için değil.,implicature,3
 3,370,2,birkaç-çok,Gözlüklerimin çoğu miyop gözler için değil.,Gözlüklerimin birkaçı miyop gözler için.,implicature,3
 3,370,3,birkaç-çok,Gözlüklerimin hiçbiri miyop gözler için değil.,Gözlüklerimin çoğu miyop gözler için değil.,entailment,0
@@ -935,7 +935,7 @@
 5,398,8,otuz-altmış,Bu proje için otuz kişi seçilmeyecek.,Bu proje için altmış kişi seçilecek.,contradiction,2
 5,398,9,otuz-altmış-c,Bu proje için otuz kişi seçilmeyecek.,Bu proje için otuzdan az kişi seçilecek.,implicature,3
 5,398,10,otuz-altmış-c,Bu proje için otuz kişi seçilmeyecek.,Bu proje için en fazla yirmi dokuz kişi seçilecek.,implicature,3
-5,398,11,otuz-altmış-c,Bu proje için otuz kişi seçilmeyecek.,Bu proje için en az bir tane kişi seçilecek.,implicature,3
+5,398,11,otuz-altmış-c,Bu proje için otuz kişi seçilmeyecek.,Bu proje için en az bir kişi seçilecek.,implicature,3
 1,77,1,zararlı-ölümcül,Bu kadar açlık zararlı.,Bu kadar açlık ölümcül değil.,implicature,3
 1,77,2,zararlı-ölümcül,Bu kadar açlık ölümcül değil.,Bu kadar açlık zararlı.,implicature,3
 1,77,3,zararlı-ölümcül,Bu kadar açlık zararlı değil.,Bu kadar açlık ölümcül değil.,entailment,0
@@ -981,7 +981,7 @@
 5,439,8,elli-yetmiş,Elli kişi yarışa başlamadı.,Yetmiş kişi yarışa başladı.,contradiction,2
 5,439,9,elli-yetmiş-c,Elli kişi yarışa başlamadı.,Elli kişiden azı yarışa başladı.,implicature,3
 5,439,10,elli-yetmiş-c,Elli kişi yarışa başlamadı.,En fazla kırk dokuz kişi yarışa başladı.,implicature,3
-5,439,11,elli-yetmiş-c,Elli kişi yarışa başlamadı.,En az bir tane kişi yarışa başladı.,implicature,3
+5,439,11,elli-yetmiş-c,Elli kişi yarışa başlamadı.,En az bir kişi yarışa başladı.,implicature,3
 2,389,1,gülmek-kahkaha atmak,Dünkü geyiğimize güldünüz.,Dünkü geyiğimize kahkaha atmadınız.,implicature,3
 2,389,2,gülmek-kahkaha atmak,Dünkü geyiğimize kahkaha atmadınız.,Dünkü geyiğimize güldünüz.,implicature,3
 2,389,3,gülmek-kahkaha atmak,Dünkü geyiğimize gülmediniz.,Dünkü geyiğimize kahkaha atmadınız.,entailment,0
@@ -1244,7 +1244,7 @@
 5,300,8,yirmi dört-otuz altı,Son turda yirmi dört kişi yarışmayacak.,Son turda otuz altı kişi yarışacak.,contradiction,2
 5,300,9,yirmi dört-otuz altı-c,Son turda yirmi dört kişi yarışmayacak.,Son turda yirmi dört kişiden azı yarışacak.,implicature,3
 5,300,10,yirmi dört-otuz altı-c,Son turda yirmi dört kişi yarışmayacak.,Son turda en fazla yirmi üç kişi yarışacak.,implicature,3
-5,300,11,yirmi dört-otuz altı-c,Son turda yirmi dört kişi yarışmayacak.,Son turda en az bir tane kişi yarışacak.,implicature,3
+5,300,11,yirmi dört-otuz altı-c,Son turda yirmi dört kişi yarışmayacak.,Son turda en az bir kişi yarışacak.,implicature,3
 4,319,1,herhalde-yüzde yüz,Eski çiftlikte herhalde at bineriz.,Eski çiftlikte at bineceğimiz yüzde yüz değil.,implicature,3
 4,319,2,herhalde-yüzde yüz,Eski çiftlikte at bineceğimiz yüzde yüz değil.,Eski çiftlikte herhalde at bineriz.,implicature,3
 4,319,3,herhalde-yüzde yüz,Eski çiftlikte herhalde at binmeyiz.,Eski çiftlikte at bineceğimiz yüzde yüz değil.,entailment,0
@@ -1758,7 +1758,7 @@
 5,388,8,otuz-altmış,Otuz kişiye bu hediye gönderilmedi.,Altmış kişiye bu hediye gönderildi.,contradiction,2
 5,388,9,otuz-altmış-c,Otuz kişiye bu hediye gönderilmedi.,Otuzdan az kişiye bu hediye gönderildi.,implicature,3
 5,388,10,otuz-altmış-c,Otuz kişiye bu hediye gönderilmedi.,En fazla yirmi dokuz kişiye bu hediye gönderildi.,implicature,3
-5,388,11,otuz-altmış-c,Otuz kişiye bu hediye gönderilmedi.,En az bir tane kişiye bu hediye gönderildi.,implicature,3
+5,388,11,otuz-altmış-c,Otuz kişiye bu hediye gönderilmedi.,En az bir kişiye bu hediye gönderildi.,implicature,3
 4,195,1,muhtemelen-kesin,Galibiyetimize muhtemelen sevinmiştirler.,Galibiyetimize sevinmiş oldukları kesin değil.,implicature,3
 4,195,2,muhtemelen-kesin,Galibiyetimize sevinmiş oldukları kesin değil.,Galibiyetimize muhtemelen sevinmiştirler.,implicature,3
 4,195,3,muhtemelen-kesin,Galibiyetimize muhtemelen sevinmemişlerdir.,Galibiyetimize sevinmiş oldukları kesin değil.,entailment,0
@@ -2100,7 +2100,7 @@
 5,377,8,otuz-altmış,Serkan otuz metre yüzmedi.,Serkan altmış metre yüzdü.,contradiction,2
 5,377,9,otuz-altmış-c,Serkan otuz metre yüzmedi.,Serkan otuzdan az metre yüzdü.,implicature,3
 5,377,10,otuz-altmış-c,Serkan otuz metre yüzmedi.,Serkan en fazla yirmi dokuz metre yüzdü.,implicature,3
-5,377,11,otuz-altmış-c,Serkan otuz metre yüzmedi.,Serkan en az bir tane metre yüzdü.,implicature,3
+5,377,11,otuz-altmış-c,Serkan otuz metre yüzmedi.,Serkan en az bir metre yüzdü.,implicature,3
 5,6,1,iki-üç,Kafede iki masa var.,Kafede üç masa yok.,implicature,3
 5,6,2,iki-üç,Kafede ikiden fazla masa yok.,Kafede iki masa var.,implicature,3
 5,6,3,iki-üç,Kafede iki masa yok.,Kafede üç masa yok.,entailment,0
@@ -2176,7 +2176,7 @@
 5,410,8,elli-yetmiş,Faaliyetleri elli kişi yönetmedi.,Faaliyetleri yetmiş kişi yönetti.,contradiction,2
 5,410,9,elli-yetmiş-c,Faaliyetleri elli kişi yönetmedi.,Faaliyetleri elli kişiden azı yönetti.,implicature,3
 5,410,10,elli-yetmiş-c,Faaliyetleri elli kişi yönetmedi.,Faaliyetleri en fazla kırk dokuz kişi yönetti.,implicature,3
-5,410,11,elli-yetmiş-c,Faaliyetleri elli kişi yönetmedi.,Faaliyetleri en az bir tane kişi yönetti.,implicature,3
+5,410,11,elli-yetmiş-c,Faaliyetleri elli kişi yönetmedi.,Faaliyetleri en az bir kişi yönetti.,implicature,3
 4,211,1,muhtemelen-kesin,Yerdeki ağaç yapraklarını muhtemelen süpürüyorlar.,Yerdeki ağaç yapraklarını süpürdükleri kesin değil.,implicature,3
 4,211,2,muhtemelen-kesin,Yerdeki ağaç yapraklarını süpürdükleri kesin değil.,Yerdeki ağaç yapraklarını muhtemelen süpürüyorlar.,implicature,3
 4,211,3,muhtemelen-kesin,Yerdeki ağaç yapraklarını muhtemelen süpürmüyorlar.,Yerdeki ağaç yapraklarını süpürdükleri kesin değil.,entailment,0
@@ -2203,7 +2203,7 @@
 5,103,8,on-on iki,On kişiyi işten çıkarmamış.,On iki kişiyi işten çıkarmış.,contradiction,2
 5,103,9,on-on iki-c,On kişiyi işten çıkarmamış.,Ondan az kişiyi işten çıkarmış.,implicature,3
 5,103,10,on-on iki-c,On kişiyi işten çıkarmamış.,En fazla dokuz kişiyi işten çıkarmış.,implicature,3
-5,103,11,on-on iki-c,On kişiyi işten çıkarmamış.,En az bir tane kişiyi işten çıkarmış.,implicature,3
+5,103,11,on-on iki-c,On kişiyi işten çıkarmamış.,En az bir kişiyi işten çıkarmış.,implicature,3
 1,265,1,yanıltıcı-yalan,Organizasyon sorumlusunun dile getirdikleri yanıltıcı.,Organizasyon sorumlusunun dile getirdikleri yalan değil.,implicature,3
 1,265,2,yanıltıcı-yalan,Organizasyon sorumlusunun dile getirdikleri yalan değil.,Organizasyon sorumlusunun dile getirdikleri yanıltıcı.,implicature,3
 1,265,3,yanıltıcı-yalan,Organizasyon sorumlusunun dile getirdikleri yanıltıcı değil.,Organizasyon sorumlusunun dile getirdikleri yalan değil.,entailment,0
@@ -2423,7 +2423,7 @@
 5,283,8,yirmi dört-otuz altı,Yetkili yirmi dört kişi istifa etmedi.,Yetkili otuz altı kişi istifa etti.,contradiction,2
 5,283,9,yirmi dört-otuz altı-c,Yetkili yirmi dört kişi istifa etmedi.,Yetkili yirmi dörtten az kişi istifa etti.,implicature,3
 5,283,10,yirmi dört-otuz altı-c,Yetkili yirmi dört kişi istifa etmedi.,Yetkili en fazla yirmi üç kişi istifa etti.,implicature,3
-5,283,11,yirmi dört-otuz altı-c,Yetkili yirmi dört kişi istifa etmedi.,Yetkili en az bir tane kişi istifa etti.,implicature,3
+5,283,11,yirmi dört-otuz altı-c,Yetkili yirmi dört kişi istifa etmedi.,Yetkili en az bir kişi istifa etti.,implicature,3
 2,329,1,seslenmek-bağırmak,Klavye tuşları kırık olan bilgisayarcıya seslendik.,Klavye tuşları kırık olan bilgisayarcıya bağırmadık.,implicature,3
 2,329,2,seslenmek-bağırmak,Klavye tuşları kırık olan bilgisayarcıya bağırmadık.,Klavye tuşları kırık olan bilgisayarcıya seslendik.,implicature,3
 2,329,3,seslenmek-bağırmak,Klavye tuşları kırık olan bilgisayarcıya seslenmedik.,Klavye tuşları kırık olan bilgisayarcıya bağırmadık.,entailment,0
@@ -2555,7 +2555,7 @@
 5,415,8,elli-yetmiş,Bu tankı elli kişi üretmedi.,Bu tankı yetmiş kişi üretti.,contradiction,2
 5,415,9,elli-yetmiş-c,Bu tankı elli kişi üretmedi.,Bu tankı elli kişiden azı üretti.,implicature,3
 5,415,10,elli-yetmiş-c,Bu tankı elli kişi üretmedi.,Bu tankı en fazla kırk dokuz kişi üretti.,implicature,3
-5,415,11,elli-yetmiş-c,Bu tankı elli kişi üretmedi.,Bu tankı en az bir tane kişi üretti.,implicature,3
+5,415,11,elli-yetmiş-c,Bu tankı elli kişi üretmedi.,Bu tankı en az bir kişi üretti.,implicature,3
 4,448,1,herhalde-yüzde yüz,Duşta herhalde saçını yıkıyor.,Duşta saçını yıkıyor olduğu yüzde yüz değil.,implicature,3
 4,448,2,herhalde-yüzde yüz,Duşta saçını yıkıyor olduğu yüzde yüz değil.,Duşta herhalde saçını yıkıyor.,implicature,3
 4,448,3,herhalde-yüzde yüz,Duşta herhalde saçını yıkamıyor.,Duşta saçını yıkıyor olduğu yüzde yüz değil.,entailment,0
@@ -2582,7 +2582,7 @@
 5,338,8,yirmi beş-kırk,Yirmi beş kişiden yardım toplamadı.,Kırk kişiden yardım topladı.,contradiction,2
 5,338,9,yirmi beş-kırk-c,Yirmi beş kişiden yardım toplamadı.,Yirmi beşten az kişiden yardım topladı.,implicature,3
 5,338,10,yirmi beş-kırk-c,Yirmi beş kişiden yardım toplamadı.,En fazla yirmi dört kişiden yardım topladı.,implicature,3
-5,338,11,yirmi beş-kırk-c,Yirmi beş kişiden yardım toplamadı.,En az bir tane kişiden yardım topladı.,implicature,3
+5,338,11,yirmi beş-kırk-c,Yirmi beş kişiden yardım toplamadı.,En az bir kişiden yardım topladı.,implicature,3
 5,311,1,yirmi beş-kırk,Bu iş için yirmi beş firmayla çalıştık.,Bu iş için kırk firmayla çalışmadık.,implicature,3
 5,311,2,yirmi beş-kırk,Bu iş için yirmi beşten fazla firmayla çalışmadık.,Bu iş için yirmi beş firmayla çalıştık.,implicature,3
 5,311,3,yirmi beş-kırk,Bu iş için yirmi beş firmayla çalışmadık.,Bu iş için kırk firmayla çalışmadık.,entailment,0
@@ -2830,7 +2830,7 @@
 5,226,8,on yedi-yirmi dokuz,On yedi kişiyi işten atmadı.,Yirmi dokuz kişiyi işten attı.,contradiction,2
 5,226,9,on yedi-yirmi dokuz-c,On yedi kişiyi işten atmadı.,On yediden az kişiyi işten attı.,implicature,3
 5,226,10,on yedi-yirmi dokuz-c,On yedi kişiyi işten atmadı.,En fazla on altı kişiyi işten attı.,implicature,3
-5,226,11,on yedi-yirmi dokuz-c,On yedi kişiyi işten atmadı.,En az bir tane kişiyi işten attı.,implicature,3
+5,226,11,on yedi-yirmi dokuz-c,On yedi kişiyi işten atmadı.,En az bir kişiyi işten attı.,implicature,3
 2,423,1,serinlemek-üşümek,Spordan sonra serinlemişsiniz.,Spordan sonra üşümemişsiniz.,implicature,3
 2,423,2,serinlemek-üşümek,Spordan sonra üşümemişsiniz.,Spordan sonra serinlemişsiniz.,implicature,3
 2,423,3,serinlemek-üşümek,Spordan sonra serinlememişsiniz.,Spordan sonra üşümemişsiniz.,entailment,0
@@ -2876,7 +2876,7 @@
 5,413,8,elli-yetmiş,Doğruyu elli kişi söylemedi.,Doğruyu yetmiş kişi söyledi.,contradiction,2
 5,413,9,elli-yetmiş-c,Doğruyu elli kişi söylemedi.,Doğruyu elli kişiden azı söyledi.,implicature,3
 5,413,10,elli-yetmiş-c,Doğruyu elli kişi söylemedi.,Doğruyu en fazla kırk dokuz kişi söyledi.,implicature,3
-5,413,11,elli-yetmiş-c,Doğruyu elli kişi söylemedi.,Doğruyu en az bir tane kişi söyledi.,implicature,3
+5,413,11,elli-yetmiş-c,Doğruyu elli kişi söylemedi.,Doğruyu en az bir kişi söyledi.,implicature,3
 5,395,1,otuz-altmış,Şirket otuz çalışanını işinden kovdu.,Şirket altmış çalışanını işinden çıkarmadı.,implicature,3
 5,395,2,otuz-altmış,Şirket otuzdan fazla çalışanını işinden çıkarmadı.,Şirket otuz çalışanını işinden kovdu.,implicature,3
 5,395,3,otuz-altmış,Şirket otuz çalışanını işinden çıkarmadı.,Şirket altmış çalışanını işinden çıkarmadı.,entailment,0
@@ -2898,7 +2898,7 @@
 5,348,8,yirmi beş-kırk,Son on yılda yirmi beş kişi bu işe başvurmamış.,Son on yılda kırk kişi bu işe başvurmuş.,contradiction,2
 5,348,9,yirmi beş-kırk-c,Son on yılda yirmi beş kişi bu işe başvurmamış.,Son on yılda yirmi beşten az kişi bu işe başvurmuş.,implicature,3
 5,348,10,yirmi beş-kırk-c,Son on yılda yirmi beş kişi bu işe başvurmamış.,Son on yılda en fazla yirmi dört kişi bu işe başvurmuş.,implicature,3
-5,348,11,yirmi beş-kırk-c,Son on yılda yirmi beş kişi bu işe başvurmamış.,Son on yılda en az bir tane kişi bu işe başvurmuş.,implicature,3
+5,348,11,yirmi beş-kırk-c,Son on yılda yirmi beş kişi bu işe başvurmamış.,Son on yılda en az bir kişi bu işe başvurmuş.,implicature,3
 4,353,1,herhalde-yüzde yüz,İşyerinden herhalde altı gibi ayrıldı.,İşyerinden altı gibi ayrılacağı yüzde yüz değil.,implicature,3
 4,353,2,herhalde-yüzde yüz,İşyerinden altı gibi ayrılacağı yüzde yüz değil.,İşyerinden herhalde altı gibi ayrıldı.,implicature,3
 4,353,3,herhalde-yüzde yüz,İşyerinden herhalde altı gibi ayrılmadı.,İşyerinden altı gibi ayrılacağı yüzde yüz değil.,entailment,0
@@ -3108,7 +3108,7 @@
 5,79,8,beş-yedi,Anlatılanları beş kişi dinlememiş.,Anlatılanları yedi kişi dinlemiş.,contradiction,2
 5,79,9,beş-yedi-c,Anlatılanları beş kişi dinlememiş.,Anlatılanları beşten az kişi dinlemiş.,implicature,3
 5,79,10,beş-yedi-c,Anlatılanları beş kişi dinlememiş.,Anlatılanları en fazla dört kişi dinlemiş.,implicature,3
-5,79,11,beş-yedi-c,Anlatılanları beş kişi dinlememiş.,Anlatılanları en az bir tane kişi dinlemiş.,implicature,3
+5,79,11,beş-yedi-c,Anlatılanları beş kişi dinlememiş.,Anlatılanları en az bir kişi dinlemiş.,implicature,3
 2,70,1,denemek-başarmak,Bu kadar derdinin içinde mutlu olmayı denedi.,Bu kadar derdinin içinde mutlu olmayı başaramadı.,implicature,3
 2,70,2,denemek-başarmak,Bu kadar derdinin içinde mutlu olmayı başaramadı.,Bu kadar derdinin içinde mutlu olmayı denedi.,implicature,3
 2,70,3,denemek-başarmak,Bu kadar derdinin içinde mutlu olmayı denemedi.,Bu kadar derdinin içinde mutlu olmayı başaramadı.,entailment,0
